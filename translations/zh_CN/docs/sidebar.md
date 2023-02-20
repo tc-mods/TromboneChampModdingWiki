@@ -3,6 +3,7 @@
 - **模组板块**
 - [安装模组](installing-mods)
 - [安装自制谱](installing-songs)
+- [Using r2modman](installing-r2modman)
 - **自制谱板块**
 - [创作自制谱](creating-charts)
 - [谱面制作指导](charting-guidelines)
