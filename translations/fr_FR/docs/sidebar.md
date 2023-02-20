@@ -3,6 +3,7 @@
 - **Modding**
 - [Installer des mods](installing-mods)
 - [Installer des chansons](installing-songs)
+- [Using r2modman](installing-r2modman)
 - **Charting**
 - [Créer des charts](creating-charts)
 - [Guide de charting](charting-guidelines)
@@ -12,6 +13,6 @@
 - [Foire aux questions](faq)
 - **Liens**
 - [![Discord](https://icongr.am/simple/discord.svg?colored&size=16)Discord](https://discord.gg/KVzKRsbetJ)
-- [![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)GitHub](https://github.com/tc-mods/TromboneChampModdingWiki)
+- [![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)[![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)GitHub](https://github.com/tc-mods/TromboneChampModdingWiki)](https://github.com/tc-mods/TromboneChampModdingWiki)
 - [![Traduire](https://icongr.am/material/translate.svg?color=808080&size=16)Traduire](https://crowdin.com/project/trombone-champ-modding-wiki)
 - [À propos](about)
