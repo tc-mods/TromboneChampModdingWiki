@@ -3,6 +3,7 @@
 - **MOD**
 - [MODの導入方法](installing-mods)
 - [カスタム音源の導入方法](installing-songs)
+- [Using r2modman](installing-r2modman)
 - **創作譜面**
 - [譜面の作成方法](creating-charts)
 - [ガイドラインの作成方法](charting-guidelines)
