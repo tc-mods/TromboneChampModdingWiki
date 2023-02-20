@@ -3,6 +3,7 @@
 - **Modding**
 - [การลง Mods](installing-mods)
 - [การลงเพลง](installing-songs)
+- [Using r2modman](installing-r2modman)
 - **การทำผัง**
 - [การสร้างผัง](creating-charts)
 - [Charting Guidelines](charting-guidelines)
@@ -13,5 +14,5 @@
 - **ลิงค์**
 - [![Discord](https://icongr.am/simple/discord.svg?colored&size=16)Discord](https://discord.gg/KVzKRsbetJ)
 - [![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)GitHub](https://github.com/tc-mods/TromboneChampModdingWiki)
-- [![แปลภาษา](https://icongr.am/material/translate.svg?color=808080&size=16)แปลภาษา](https://crowdin.com/project/trombone-champ-modding-wiki)
+- [![Translate](https://icongr.am/material/translate.svg?color=808080&size=16)แปลภาษา](https://crowdin.com/project/trombone-champ-modding-wiki)
 - [เกี่ยวกับ](about)
