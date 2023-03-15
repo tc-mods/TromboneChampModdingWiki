@@ -9,6 +9,8 @@
 - [谱面制作指导](charting-guidelines)
 - [自制谱背景](chart-backgrounds)
 - [其他自制谱信息](misc-charting-info)
+- **Developers**
+- [Writing Mods](writing-mods)
 - **其他**
 - [常见问题](faq)
 - **链接**
