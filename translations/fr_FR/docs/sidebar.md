@@ -9,6 +9,8 @@
 - [Guide de charting](charting-guidelines)
 - [Arrière-plans de charts](chart-backgrounds)
 - [Infos diverses de charting](misc-charting-info)
+- **Developers**
+- [Writing Mods](writing-mods)
 - **Extras**
 - [Foire aux questions](faq)
 - **Liens**
