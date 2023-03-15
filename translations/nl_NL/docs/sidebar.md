@@ -9,6 +9,8 @@
 - [Charting Guidelines](charting-guidelines)
 - [Map Achtergrond](chart-backgrounds)
 - [Diversen Map Informatie](misc-charting-info)
+- **Developers**
+- [Writing Mods](writing-mods)
 - **Extras**
 - [Veelgestelde vragen (FAQ's)](faq)
 - **Koppelingen**
