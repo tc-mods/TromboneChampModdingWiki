@@ -9,6 +9,8 @@
 - [Charting Guidelines](charting-guidelines)
 - [Plano de fundo para charts](chart-backgrounds)
 - [Informações diversas sobre charts](misc-charting-info)
+- **Developers**
+- [Writing Mods](writing-mods)
 - **Extras**
 - [Perguntas frequentes (FAQ's)](faq)
 - **Links**
