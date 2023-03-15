@@ -9,6 +9,8 @@
 - [Charting Guidelines](charting-guidelines)
 - [Фон чартів](chart-backgrounds)
 - [Додаткова інформація по чартингу](misc-charting-info)
+- **Developers**
+- [Writing Mods](writing-mods)
 - **Додатково**
 - [Найчастіші питання](faq)
 - **Посилання**
