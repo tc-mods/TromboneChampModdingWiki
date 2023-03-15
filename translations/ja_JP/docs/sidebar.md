@@ -9,6 +9,8 @@
 - [ガイドラインの作成方法](charting-guidelines)
 - [譜面の背景設定](chart-backgrounds)
 - [その他の譜面作成に関する情報](misc-charting-info)
+- **Developers**
+- [Writing Mods](writing-mods)
 - **おまけ**
 - [よくある質問 (FAQ)](faq)
 - **外部リンク**
