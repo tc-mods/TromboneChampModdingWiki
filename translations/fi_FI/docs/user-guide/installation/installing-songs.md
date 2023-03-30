@@ -14,7 +14,7 @@ Jos haluat kompaktimman listan, TheGlitched64 on luonut [taulukon, joka sisält�
 
 1. Lataa custom kappale - se on yleensä jonkinlainen arkisto tiedosto, yleensä päättyy `.zip`.
 
-2. Pura arkiston sisältö suoraan `BepInEx/CustomSongs` -kansioon, joka luotiin kun ensin käynnistit pelin TrombLoader asennettuna.
+2. Extract the contents of the archive file directly into the `BepInEx/CustomSongs` folder in the r2modman profile directory.
 
 ![BepInExin Purkamisen Esikatselu](../docs/files/customsongextract.png)
 
