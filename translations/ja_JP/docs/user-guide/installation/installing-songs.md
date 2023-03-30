@@ -14,7 +14,7 @@
 
 1. カスタム音源をダウンロードする。(大体は `.zip` の拡張子が付いているアーカイブファイル)
 
-2. TrombLoaderをインストールした際に生成された`BepInEx内のCustomSongs`フォルダにアーカイブファイル(zip等)を直接解凍する。
+2. Extract the contents of the archive file directly into the `BepInEx/CustomSongs` folder in the r2modman profile directory.
 
 ![BepInExの解凍 プレビュー](../docs/files/customsongextract.png)
 
