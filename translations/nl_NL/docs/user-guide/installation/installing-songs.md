@@ -14,7 +14,7 @@ Voor het geval dat je liever een wat compactere lijst wil gebruiken heeft TheGli
 
 1. Download het liedje - dit zal meestal een soort archiefbestand zijn, meestal eindigend in `.zip`.
 
-2. Pak de inhoud van het archiefbestand uit in de `BepInEx/CustomSongs` map die automatisch aangemaakt is nadat je TrombLoader hebt geïnstalleerd.
+2. Extract the contents of the archive file directly into the `BepInEx/CustomSongs` folder in the r2modman profile directory.
 
 ![BepInEx Extractie Voorbeeld](../docs/files/customsongextract.png)
 
