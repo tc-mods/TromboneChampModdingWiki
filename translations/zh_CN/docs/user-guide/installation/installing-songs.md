@@ -14,7 +14,7 @@
 
 1. 下载自制谱面。通常情况下是一个压缩包，以`.zip`等压缩包格式作为文件名结尾。
 
-2. 解压压缩包的内容并直接放入`BepInEx/CustomSongs` 文件夹中。这个文件夹会在你安装了TrombLoader并第一次运行游戏之后自动创建。
+2. Extract the contents of the archive file directly into the `BepInEx/CustomSongs` folder in the r2modman profile directory.
 
 ![BeepInEx 解压缩预览](../docs/files/customsongextract.png)
 
