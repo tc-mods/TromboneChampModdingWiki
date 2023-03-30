@@ -14,7 +14,7 @@ Se quiser uma lista mais curta, TheGlitched64 criou uma [planilha contendo infor
 
 1. Baixe o chart personalizado — geralmente são arquivos compactados, como a extensão `.zip`.
 
-2. Extraia o conteúdo do arquivo diretamente para a pasta `BepInEx/CustomSongs` que é criada quando se inicia o jogo pela primeira vez com o TrombLoader instalado.
+2. Extract the contents of the archive file directly into the `BepInEx/CustomSongs` folder in the r2modman profile directory.
 
 ![Preview de extração do BepInEx](../docs/files/customsongextract.png)
 
