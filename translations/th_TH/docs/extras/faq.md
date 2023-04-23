@@ -1,9 +1,9 @@
 # คำถามที่พบบ่อย
 ---
 
-## Why is there a black screen with a music note?
+## ทำไมมันจอดำกับโน็ตเพลง?
 
-Update [TrombLoader](https://github.com/NyxTheShield/TrombLoader/releases/latest). Replace the old dll in `BepInEx/plugins` with the new dll.
+อัปเดต [TrombLoader](https://github.com/NyxTheShield/TrombLoader/releases/latest) เปลี่ยน DLL ของเก่าใน `BepInEx/plugins` เป็น DLL ของใหม่
 
 ## Do custom songs work with a pirated version of the game?
 
