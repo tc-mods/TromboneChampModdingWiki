@@ -8,14 +8,14 @@
   - นี่เป็นข้อแนะนำทั่วไป โน็ตและระยะห่างระหว่างโน็ตตัวต่อไปควรที่จะมีความยาวเท่ากัน
   - **ควร**:
   - ![Ideal Note Spacing](../docs/files/charting/ideal-note-spacing.png)
-  - **NOT IDEAL**: (this might sound good in preview or autotoot but does not provide much time for a player to release and hit the next note)
+  - **ไม่ควร**: (นี่อาจจะให้เสียงดีสำหรับการดูตัวอย่างหรือใช้ autotoot แต่มันไม่ให้เวลาพอที่จะปล่อยและกฎโน็ตต่อไปสำหรับคนเล่น)
   - ![Bad Note Spacing](../docs/files/charting/bad-note-spacing.png)
-  - You may make exceptions:
-    - to emphasize [articulation](https://people.carleton.edu/~jellinge/m101s12/Pages/04/04Articulation.html) like slurs, staccato, or legato
-    - to make it easier to maintain combo on very fast sections
-    - if the song tempo is very slow and a tight spacing is adequate
-- Do not be off-key. If you have a poor sense of tone, ask #charting or #wip to take a look.
-- Do not be off-beat. You can slow the song down in your editor to help distinguish faster rhythms.
+  - คุณสามารถใช้ข้อยกเว้นได้เมื่อ:
+    - เพื่อเน้น[การประกบ](https://people.carleton.edu/~jellinge/m101s12/Pages/04/04Articulation.html) เช่น การทอดเสียง การขาดตอน หรือ การเล่นค่อยๆโดยไม่ขาดเสียง
+    - เพื่อทำให้การทำคอมโบง่ายขึ้นในส่วนเร็ว
+    - ถ้าเกิดจังหวะเพลงนั้นช้าและช่องว่างที่แน่นเพียงพอ
+- อย่าทำให้โน็ตเพี้ยน ถ้าคุณได้ยินระดับเสียงไม่ดี ถาม #charting หรือ #wip ให้มาช่วยดู
+- อย่าทำให้ผิดจังหวะ You can slow the song down in your editor to help distinguish faster rhythms.
 - Do not start nor end abruptly.
   - Give at least one bar of rest before the first note, and continue your chart until the end of the song.
   - Adjust the length / song endpoint if the curtains are closing slightly before the background track ends. Do not to set the song endpoint in the tmb to be longer than the song length, or the song won't end.
