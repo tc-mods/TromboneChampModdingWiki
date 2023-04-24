@@ -1,6 +1,6 @@
-# Charting Guidelines
+# ข้อแนะนำการทำเพลง
 ---
-The following guidelines are not absolute requirements. The goal is to make a chart that's fun to play. If ignoring these rules make a chart more enjoyable or engaging (e.g. Rush E), you are welcome to do so. Credits: tsunderestorm, StaticR.
+ข้อแนะนำพวกนี้ไม่จำเป็นที่จะต้องทำตามก็ได้ จุดประสงค์ก็คือเพลงนั้นสนุกที่จะเล่น ถ้าเลือกที่จะไม่สนใจกฎก็ทำเพลงให้เล่นให้หรือน่าสนใจ (เช่น Rush E) ก็ยินดีที่จะให้ทำ Credits: tsunderestorm, StaticR.
 
 ## Best Practices
 
