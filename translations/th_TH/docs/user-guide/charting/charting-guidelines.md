@@ -1,12 +1,12 @@
 # ข้อแนะนำการทำเพลง
 ---
-ข้อแนะนำพวกนี้ไม่จำเป็นที่จะต้องทำตามก็ได้ จุดประสงค์ก็คือเพลงนั้นสนุกที่จะเล่น ถ้าเลือกที่จะไม่สนใจกฎก็ทำเพลงให้เล่นให้หรือน่าสนใจ (เช่น Rush E) ก็ยินดีที่จะให้ทำ Credits: tsunderestorm, StaticR.
+ข้อแนะนำพวกนี้ไม่จำเป็นที่จะต้องทำตามก็ได้ จุดประสงค์ก็คือเพลงนั้นสนุกที่จะเล่น ถ้าเลือกที่จะไม่สนใจกฎก็ทำเพลงให้เล่นให้หรือน่าสนใจ (เช่น Rush E) ก็ยินดีที่จะให้ทำ เครดิต: tsunderestorm, StaticR.
 
-## Best Practices
+## แบบอย่างที่ดี
 
-- Maintain note spacing appropriate for the difficulty.
-  - As a very general guideline, the note and space between it and the next note should be of equal length
-  - **IDEAL**:
+- รักษาระยะห่างของโน็ตให้เหมาะสมกับความยาก
+  - นี่เป็นข้อแนะนำทั่วไป โน็ตและระยะห่างระหว่างโน็ตตัวต่อไปควรที่จะมีความยาวเท่ากัน
+  - **ควร**:
   - ![Ideal Note Spacing](../docs/files/charting/ideal-note-spacing.png)
   - **NOT IDEAL**: (this might sound good in preview or autotoot but does not provide much time for a player to release and hit the next note)
   - ![Bad Note Spacing](../docs/files/charting/bad-note-spacing.png)
