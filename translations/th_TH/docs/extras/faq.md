@@ -19,7 +19,7 @@ TheGlitched64 ก็ยังได้ได้สร้าง [สเปรด�
 
 ให้แน่ใจว่าได้ดาวน์โหลด BepInEx รุ่น x64 และให้แน่ใจว่าโฟลเดอร์ดูเหมือนอย่างนี้: ![Finished BepinEx Install](../docs/files/finishedbepinex.png)
 
-## Why aren't my songs appearing in the game?
+## ทำไมเพลงของฉันไม่แสดงในเกมส์?
 
 Make sure you've unzipped the file. It should look like this: ![Correct Extraction Preview](../docs/files/customsongcorrect.png)
 
