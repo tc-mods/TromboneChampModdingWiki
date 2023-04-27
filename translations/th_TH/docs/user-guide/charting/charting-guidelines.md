@@ -15,9 +15,9 @@
     - เพื่อทำให้การทำคอมโบง่ายขึ้นในส่วนเร็ว
     - ถ้าเกิดจังหวะเพลงนั้นช้าและช่องว่างที่แน่นเพียงพอ
 - อย่าทำให้โน็ตเพี้ยน ถ้าคุณได้ยินระดับเสียงไม่ดี ถาม #charting หรือ #wip ให้มาช่วยดู
-- อย่าทำให้ผิดจังหวะ You can slow the song down in your editor to help distinguish faster rhythms.
-- Do not start nor end abruptly.
-  - Give at least one bar of rest before the first note, and continue your chart until the end of the song.
+- อย่าทำให้ผิดจังหวะ คุณสามารถชะลอเพลงในตัวตัดต่อของคุณเพื่อช่วยแยกแยะจังหวะที่เร็วของเพลง
+- อย่าเริ่มหรือหยุดเพลงกะทันหัน
+  - ให้อย่างน้อยช่องว่างช่องหนึ่งก่อนโน็ตตัวแรกและทำเพลงต่อไปไปจนจบเพลง
   - Adjust the length / song endpoint if the curtains are closing slightly before the background track ends. Do not to set the song endpoint in the tmb to be longer than the song length, or the song won't end.
 - The rhythm should be visually intuitive. If notes are slightly longer, they should be slightly longer visually. If notes are slightly shorter, they should be slightly shorter visually.
   - **IDEAL**: (easy to see which are eighth notes and which are dotted eighth (3/16) notes)
