@@ -18,28 +18,28 @@
 - อย่าทำให้ผิดจังหวะ คุณสามารถชะลอเพลงในตัวตัดต่อของคุณเพื่อช่วยแยกแยะจังหวะที่เร็วของเพลง
 - อย่าเริ่มหรือหยุดเพลงกะทันหัน
   - ให้อย่างน้อยช่องว่างช่องหนึ่งก่อนโน็ตตัวแรกและทำเพลงต่อไปไปจนจบเพลง
-  - Adjust the length / song endpoint if the curtains are closing slightly before the background track ends. Do not to set the song endpoint in the tmb to be longer than the song length, or the song won't end.
-- The rhythm should be visually intuitive. If notes are slightly longer, they should be slightly longer visually. If notes are slightly shorter, they should be slightly shorter visually.
-  - **IDEAL**: (easy to see which are eighth notes and which are dotted eighth (3/16) notes)
+  - ปรับ ความยาว/จุดจบของเพลง ถ้าผ้าม่านกำลังปิดก่อนที่เพลงจะหยุด อย่าตั้งจุดจบของเพลงใน tmb ยาวกว่าความยาวของเพลงไม่อย่างนั้นเพลงจะไม่หยุด
+- จังหวะเพลงควรที่จะมองเห็นได้ง่าย ถ้าโน็ตยาวกว่านิดหน่อยมันก็ควรที่จะเห็นยาวกว่านิดหน่อย ถ้าโน็ตสั้นกว่านิดหน่อยมันก็ควรที่จะเห็นสั้นกว่านิดหน่อย
+  - **ควร**: (เห็นได้ง่ายว่าตัวไหนเป็นโน็ตตัวสั่นและตัวไหนเป็นโน้ตประจุด (3/16))
   - ![Ideal Visual Rhythm](../docs/files/charting/ideal-visual-rhythm.png)
-  - **NOT IDEAL**: (all notes read as eighth notes)
+  - **ไม่ควร**: (โน็ตทุกตัวเป็นโน็ตตัวสั่น)
   - ![Bad Visual Rhythm](../docs/files/charting/bad-visual-rhythm.png)
-- Use a reasonable `savednotespacing` (scroll speed) value
-  - 120~200, depending on song complexity. A good guideline is `100/[BPM]*280`.
-  - This should be fast enough for the rhythm to be visually intuitive and slow enough that the player has time to react.
-  - This value does not have to be the same as the tempo!
-- A note can be held for 4.5 seconds before running out of breath. If you have a note or slide longer than that, it's recommended to break it up so the player can catch their breath.
-- Chords typically consist of 3-4 notes. The highest or lowest note usually sounds the cleanest to chart.
+- ใช้ค่า `savednotespacing` (ความเร็วของการเลื่อน) ให้เหมาะสม
+  - 120~200 ขึ้นอยู่กับความซับซ้อนของเพลง แนวทางที่ดีคือ `100/[BPM]*280`
+  - นี่ควรเร็วพอที่ทำให้จังหวะเห็นได้ง่ายและช้าพอที่ให้ผู้เล่นมีเวลาที่จะตอบสนอง
+  - ค่านี้ไม่จำเป็นที่จะต้องเหมือนกับจังหวะ!
+- โน็ตสามารถยาวได้ถึง 4.5 วินาทีกอนที่จะหมดลมหายใจ ถ้าคุณมีโน็ตหรือสไลด์ที่ยาวกว่านั้น แนะนำว่าให้แยกมันเพื่อให้ผู้เล่นมีเวลาหายใจ
+- คอร์ดโดยทั่วไปประกอบด้วยโน็ต 3-4 ตัว โน็ตสูงสุดหรือต่ำสุดโดยปกติให้เสียงที่สะอาดที่สุดสำหรับเพลง
 
-### Looping Tracks
-- A few repetitions are fine, but avoid repeating the same note pattern over and over.
-  - You can look for a TV version or edit it yourself if you want a shorter version of the song.
-  - Generally, it flows best if you chart the easier or more expected parts in the first play, and switch to alternatives:
-    - Often, there's a primary and secondary melody.
-    - Follow the chords or bassline.
-    - Play it in a different octave.
-    - If you know what you're doing musically, use different chords or harmonies.
-  - You may want to reverse this if the main part serves as a high point in the music. Musical high points typically fit best at around the last third or quarter of the entire track, so structuring a loop like that can make it feel more complete.
+### แทร็กวนซ้ำ
+- วนซ้ำนิดหน่อยไม่เป็นไรแต่หลีกเลี่ยงวนซ้ำโน็ตไปเรื่อยๆ
+  - คุณสามารถหาเวอร์ชั่นทีวีหรือตัดต่อด้วยตัวเองถ้าคุณยากได้เพลงที่สั้นลง
+  - โดยทั่วไป มันไปได้ดีถ้าคุณทำเพลงที่ง่ายหรือส่วนที่คาดไว้มากในการเล่นครั้งแรก และเลี่ยนไปเป็นอย่างอื่น
+    - มันมีทำนองหลักและทำนองรองบ่อยครั้ง
+    - ไปตามกับคอร์ดหรือเบสไลน์
+    - เล่นอ็อกเทฟที่ต่างกัน
+    - ถ้าคุณรู้ว่ากำลังกำลังทำอะไรในทางดนตรี ใช้คอร์ดหรือฮาร์โมนีอย่างอื่น
+  - คุณอาจอยากที่จะห้วนกลับถ้าส่วนหลักเป็นจุดสูงสุดของเพลง Musical high points typically fit best at around the last third or quarter of the entire track, so structuring a loop like that can make it feel more complete.
 - Really short tracks are best looped until about 1 to 1:30 minutes, unless they are really repetitive.
 - You may choose to add a full or partial loop if there are different parts to play in a section.
 - Ending a track that endlessly loops can be hard. Suggestions:
