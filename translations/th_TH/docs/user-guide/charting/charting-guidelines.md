@@ -39,21 +39,21 @@
     - ไปตามกับคอร์ดหรือเบสไลน์
     - เล่นอ็อกเทฟที่ต่างกัน
     - ถ้าคุณรู้ว่ากำลังกำลังทำอะไรในทางดนตรี ใช้คอร์ดหรือฮาร์โมนีอย่างอื่น
-  - คุณอาจอยากที่จะห้วนกลับถ้าส่วนหลักเป็นจุดสูงสุดของเพลง Musical high points typically fit best at around the last third or quarter of the entire track, so structuring a loop like that can make it feel more complete.
-- Really short tracks are best looped until about 1 to 1:30 minutes, unless they are really repetitive.
-- You may choose to add a full or partial loop if there are different parts to play in a section.
-- Ending a track that endlessly loops can be hard. Suggestions:
-  - End at the end without any loop back.
-  - End at the first beat, chord, or section of the loop.
-  - Fade the music out at the end of a musical phrase.
+  - คุณอาจอยากที่จะห้วนกลับถ้าส่วนหลักเป็นจุดสูงสุดของเพลง จุดสูงสุดทางดนตรีส่วนใหญ่เหมาะสมที่สุดที่ส่วนที่สามหรือสี่ของเพลง เพราะอย่างนั้นสร้างจุดซ้ำที่ทำให้ดูสมบรูณ์มากขึ้น
+- เพลงที่สั้นมากจะวนซ้ำได้ดีจนกระทั่ง 1 ถึง 1:30 นาที เว้นแต่ว่ามันซ้ำซากจริงๆ
+- คุณสามารถที่จะเลือกที่จะเพิ่มจุดซ้ำแบบเต็มหรือบางส่วน ถ้ามันเล่นต่างกันของส่วนในแต่ละส่วน
+- จบเพลงที่วนซ้ำไปเรื่อยๆอาจจะยาก คำแนะนำ:
+  - จบที่จุดจบโดยไม่มีการซ้ำ
+  - จบที่จังหวะ, คอร์ด, หรือส่วนแรกของการซ้ำ
+  - ทำให้เพลงเลือนหายไปที่ตอนท้ายของดนตรี
 
-### Slides
-- Avoid 90 degree slide angles.
-  - **IDEAL**: (player has adequate time to change pitches. Depending on latency, you might want to adjust the position of the connecting points.)
+### สไลด์
+- หลีกเลี่ยงสไลด์ที่ 90 องศา
+  - **ควร**: (ผู้เล่นมีเวลาเพียงพอในการเปลี่ยนความสูงต่ำ ขึ้นอยู่กับความหน่วง คุณอาจต้องการที่จะปรับที่อยู่ของจุดเชื่อมต่อ)
   - ![Ideal Slide 1](../docs/files/charting/ideal-slide1.png)
-  - **MAYBE IDEAL**: (only if a quick transition is absolutely necessary)
+  - **อาจจะได้**: (เฉพาะการเปลี่ยนอย่างรวดเร็วนั้นจำเป็นอย่างมาก)
   - ![Ideal Slide 2](../docs/files/charting/ideal-slide2.png)
-  - **NOT IDEAL**: (this is not humanly playable)
+  - **ไม่ควร**: (มนุษย์ไม่สามารถเล่นสิ่งนี้ได้)
   - ![Bad Slide](../docs/files/charting/bad-slide.png)
 - A slide approaches the target pitch before the slide end.
   - Make the end of the slide ~1-2 32nd notes late, depending on the length of the slide.
