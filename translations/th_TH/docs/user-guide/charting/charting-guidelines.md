@@ -58,8 +58,8 @@
 - สไลด์เข้าใกล้ระดับเสียงเป้าหมายก่อนที่จะจบสไลด์
   - ทำจุดจบของสไลด์ที่ 1-2 เป็นโน้ตสามสิบวินาทีล่าช้าขึ้้นอยู่กับความยาวของสไลด์
   - เริ่มสไลด์ที่โน้ตตัวที่สิบหกก่อนที่จะถึงจังหวะ มันจะยังโอเคอยู่ถ้าครึ่งของโน็ตเป็นสไลด์
-- สำหรับโน้ตตัวที่แปดหรือสั้นกว่าคุณไม่จำเป็นที่จะต้องใส่โน็ตหยุดตรงกลาง
-  - You often don't need a held note at the slide start, middle or end at all, unless you want the note to be clearly held for an 8th note or longer.
+- สำหรับโน็ตตัวที่แปดหรือสั้นกว่าคุณไม่จำเป็นที่จะต้องใส่โน็ตกั้กตรงกลาง
+  - โดยส่วนมากคุณไม่จำเป็นที่จะต้องใช้โน็ตกั้กที่จุดเริ่ม, ตรงกลาง, หรือจุดจบเว้นแต่ว่าคุณอยากได้โน็ตกั้กที่เห็นชัดเจนสำหรับโน็ตตัวที่แปดหรือยาวกว่า
 - Simplify slides for a consistent stream of notes going up or down.
   - Instead, you can just do one single slide and pull back the end point until the slide curve matches the notes.
   - Making each individual note part of the slide will make the slide very wobbly. You can make an exception if you specifically want the slide to look like this or the note shape is too complex to estimate with one slide.
