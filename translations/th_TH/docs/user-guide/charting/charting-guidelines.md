@@ -55,7 +55,7 @@
   - ![Ideal Slide 2](../docs/files/charting/ideal-slide2.png)
   - **ไม่ควร**: (มนุษย์ไม่สามารถเล่นสิ่งนี้ได้)
   - ![Bad Slide](../docs/files/charting/bad-slide.png)
-- A slide approaches the target pitch before the slide end.
+- สไลด์เข้าใกล้ระดับเสียงเป้าหมายก่อนที่จะจบสไลด์
   - Make the end of the slide ~1-2 32nd notes late, depending on the length of the slide.
   - Start the slide about one 16th note before the target beat. It'll still be fine if half the note is a slide.
 - For 8th note slides or shorter, you don't need to include a held note in the middle.
