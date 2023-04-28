@@ -56,9 +56,9 @@
   - **ไม่ควร**: (มนุษย์ไม่สามารถเล่นสิ่งนี้ได้)
   - ![Bad Slide](../docs/files/charting/bad-slide.png)
 - สไลด์เข้าใกล้ระดับเสียงเป้าหมายก่อนที่จะจบสไลด์
-  - Make the end of the slide ~1-2 32nd notes late, depending on the length of the slide.
-  - Start the slide about one 16th note before the target beat. It'll still be fine if half the note is a slide.
-- For 8th note slides or shorter, you don't need to include a held note in the middle.
+  - ทำจุดจบของสไลด์ที่ 1-2 เป็นโน้ตสามสิบวินาทีล่าช้าขึ้้นอยู่กับความยาวของสไลด์
+  - เริ่มสไลด์ที่โน้ตตัวที่สิบหกก่อนที่จะถึงจังหวะ มันจะยังโอเคอยู่ถ้าครึ่งของโน็ตเป็นสไลด์
+- สำหรับโน้ตตัวที่แปดหรือสั้นกว่าคุณไม่จำเป็นที่จะต้องใส่โน็ตหยุดตรงกลาง
   - You often don't need a held note at the slide start, middle or end at all, unless you want the note to be clearly held for an 8th note or longer.
 - Simplify slides for a consistent stream of notes going up or down.
   - Instead, you can just do one single slide and pull back the end point until the slide curve matches the notes.
