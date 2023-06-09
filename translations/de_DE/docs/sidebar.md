@@ -9,6 +9,7 @@
 - [Charting Guidelines](charting-guidelines)
 - [Chart Hintergründe](chart-backgrounds)
 - [Sonstige Informationen](misc-charting-info)
+- [Chart Troubleshooting](chart-troubleshooting)
 - **Developers**
 - [Writing Mods](writing-mods)
 - **Extras**
