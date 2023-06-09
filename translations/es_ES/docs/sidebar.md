@@ -9,6 +9,7 @@
 - [Charting Guidelines](charting-guidelines)
 - [Fondo de Mapa](chart-backgrounds)
 - [Información de Mapear Miscelánea](misc-charting-info)
+- [Chart Troubleshooting](chart-troubleshooting)
 - **Developers**
 - [Writing Mods](writing-mods)
 - **Extras**
