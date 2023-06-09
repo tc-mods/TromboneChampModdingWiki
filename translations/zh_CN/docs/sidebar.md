@@ -9,6 +9,7 @@
 - [谱面制作指导](charting-guidelines)
 - [自制谱背景](chart-backgrounds)
 - [其他自制谱信息](misc-charting-info)
+- [Chart Troubleshooting](chart-troubleshooting)
 - **Developers**
 - [Writing Mods](writing-mods)
 - **其他**
