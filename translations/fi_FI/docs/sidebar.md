@@ -9,6 +9,7 @@
 - [Charting Guidelines](charting-guidelines)
 - [Kartan Taustat](chart-backgrounds)
 - [Sekalaiset Kartoitustiedot](misc-charting-info)
+- [Chart Troubleshooting](chart-troubleshooting)
 - **Developers**
 - [Writing Mods](writing-mods)
 - **Extrat**
