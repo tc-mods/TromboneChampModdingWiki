@@ -1,8 +1,8 @@
 # Kappaleiden Asentaminen
 ---
-?> Jos haluat videotutoriaaleja, VorgunTheBeta on [tehnyt videon, jossa kerrotaan, miten modit ja custom kappaleet asennetaan](https://youtu.be/pSwNSGx-P5c).
+?> If you prefer video tutorials, Rayanne has [a video explaining how to install mods and custom songs](https://youtu.be/6msFI8Sz1UQ).
 
-!> **TÄRKEÄÄ:** Varmista, että olet seurannut [modien asennusopasta](installing-mods) asentaaksesi BepInExin ja TrombLoaderin ennen jatkamista!
+!> **IMPORTANT:** Make sure you've followed the [mod installation guide](installing-r2modman) to install BepInEx and TrombLoader before continuing!
 
 ## Kappaleiden Löytäminen
 
