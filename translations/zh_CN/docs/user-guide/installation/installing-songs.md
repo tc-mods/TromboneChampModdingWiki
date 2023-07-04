@@ -1,8 +1,8 @@
 # 安装自制谱面
 ---
-?> 如果需要视频教学, 可参考VorgunTheBeta 的[mod安装与自制曲目导入指南](https://youtu.be/pSwNSGx-P5c).
+?> If you prefer video tutorials, Rayanne has [a video explaining how to install mods and custom songs](https://youtu.be/6msFI8Sz1UQ).
 
-！> **注意：** 请确保您已经按照 [mod安装指南](installing-mods) 安装BepInEx 和 TrombLoader，然后再继续！
+!> **IMPORTANT:** Make sure you've followed the [mod installation guide](installing-r2modman) to install BepInEx and TrombLoader before continuing!
 
 ## 搜索自制谱面
 
