@@ -1,8 +1,8 @@
 # Liedjes Installeren
 ---
-?> Als je liever en videotutorial wil hebben, heeft VorgunTheBeta een [video](https://youtu.be/pSwNSGx-P5c) waarin wordt uitgelegd hoe je mods en liedjes installeert. Opmerking: de video is in het Engels.
+?> If you prefer video tutorials, Rayanne has [a video explaining how to install mods and custom songs](https://youtu.be/6msFI8Sz1UQ).
 
-!> **LET OP:** Zorg ervoor dat je de [installatiehandleiding voor mods](installing-mods) hebt gevolgd om BepInEx en TrombLoader te installeren voordat je doorgaat!
+!> **IMPORTANT:** Make sure you've followed the [mod installation guide](installing-r2modman) to install BepInEx and TrombLoader before continuing!
 
 ## Liedjes Vinden
 
