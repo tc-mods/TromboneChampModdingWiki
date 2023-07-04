@@ -1,8 +1,8 @@
 # カスタム音源の導入方法
 ---
-?> もし動画による解説をご希望でしたら、VorgunTheBeta氏が投稿した[MODとカスタム音源の導入方法を説明している動画](https://youtu.be/pSwNSGx-P5c)をご覧ください。(※英語)
+?> If you prefer video tutorials, Rayanne has [a video explaining how to install mods and custom songs](https://youtu.be/6msFI8Sz1UQ).
 
-!> **重要:** BepInExとTrombLoaderをインストールしていなければ[MODの導入方法](installing-mods)のページをご参照ください！
+!> **IMPORTANT:** Make sure you've followed the [mod installation guide](installing-r2modman) to install BepInEx and TrombLoader before continuing!
 
 ## カスタム音源を見つけよう
 
