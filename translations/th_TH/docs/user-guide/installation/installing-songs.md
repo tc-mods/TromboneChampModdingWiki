@@ -1,8 +1,8 @@
 # การลงเพลงที่กำหนดเอง
 ---
-?> ถ้าคุณอยากได้วิธีแบบวีดีโอ VorgunTheBeta มี [วีดีโออธิบายวิธีการลง mods และ การลงเพลงกำหนดเอง](https://youtu.be/pSwNSGx-P5c)
+?> If you prefer video tutorials, Rayanne has [a video explaining how to install mods and custom songs](https://youtu.be/6msFI8Sz1UQ).
 
-!> **สำคัญ:** ให้คุณแน่ใจว่าคุณทำตาม [คู่มือการลง Mod](installing-mods) เพื่อที่จะลง BepInEx และ TrombLoader ก่อนที่จะดำเนินการต่อไป!
+!> **IMPORTANT:** Make sure you've followed the [mod installation guide](installing-r2modman) to install BepInEx and TrombLoader before continuing!
 
 ## การหาเพลง
 
