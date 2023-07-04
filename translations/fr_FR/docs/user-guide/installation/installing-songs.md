@@ -1,8 +1,8 @@
 # Installer des chansons personnalisées
 ---
-?> Si vous préférez des tutoriels vidéo, VorgunTheBeta a [une vidéo expliquant comment installer des mods et des chansons personnalisées](https://youtu.be/pSwNSGx-P5c).
+?> If you prefer video tutorials, Rayanne has [a video explaining how to install mods and custom songs](https://youtu.be/6msFI8Sz1UQ).
 
-!> **IMPORTANT :** Assurez-vous d'avoir suivi le [guide d'installation des mods](installing-mods) pour installer BepInEx et TrombLoader avant de continuer !
+!> **IMPORTANT:** Make sure you've followed the [mod installation guide](installing-r2modman) to install BepInEx and TrombLoader before continuing!
 
 ## Trouver des chansons
 
