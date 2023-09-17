@@ -81,7 +81,7 @@ Algunos editores midi gratis, verificados que funcionan incluyen:
 </h2>
 
 <p spaces-before="0">
-  ?> ¡Hay dos convertidores Midi disponibles además de Midi2TromboneChamp! <br>El proceso para estos nuevos convertidores es lo bastante similar para que esta guía debería seguir siendo utilizable. <br>Si quieres un programa de conversión más actualizado, siéntete libre de probar un nuevo convertidor: <br><br><a href="https://nyxtheshield.github.io/Midi2TromboneChamp/">Midi2TromboneChamp (Versión Unity)</a> una secuela basado - en unity- para Midi2TromboneChamp. <br><a href="https://rshieldsprojects.github.io/projects/tccc/">Trombone Champ Chart Converter</a> - una alternativa basada en la web con nuevas características.
+  ?> ¡Hay dos convertidores Midi disponibles además de Midi2TromboneChamp! <br>El proceso para estos nuevos convertidores es lo bastante similar para que esta guía debería seguir siendo utilizable. <br>Si quieres un programa de conversión más actualizado, siéntete libre de probar un nuevo convertidor: <br><br><a href="https://nyxtheshield.github.io/Midi2TromboneChamp/">Midi2TromboneChamp (Versión Unity)</a> una secuela basado - en unity- para Midi2TromboneChamp. <br><a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a> - a web-based alternative with new features.
 </p>
 
 <ol start="1">
