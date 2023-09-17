@@ -81,7 +81,7 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
 </h2>
 
 <p spaces-before="0">
-  ?> 除了Midi2TromboneChamp以外，还有两个Midi转换器可用！ <br>这些新转换器的使用流程足够相似，本指南仍然可以使用。 <br>如果您想尝试这些更新的转换程序，请看这里： <br><br><a href="https://nyxtheshield.github.io/Midi2TromboneChamp/">Midi2TromboneChamp(Unity 版本)</a> - 一个使用Unity编写的Midi2TromboneChamp。 <br><a href="https://rshieldsprojects.github.io/projects/tccc/">Trombone Champ Chapt Converter</a> - 一个有新功能的网页版转换器。
+  ?> 除了Midi2TromboneChamp以外，还有两个Midi转换器可用！ <br>这些新转换器的使用流程足够相似，本指南仍然可以使用。 <br>如果您想尝试这些更新的转换程序，请看这里： <br><br><a href="https://nyxtheshield.github.io/Midi2TromboneChamp/">Midi2TromboneChamp(Unity 版本)</a> - 一个使用Unity编写的Midi2TromboneChamp。 <br><a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a> - a web-based alternative with new features.
 </p>
 
 <ol start="1">
