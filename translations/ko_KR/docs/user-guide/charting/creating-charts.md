@@ -81,7 +81,7 @@ Midi notes should be in the range 47 to 73 to match the game.<br>**NOTE:** Diffe
 </h2>
 
 <p spaces-before="0">
-  ?> Midi2TromboneChamp 외에도 Midi 컨버터가 두 개 있습니다! <br>이러한 Midi 컨버터의 사용 방법은 비슷한 느낌이므로 이 가이드를 그대로 참고할 수 있습니다. <br>만약 최신 변환 프로그램을 사용하고 싶다면, 새로운 컨버터도 자유롭게 사용해보세요: <br><br><a href="https://nyxtheshield.github.io/Midi2TromboneChamp/">Midi2TromboneChamp (Unity Version)</a> - Unity 기반 브라우저 버전 Midi2TromboneChamp <br><a href="https://rshieldsprojects.github.io/projects/tccc/">Trombone Champ Chart Converter</a> - 새로운 기능이 추가된 브라우저 기반 컨버터
+  ?> Midi2TromboneChamp 외에도 Midi 컨버터가 두 개 있습니다! <br>이러한 Midi 컨버터의 사용 방법은 비슷한 느낌이므로 이 가이드를 그대로 참고할 수 있습니다. <br>만약 최신 변환 프로그램을 사용하고 싶다면, 새로운 컨버터도 자유롭게 사용해보세요: <br><br><a href="https://nyxtheshield.github.io/Midi2TromboneChamp/">Midi2TromboneChamp (Unity Version)</a> - Unity 기반 브라우저 버전 Midi2TromboneChamp <br><a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a> - a web-based alternative with new features.
 </p>
 
 <ol start="1">
