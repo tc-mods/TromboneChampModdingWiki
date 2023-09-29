@@ -80,20 +80,10 @@ Jotkut ilmaiset, todennettu toimimaan midi editorit ovat:
   Muunnetaan Midi Karttatiedostoksi
 </h2>
 
-<p spaces-before="0">
-  ?> Midi2TromboneChampin lisäksi on saatavilla kaksi Midi -muunninta! <br>Prosessi näille uusille muuntimille on tarpeeksi samanlainen, että tämä opas olisi edelleen käyttökelpoinen. <br>Jos haluat kokeilla ajan tasalla olevaa muuntoohjelmaa, voit kokeilla vapaasti uutta muunninta: <br><br><a href="https://nyxtheshield.github.io/Midi2TromboneChamp/">Midi2TromboneChamp (Unity Version)</a> - unity-pohjainen jatko-osa Midi2TromboneChampille. <br><a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a> - a web-based alternative with new features.
-</p>
-
 <ol start="1">
   <li>
     <p spaces-before="0">
-      Go to <a href="https://github.com/SockHungryClutz/Midi2TromboneChamp/releases/latest" x-nc="1">https://github.com/SockHungryClutz/Midi2TromboneChamp/releases/latest</a> and click <code>Midi2TromboneChamp.exe</code> to download it.
-    </p>
-  </li>
-  
-  <li>
-    <p spaces-before="0">
-      Suorita se. Valitse tiedostonvalitsimessa sinun miditiedosto. Klikkaa Open.
+      Go to <a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a>.
     </p>
   </li>
   
@@ -103,19 +93,19 @@ Jotkut ilmaiset, todennettu toimimaan midi editorit ovat:
     </p>
     <ul>
       <li>
-        <code>Song Name</code> on kartan koko nimi ja sen tiedot näytetään, kun valitset sen pelissä .
+        <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
       </li>
       <li>
         <code>Short Name</code> näytetään kappalevalikossa. Teksti pienenee kun nimi on pitkä, joten en ole varma, onko siinä enimmäispituus.
       </li>
       <li>
-        <code>Folder Name</code> on sen kansion nimi, johon laitat kartta- ja kappaletiedostosi. Esim. Jos asetat Folder Name nimeksi my map, karttasi polku on BepInEx/CustomSongs/my map/song.tmb.
+        <code>Release Year</code> is the year the song was created.
       </li>
       <li>
-        <code>Year</code> on vuosi, jolloin kappale luotiin.
+        <code>Artist</code> is the composer of the song.
       </li>
       <li>
-        <code>Author</code> on kappaleen säveltäjä.
+        <code>Beats per Bar</code> määrittää, kuinka kaukana "iskulinjat" ovat.
       </li>
       <li>
         <code>Difficulty</code> on vaikeustaso eli tähtien määrä, jotka näkyvät kappaleen tiedoissa.
@@ -124,17 +114,17 @@ Jotkut ilmaiset, todennettu toimimaan midi editorit ovat:
         <code>Note Spacing</code> vaikuttaa siihen, kuinka nopeasti taso rullaa yhdessä BPM kanssa.
       </li>
       <li>
-        <code>Song Endpoint</code> on isku, jolla kappale päättyy. Se lasketaan automaattisesti, mutta voit säätää sitä muuttaaksesi, kun tason loppunäyttö näkyy.
+        <code>Folder Name</code> on sen kansion nimi, johon laitat kartta- ja kappaletiedostosi. Esim. Jos asetat Folder Name nimeksi my map, karttasi polku on BepInEx/CustomSongs/my map/song.tmb.
       </li>
       <li>
-        <code>Beats per Bar</code> määrittää, kuinka kaukana "iskulinjat" ovat.
+        <code>Song Endpoint</code> on isku, jolla kappale päättyy. Se lasketaan automaattisesti, mutta voit säätää sitä muuttaaksesi, kun tason loppunäyttö näkyy.
       </li>
     </ul>
   </li>
   
   <li>
     <p spaces-before="0">
-      Paina OK. Luo tiedosto valitsimessa kansio jonka nimi on sama kuin kirjoittamasi <code>Folder Name</code> -kenttään. ja tallenna tiedosto <code>song.tmb</code> tuon kansion sisään.
+      Paina OK. Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
     </p>
   </li>
   
