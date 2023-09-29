@@ -80,20 +80,10 @@ Alcuni editor midi gratuiti, il cui funzionamento è verificato, sono:
   Convertire file Midi in file Map
 </h2>
 
-<p spaces-before="0">
-  ?> Sono disponibili due convertitori Midi oltre a Midi2TromboneChamp! <br> Le procedure per questi nuovi convertitori sono abbastanza simili, per cui questa guida dovrebbe essere ancora utilizzabile. <br>Se vuoi provare un programma più recente, sentiti libero di provare un nuovo convertitore: <br><br><a href="https://nyxtheshield.github.io/Midi2TromboneChamp/">Midi2TromboneChamp (Unity Version)</a> - il successore su base Unity di Midi2TromboneChamp. <br><a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a> - a web-based alternative with new features.
-</p>
-
 <ol start="1">
   <li>
     <p spaces-before="0">
-      Go to <a href="https://github.com/SockHungryClutz/Midi2TromboneChamp/releases/latest" x-nc="1">https://github.com/SockHungryClutz/Midi2TromboneChamp/releases/latest</a> and click <code>Midi2TromboneChamp.exe</code> to download it.
-    </p>
-  </li>
-  
-  <li>
-    <p spaces-before="0">
-      Esegui il programma. Nella finestra che si apre, seleziona il tuo file midi. Clicca su "Open".
+      Go to <a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a>.
     </p>
   </li>
   
@@ -103,19 +93,19 @@ Alcuni editor midi gratuiti, il cui funzionamento è verificato, sono:
     </p>
     <ul>
       <li>
-        <code>Song Name</code> è il nome completo del brano, mostrato nelle info quando la selezioni all'interno del gioco.
+        <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
       </li>
       <li>
         <code>Short Name</code> è il nome mostrato quando si scorre la lista dei brani. Il testo diventa più piccolo quando il nome è lungo, quindi non è sicuro se esiste una lunghezza massima.
       </li>
       <li>
-        <code>Folder Name</code> è il nome della cartella in cui metterai il file map e il file del brano. Per esempio: Se inserisci "la mia map" in Folder Name, il percorso per il tuo file map sarà BepInEx/CustomSongs/la mia map/song.tmb.
+        <code>Release Year</code> is the year the song was created.
       </li>
       <li>
-        <code>Year</code> è l'anno in cui è stata scritto il brano.
+        <code>Artist</code> is the composer of the song.
       </li>
       <li>
-        <code>Author</code> è il compositore del brano.
+        <code>Beats per Bar</code> determina quanto sono distanti le "linee delle battute".
       </li>
       <li>
         <code>Difficulty</code> è il numero di stellette-difficoltà che compaiono nella sezione info del brano.
@@ -124,17 +114,17 @@ Alcuni editor midi gratuiti, il cui funzionamento è verificato, sono:
         <code>Note Spacing</code> determina la velocità con cui scorre il livello, in combinazione con BPM.
       </li>
       <li>
-        <code>Song Endpoint</code> è la battuta in cui termina la canzone. Viene calcolata automaticamente, ma puoi regolarla per cambiare quando appare la schermata finale del livello.
+        <code>Folder Name</code> è il nome della cartella in cui metterai il file map e il file del brano. Per esempio: Se inserisci "la mia map" in Folder Name, il percorso per il tuo file map sarà BepInEx/CustomSongs/la mia map/song.tmb.
       </li>
       <li>
-        <code>Beats per Bar</code> determina quanto sono distanti le "linee delle battute".
+        <code>Song Endpoint</code> è la battuta in cui termina la canzone. Viene calcolata automaticamente, ma puoi regolarla per cambiare quando appare la schermata finale del livello.
       </li>
     </ul>
   </li>
   
   <li>
     <p spaces-before="0">
-      Premi OK. Nella finestra che si apre, crea una cartella con lo stesso nome inserito nel campo <code>Folder Name</code>, e salva il file come <code>song.tmb</code> all'interno della stessa cartella.
+      Premi OK. Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
     </p>
   </li>
   
