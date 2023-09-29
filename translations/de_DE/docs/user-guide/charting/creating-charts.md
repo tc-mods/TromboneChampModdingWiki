@@ -80,20 +80,10 @@ Einige kostenlose, überprüfte Midi-Editoren beinhalten:
   Midi zum Chart konvertieren
 </h2>
 
-<p spaces-before="0">
-  ?> Es sind neben Midi2TromboneChamps noch zwei andere Midi Konverter verfügbar! <br>Der Prozess für diese neuen Konverter ist so ähnlich, dass diese Anleitung trotzdem anwendbar sein sollte. <br>Wenn du ein aktuelleres Konvertierungsprogramm testen möchtest, probiere einen der neuen Konverter aus: <br><br><a href="https://nyxtheshield.github.io/Midi2TromboneChamp/">Midi2TromboneChamp (Unity Version)</a> - ein auf Unity basierender Nachfolger von Midi2TromboneChamp. <br><a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a> - a web-based alternative with new features.
-</p>
-
 <ol start="1">
   <li>
     <p spaces-before="0">
-      Go to <a href="https://github.com/SockHungryClutz/Midi2TromboneChamp/releases/latest" x-nc="1">https://github.com/SockHungryClutz/Midi2TromboneChamp/releases/latest</a> and click <code>Midi2TromboneChamp.exe</code> to download it.
-    </p>
-  </li>
-  
-  <li>
-    <p spaces-before="0">
-      Starte es. In der Datei-Auswahl die sich öffnet, wähle deine Midi-Datei. Klick auf öffnen.
+      Go to <a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a>.
     </p>
   </li>
   
@@ -103,19 +93,19 @@ Einige kostenlose, überprüfte Midi-Editoren beinhalten:
     </p>
     <ul>
       <li>
-        <code>Song Name</code> ist der vollständige Name des Songs, der in der Info angezeigt wird, wenn du ihn im Spiel auswählst.
+        <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
       </li>
       <li>
         <code>Short Name</code> wird beim Scrollen durch die Songliste angezeigt. Text wird kleiner, wenn der Name lang ist, deswegen bin ich mir nicht sicher, ob es eine maximale Länge gibt.
       </li>
       <li>
-        <code>Folder Name</code> ist der Name des Ordners, in den du deine Chart- und Songdatei einfügen wirst. Z.B. Wenn du "Folder Name" auf "my map" setzt, wird der Kartenpfad BepInEx/CustomSongs/my map/song.tmb sein.
+        <code>Release Year</code> is the year the song was created.
       </li>
       <li>
-        <code>Year</code> ist das Jahr, in dem das Lied erstellt wurde.
+        <code>Artist</code> is the composer of the song.
       </li>
       <li>
-        <code>Author</code> ist der Komponist des Songs.
+        <code>Beats per Bar</code> bestimmt den Abstand zwischen den "beat lines".
       </li>
       <li>
         <code>Difficulty</code> ist die Anzahl der Schwierigkeitssterne, die in den Informationen des Songs erscheinen.
@@ -124,17 +114,17 @@ Einige kostenlose, überprüfte Midi-Editoren beinhalten:
         <code>Note Spacing</code> kontrolliert zusammen mit BPM, wie schnell der Level scrollt.
       </li>
       <li>
-        <code>Song Endpoint</code> ist die Nummer des Schlags, an dem der Song endet. Diese Nummer wird automatisch berechnet, allerdings kannst du sie ändern, um zu kontrollieren, wann der Level endet und der Endbildschirm erscheint.
+        <code>Folder Name</code> ist der Name des Ordners, in den du deine Chart- und Songdatei einfügen wirst. Z.B. Wenn du "Folder Name" auf "my map" setzt, wird der Kartenpfad BepInEx/CustomSongs/my map/song.tmb sein.
       </li>
       <li>
-        <code>Beats per Bar</code> bestimmt den Abstand zwischen den "beat lines".
+        <code>Song Endpoint</code> ist die Nummer des Schlags, an dem der Song endet. Diese Nummer wird automatisch berechnet, allerdings kannst du sie ändern, um zu kontrollieren, wann der Level endet und der Endbildschirm erscheint.
       </li>
     </ul>
   </li>
   
   <li>
     <p spaces-before="0">
-      Drücke OK. In der Dateiauswahl, die sich automatisch öffnet, erstelle einen Ordner mit dem Namen den du im Feld <code>Folder Name</code> eingegeben hast und speichere die Datei als <code>song.tmb</code> in diesem Ordner.
+      Drücke OK. Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
     </p>
   </li>
   
