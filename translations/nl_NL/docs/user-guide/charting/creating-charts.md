@@ -80,20 +80,10 @@ Enkele gratis en geverifieerd werkende MIDI-editors zijn:
   MIDI omzetten naar een map bestand
 </h2>
 
-<p spaces-before="0">
-  ?> Er zijn naast Midi2TromboneChamp nog twee MIDI-converters beschikbaar! <br>Het proces voor deze andere converters zijn dermate gelijk dat deze handleiding nog steeds bruikbaar zal zijn. <br>Als je een recenter conversieprogramma wil proberen, voel je vrij om deze nieuwe converter een poging te geven: <br><br><a href="https://nyxtheshield.github.io/Midi2TromboneChamp/">Midi2TromboneChamp (Unity Version)</a> - een in Unity gemaakte opvolger van Midi2TromboneChamp. <br><a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a> - a web-based alternative with new features.
-</p>
-
 <ol start="1">
   <li>
     <p spaces-before="0">
-      Go to <a href="https://github.com/SockHungryClutz/Midi2TromboneChamp/releases/latest" x-nc="1">https://github.com/SockHungryClutz/Midi2TromboneChamp/releases/latest</a> and click <code>Midi2TromboneChamp.exe</code> to download it.
-    </p>
-  </li>
-  
-  <li>
-    <p spaces-before="0">
-      Start het programma. Er opent een bestandskiezer. Selecteer hier je MIDI-bestand. Klik op Openen.
+      Go to <a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a>.
     </p>
   </li>
   
@@ -103,19 +93,19 @@ Enkele gratis en geverifieerd werkende MIDI-editors zijn:
     </p>
     <ul>
       <li>
-        <code>Song Name</code> is de volledige naam van het liedje, deze wordt weergegeven in de info wanneer je het in het spel selecteert.
+        <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
       </li>
       <li>
         <code>Short Name</code> wordt weergeven tijdens het scrollen door de songlijst. Deze text wordt kleiner te langer de naam is, dus ik weet niet of er een maximale lengte is.
       </li>
       <li>
-        <code>Folder Name</code> is de naam van de map waarin je de map en audiobestand wil plaatsen. Bijv. Als je de mapnaam op mijn map zet, zal het pad van de map BepInEx/CustomSongs/mijn map/song.tmb zijn.
+        <code>Release Year</code> is the year the song was created.
       </li>
       <li>
-        <code>Year</code> is het jaar dat het nummer is gemaakt.
+        <code>Artist</code> is the composer of the song.
       </li>
       <li>
-        <code>Author</code> is de artiest van het nummer.
+        <code>Beats per Bar</code> bepaalt hoe ver de "beat lines" uit elkaar staan.
       </li>
       <li>
         <code>Difficulty</code> is het aantal moeilijkheidssterren dat op de info van de map verschijnt.
@@ -124,17 +114,17 @@ Enkele gratis en geverifieerd werkende MIDI-editors zijn:
         <code>Note Spacing</code> beïnvloedt in combinatie met de BPM hoe snel het level scrollt.
       </li>
       <li>
-        <code>Song Endpoint</code> is de beat waarop het nummer eindigt. Het wordt automatisch berekend, maar je kan het aanpassen om het moment dat het eindscherm in beeld komt te veranderen.
+        <code>Folder Name</code> is de naam van de map waarin je de map en audiobestand wil plaatsen. Bijv. Als je de mapnaam op mijn map zet, zal het pad van de map BepInEx/CustomSongs/mijn map/song.tmb zijn.
       </li>
       <li>
-        <code>Beats per Bar</code> bepaalt hoe ver de "beat lines" uit elkaar staan.
+        <code>Song Endpoint</code> is de beat waarop het nummer eindigt. Het wordt automatisch berekend, maar je kan het aanpassen om het moment dat het eindscherm in beeld komt te veranderen.
       </li>
     </ul>
   </li>
   
   <li>
     <p spaces-before="0">
-      Klik op OK. In de bestandskiezer die wordt geopend maak je een map aan met dezelfde naam die je in het <code>Folder Name</code> veld hebt opgegeven. Hierna sla je het bestand op als <code>song.tmb</code> binnen deze map.
+      Klik op OK. Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
     </p>
   </li>
   
