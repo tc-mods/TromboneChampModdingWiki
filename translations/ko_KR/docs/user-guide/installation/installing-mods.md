@@ -1,12 +1,12 @@
-# Installing Mods
+모드 설치
 ---
 
-?> If you prefer video tutorials, VorgunTheBeta has [a video explaining how to install mods and custom songs](https://youtu.be/pSwNSGx-P5c).
+?> 동영상 튜토리얼을 선호하는 경우 VorgunTheBeta의 [모드 및 커스텀 곡 설치 방법](https://youtu.be/pSwNSGx-P5c)에 대한 동영상을 참고하세요.
 
-?> The start of this guide also works for Linux and Steam Deck! Make sure to [read the end](#linuxsteam-deck-specific-tips) for additional details.
+?> 이 가이드의 첫 부분은 Linux와 Steam Deck에서도 작동합니다! 자세한 내용은 [끝 부분](#linuxsteam-deck-specific-tips)을 반드시 읽어보세요.
 
-## Finding Install Location
-1. Open Steam and right-click on Trombone Champ. Then, go to `Manage > Browse local files`.
+## 설치 위치
+1. Steam 라이브러리에서 Trombone Champ를 우클릭합니다. 그 다음 `관리 > 로컬 파일 보기`를 클릭합니다.
 
 ![Right-click Menu Preview](../docs/files/localfilescontext.png)
 
