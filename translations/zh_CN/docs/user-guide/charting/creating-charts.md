@@ -83,7 +83,7 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
 <ol start="1">
   <li>
     <p spaces-before="0">
-      Go to <a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a>.
+      去 <a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a>.
     </p>
   </li>
   
@@ -99,10 +99,10 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
         <code>Short Name</code> 该内容会显示在曲目滚动列表中. 名称过长时文本字号会相应变小，所以无法确定是否存在长度上限。
       </li>
       <li>
-        <code>Release Year</code> is the year the song was created.
+        <code>Release Year</code> 是歌曲发行的年份。
       </li>
       <li>
-        <code>Artist</code> is the composer of the song.
+        <code>Artist</code> 是歌曲的作曲家。
       </li>
       <li>
         <code>Beats per Bar</code> 决定游玩谱面时屏幕上显示的节拍线之间的距离。
