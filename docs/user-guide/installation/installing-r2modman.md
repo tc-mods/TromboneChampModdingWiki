@@ -1,15 +1,16 @@
-# Using r2modman
+# Installing r2modman
 ---
 
 !> IMPORTANT: If you've previously modded Trombone Champ before the switch to r2modman, make sure to follow the [Migration Guide](migrating-to-v2) after setting up r2modman!
 
-?> For Linux and Steam Deck users, please follow the [Linux instructions](installing-r2modman-linux).
+?> Linux and Steam Deck users: please follow the [Linux instructions](installing-r2modman-linux).
 
-?> For Mac users, you may try looking at Candygoblen123's [Trombone Champ Mod Manager for Mac](https://github.com/Candygoblen123/TromboneChampModManager/)
+?> Mac users: you may try looking at Candygoblen123's [Trombone Champ Mod Manager for Mac](https://github.com/Candygoblen123/TromboneChampModManager/)
 
-?> For the purposes of this guide, we will only be installing **TrombLoader** although installing other mods would work the same way.
+?> For a video guide that installs TootTally's in-game song downloader, see [Rayanne's tutorial video](https://youtu.be/p0rud1uJ0o0?si=sDlmbDg3geAEW5J3). The in-game song downloader is covered in [Installing Songs](installing-songs)
 
-This guide will run you through installing and using [r2modman](https://github.com/ebkr/r2modmanPlus/releases/latest/) to install and play with mods that are available through [Thunderstore](https://trombone-champ.thunderstore.io/). Using a mod manager like r2modman allows you to update and play with the latest versions of the mods with ease as the manager does all of that for you!
+This guide will run you through installing and using [r2modman](https://github.com/ebkr/r2modmanPlus/releases/latest/) to use mods that are available through [Thunderstore](https://trombone-champ.thunderstore.io/). Using a mod manager like r2modman allows you to update and play with the latest versions of the mods with ease as the manager does all of that for you!
+For the purposes of this guide, we will only be installing **TrombLoader** although installing other mods would work the same way.
 
 ## Installing r2modman
 
