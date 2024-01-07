@@ -9,7 +9,7 @@ If you want a simple, easy background, this is what's recommended.
 
 Simply put a `1780x1000` image named `bg.png` in your song's folder.
 
-You can use non-`1920x1080` images, but it might behave weirdly, as unity sprite scale is based on image resolution.
+You can use non-`1780x1000` images, but it might behave weirdly, as unity sprite scale is based on image resolution. If your image is too small it will have an ugly grey background to fill the remaining space.
 
 ### .mp4 
 
