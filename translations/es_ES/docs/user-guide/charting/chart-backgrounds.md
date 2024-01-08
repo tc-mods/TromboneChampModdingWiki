@@ -7,9 +7,9 @@ Los fondos son una característica importante de un mapa, y hay unos diferentes 
 
 Si quieres un fondo simple y fácil, esto se recomienda.
 
-Simplemente pon una imagen`1920x1080` llamada`bg.png` en la carpeta de tu canción.
+Simply put a `1780x1000` image named `bg.png` in your song's folder.
 
-Puedes usar imágenes que no sean `1920x1080`, pero podría actuar extrañamente, ya que la escala del sprite de Unity está basada en la resolución de imagen.
+You can use non-`1780x1000` images, but it might behave weirdly, as unity sprite scale is based on image resolution. If your image is too small it will have an ugly grey background to fill the remaining space.
 
 ### .mp4
 
@@ -17,7 +17,11 @@ Puedes usar imágenes que no sean `1920x1080`, pero podría actuar extrañamente
 
 Simplemente pon un mp4 llamado `bg.mp4` en la carpeta de tu canción.
 
-Puedes usar cualquier resolución de video, pero **por favor** intenta mantener el tamaño razonable - apunta por menos de 50 MB. Si el tamaño del video es demasiado alto, puede bajar la resolución en tu editor de video favorito.
+- Use h.264 as the video codec for maximum compatibility.
+- You can use any resolution of video, but **please** try to keep the size reasonable. (target 10MB per minute of song - aim for under 50MB)
+  - Use a tool like [Handbrake](https://handbrake.fr/) to reencode and compress video.
+  - Use two-pass encoding with a target bitrate of 1333kbps to eliminate any guesswork.
+  - Remove the audio track entirely.
 
 ### .trombackground
 
