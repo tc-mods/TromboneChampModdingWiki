@@ -10,17 +10,17 @@ The TootTally team has done the Trombone Champ Modding community a huge favour b
 
 1. Open r2modman and click on the Online tab to show available mods. ![Clicking Online](../docs/files/r2modman-install/selectonline.png)
 
-2. In the search bar, search for `song downloader`. Once you find it, select it, then click "Download" and then "Download with dependencies" as you would for any other mod. !\[Finding Song Downloader\](new image)
+2. In the search bar, search for `song downloader`. Once you find it, select it, then click "Download" and then "Download with dependencies" as you would for any other mod. ![Finding Song Downloader](../docs/files/songdownloader/findingsongdownloader.jpg)
 
 3. Click "Start Modded." Trombone Champ will start up. ![Start Trombone Champ Modded](../docs/files/r2modman-install/startmodded.png)
 
-4. Select your profile and start the game. On the main menu, click the "Mod Settings" button on the left. !\[Mod Settings\](new image)
+4. Select your profile and start the game. On the main menu, click the "Mod Settings" button on the left. ![Mod Settings](../docs/files/songdownloader/modsettings.jpg)
 
-5. Click the "More Songs" button. !\[More Songs\](new image)
+5. Click the "More Songs" button. ![More Songs](../docs/files/songdownloader/moresongs.jpg)
 
-6. Click on the "SearchHere" field and type the name of the song you want to download. Hit Enter to search. !\[Search\](new image)
+6. Click on the "SearchHere" field and type the name of the song you want to download. Hit Enter to search. ![Search](../docs/files/songdownloader/search.jpg)
 
-7. If a chart for that song exists and is available to download, hit the download button. !\[Song Download\](new image)
+7. If a chart for that song exists and is available to download, hit the download button. ![Song Download](../docs/files/songdownloader/songdownload.jpg)
 
 That's all there is to it! You can play custom charts the same way you play base game charts.
 
@@ -57,7 +57,7 @@ Now, you may have run into an issue where your song came up, but instead of a do
 ## 搜索自制谱面
 
 There are a number of places you can find Trombone Champ custom songs online. Here are a few options:
-- TootTally's [in-game song downloader]. Note that not all charts may be available for download in-game.
+- TootTally's in-game song downloader. Note that not all charts may be available for download in-game.
 - The search function on the [TootTally website](https://toottally.com/search/). Any results you get here will likely be the same as what the in-game song downloader would have.
 - The `#custom-charts` channel in the [Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ).
 - The Tootbender bot's chart search command in the [Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ).
