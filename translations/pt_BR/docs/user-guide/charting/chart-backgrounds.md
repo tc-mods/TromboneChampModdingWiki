@@ -7,9 +7,9 @@ Planos de fundo são uma característica importante de um chart, e existem algun
 
 Se quiser um fundo simples e fácil de se fazer, esse é o recomendado.
 
-Simplesmente ponha uma imagem `1920x1080` chamada `bg.png` na pasta de sua música.
+Simply put a `1780x1000` image named `bg.png` in your song's folder.
 
-Você pode usar imagens que não tem a resolução de `1920x1080`, mas elas talvez se comportem de forma estranha, já que a escala de um sprite na Unity é baseada na resolução da imagem.
+You can use non-`1780x1000` images, but it might behave weirdly, as unity sprite scale is based on image resolution. If your image is too small it will have an ugly grey background to fill the remaining space.
 
 ### .mp4
 
@@ -17,7 +17,11 @@ Se quiser um plano de fundo um pouco mais interessante, um clipe musical, ou que
 
 Basta por um arquivo .mp4 com o nome `bg.mp4` na pasta de sua música.
 
-Você pode usar qualquer resolução de vídeo, mas **por favor** tente deixar o tamanho do arquivo razoável — busque ter um arquivo abaixo de 50 MB. Se o tamanho do seu arquivo for muito alto, você pode tentar abaixar a resolução do vídeo no seu editor de escolha.
+- Use h.264 as the video codec for maximum compatibility.
+- You can use any resolution of video, but **please** try to keep the size reasonable. (target 10MB per minute of song - aim for under 50MB)
+  - Use a tool like [Handbrake](https://handbrake.fr/) to reencode and compress video.
+  - Use two-pass encoding with a target bitrate of 1333kbps to eliminate any guesswork.
+  - Remove the audio track entirely.
 
 ### .trombackground
 
