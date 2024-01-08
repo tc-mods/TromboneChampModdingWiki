@@ -7,9 +7,9 @@
 
 심플하고 간단한 배경을 원할 때는 이미지 파일을 추천합니다.
 
-`1920x1080` 사이즈인 `bg.png`라는 이름의 이미지 파일을 음악 폴더에 넣기만 하면 됩니다.
+Simply put a `1780x1000` image named `bg.png` in your song's folder.
 
-`1920x1080` 이외의 해상도에서도 사용할 수 있지만 Unity 스프라이트의 스케일이 이미지의 해상도에 기반을 두고 있기 때문에 이상하게 표시될 수 있습니다.
+You can use non-`1780x1000` images, but it might behave weirdly, as unity sprite scale is based on image resolution. If your image is too small it will have an ugly grey background to fill the remaining space.
 
 ### .mp4
 
@@ -17,7 +17,11 @@
 
 `bg.mp4`라는 이름의 동영상 파일을 음악 폴더에 넣기만 하면 됩니다.
 
-동영상의 해상도는 얼마든지 사용할 수 있지만, **50MB 미만**을 기준으로 해주시기 바랍니다. 동영상의 크기가 너무 크다면 주로 사용하는 동영상 편집기로 해상도를 낮출 수 있습니다.
+- Use h.264 as the video codec for maximum compatibility.
+- You can use any resolution of video, but **please** try to keep the size reasonable. (target 10MB per minute of song - aim for under 50MB)
+  - Use a tool like [Handbrake](https://handbrake.fr/) to reencode and compress video.
+  - Use two-pass encoding with a target bitrate of 1333kbps to eliminate any guesswork.
+  - Remove the audio track entirely.
 
 ### .trombackground
 
