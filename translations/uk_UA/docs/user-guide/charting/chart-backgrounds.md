@@ -7,9 +7,9 @@
 
 Якщо ви хочете простий, легкий фон — це найкращий вибір.
 
-Просто покладіть зображення з назвою `bg.png` та роздільною здатністю `1920x1080` у папку пісні.
+Simply put a `1780x1000` image named `bg.png` in your song's folder.
 
-Використовувати розширення `1920x1080` не обов'язково, проте воно може поводитися дивно, оскільки масштабування спрайтів Unity базується на основі роздільної здатності зображення.
+You can use non-`1780x1000` images, but it might behave weirdly, as unity sprite scale is based on image resolution. If your image is too small it will have an ugly grey background to fill the remaining space.
 
 ### .mp4
 
@@ -17,7 +17,11 @@
 
 Просто покладіть файл формату .mp4 з назвою `bg.mp4` у папку пісні.
 
-Ви можете використовувати будь-яку роздільну здатність відео, але **будь ласка**, старайтеся використовувати розмір в межах розумного — менше 50MB. Якщо розмір вашого відео занадто високий, ви завжди можете зменшити розмір відео у відеоредакторі вашого вибору.
+- Use h.264 as the video codec for maximum compatibility.
+- You can use any resolution of video, but **please** try to keep the size reasonable. (target 10MB per minute of song - aim for under 50MB)
+  - Use a tool like [Handbrake](https://handbrake.fr/) to reencode and compress video.
+  - Use two-pass encoding with a target bitrate of 1333kbps to eliminate any guesswork.
+  - Remove the audio track entirely.
 
 ### .trombackground
 
