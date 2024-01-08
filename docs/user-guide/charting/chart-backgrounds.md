@@ -7,9 +7,9 @@ Backgrounds are an important feature of a chart, and there's a few different typ
 
 If you want a simple, easy background, this is what's recommended. 
 
-Simply put a `1920x1080` image named `bg.png` in your song's folder.
+Simply put a `1780x1000` image named `bg.png` in your song's folder.
 
-You can use non-`1920x1080` images, but it might behave weirdly, as unity sprite scale is based on image resolution.
+You can use non-`1780x1000` images, but it might behave weirdly, as unity sprite scale is based on image resolution. If your image is too small it will have an ugly grey background to fill the remaining space.
 
 ### .mp4 
 
@@ -17,7 +17,11 @@ If you want a slightly more interesting background, a music video background, or
 
 Simply put an mp4 named `bg.mp4` in your song's folder.
 
-You can use any resolution of video, but **please** try to keep the size reasonable - aim for under 50MB. If your video's size is too high, you can always lower the resolution in your favorite video editor.
+- Use h.264 as the video codec for maximum compatibility.
+- You can use any resolution of video, but **please** try to keep the size reasonable. (target 10MB per minute of song - aim for under 50MB)
+  - Use a tool like [Handbrake](https://handbrake.fr/) to reencode and compress video.
+  - Use two-pass encoding with a target bitrate of 1333kbps to eliminate any guesswork.
+  - Remove the audio track entirely.
 
 ### .trombackground
 
