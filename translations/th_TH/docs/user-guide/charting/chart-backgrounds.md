@@ -7,9 +7,9 @@
 
 อันนี้แนะนำถ้าคุณอยากได้พื้นหลังแบบง่ายๆ
 
-แค่ใส่ภาพขนาด `1920x1080` และเปลี่ยนชื่อเป็น `bg.png` ในโฟลเดอร์ของคุณ
+Simply put a `1780x1000` image named `bg.png` in your song's folder.
 
-คุณสามารณใช้ภาพที่ไม่ใช่ขนาด `1920x1080` แต่อาจจะมีอาการผิดปกติเพราะ unity sprite scale นั้นขึ้นอยู่กับขนาดภาพ
+You can use non-`1780x1000` images, but it might behave weirdly, as unity sprite scale is based on image resolution. If your image is too small it will have an ugly grey background to fill the remaining space.
 
 ### .mp4
 
@@ -17,7 +17,11 @@
 
 แค่ใส่วีดีโอ mp4 และเปลี่ยนชื่อเป็น `bg.mp4` ในโฟลเดอร์เพลงของคุณ
 
-คุณสามารถใช้ขนาดภาพเท่าไหรก็ได้แต่ **ได้โปรด** พยายามทำให้ขนาดไฟล์เหมาะสมเล็งให้ได้ต่ำกว่า 50 เมกะไบต์ ถ้าขนาดไฟล์นั้นใหญ่เกินคุณสามารถลงขนาดภาพลงได้ด้วยใช้โปรแกรมตัดต่อวีดีโอที่คุณชอบ
+- Use h.264 as the video codec for maximum compatibility.
+- You can use any resolution of video, but **please** try to keep the size reasonable. (target 10MB per minute of song - aim for under 50MB)
+  - Use a tool like [Handbrake](https://handbrake.fr/) to reencode and compress video.
+  - Use two-pass encoding with a target bitrate of 1333kbps to eliminate any guesswork.
+  - Remove the audio track entirely.
 
 ### .trombackground
 

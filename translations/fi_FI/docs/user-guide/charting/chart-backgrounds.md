@@ -7,9 +7,9 @@ Taustat ovat tärkeä osa karttaa, ja niitä on muutamia eri tyyppejä (monimutk
 
 Jos haluat yksinkertaisen, helpon taustan, tämä on mitä suositellaan.
 
-Laita vain `1920x1080` kuva nimeltä `bg.png` kappaleesi kansioon.
+Simply put a `1780x1000` image named `bg.png` in your song's folder.
 
-Voit käyttää kuvia jotka eivät ole `1920x1080`, mutta se saattaa käyttäytyä oudosti, koska unityn sprite asteikko perustuu kuvan resoluutioon.
+You can use non-`1780x1000` images, but it might behave weirdly, as unity sprite scale is based on image resolution. If your image is too small it will have an ugly grey background to fill the remaining space.
 
 ### .mp4
 
@@ -17,7 +17,11 @@ Jos haluat hieman mielenkiintoisemman taustan, musiikkivideon taustan tai haluat
 
 Laita vain 1920x1080 video nimellä `bg.mp4` kappaleesi kansioon.
 
-Voit käyttää mitä tahansa video resoluutiota, **mutta** yritä pitää koko kohtuullisena - tavoite alle 50MB. Jos videosi koko on liian suuri, voit aina alentaa resoluutiota video-editorissa.
+- Use h.264 as the video codec for maximum compatibility.
+- You can use any resolution of video, but **please** try to keep the size reasonable. (target 10MB per minute of song - aim for under 50MB)
+  - Use a tool like [Handbrake](https://handbrake.fr/) to reencode and compress video.
+  - Use two-pass encoding with a target bitrate of 1333kbps to eliminate any guesswork.
+  - Remove the audio track entirely.
 
 ### .trombackground
 

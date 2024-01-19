@@ -7,9 +7,9 @@
 
 如果您想要一个简单直接的背景，推荐使用这个格式。
 
-只需在您的歌曲文件夹中放入名称为 `bg.png`，分辨率为`1920x1080` 的图像。
+Simply put a `1780x1000` image named `bg.png` in your song's folder.
 
-您可以使用非 -`1920x1080` 图像，但是它有可能无法正常地显示，因为Unity的精灵图尺寸是基于图像分辨率。
+You can use non-`1780x1000` images, but it might behave weirdly, as unity sprite scale is based on image resolution. If your image is too small it will have an ugly grey background to fill the remaining space.
 
 ### .mp4
 
@@ -17,7 +17,11 @@
 
 只需在您的歌曲文件夹中放入名称为`bg.mp4`的视频。
 
-您可以使用任何分辨率的视频，但是**请务必**控制视频文件的体积，尽量低于50MB。 如果您的视频体积太大，您总是可以在您最喜欢的视频编辑器中尝试降低视频分辨率或其他能够压缩视频文件体积的方法。
+- Use h.264 as the video codec for maximum compatibility.
+- You can use any resolution of video, but **please** try to keep the size reasonable. (target 10MB per minute of song - aim for under 50MB)
+  - Use a tool like [Handbrake](https://handbrake.fr/) to reencode and compress video.
+  - Use two-pass encoding with a target bitrate of 1333kbps to eliminate any guesswork.
+  - Remove the audio track entirely.
 
 ### .trombackground
 

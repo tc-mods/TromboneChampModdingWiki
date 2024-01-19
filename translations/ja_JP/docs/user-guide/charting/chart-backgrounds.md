@@ -7,9 +7,9 @@
 
 シンプルで簡単な背景が欲しいときはPNGファイル(画像)がオススメです！
 
-使用する画像の解像度はフルHD(1920x1080)です。ファイル名を「bg」`bg.png` にしたらカスタム音源のフォルダに入れてください。
+Simply put a `1780x1000` image named `bg.png` in your song's folder.
 
-`1920x1080`以外の解像度でも使用できますが、Unityスプライトのスケールが画像の解像度に基づいているのでおかしなことになる可能性があるのでご注意ください。
+You can use non-`1780x1000` images, but it might behave weirdly, as unity sprite scale is based on image resolution. If your image is too small it will have an ugly grey background to fill the remaining space.
 
 ### .mp4
 
@@ -17,7 +17,11 @@
 
 使用するMP4ファイルの名前を「bg」`bg.mp4` にしたらカスタム音源のフォルダに入れてください。
 
-PNGとは違い、動画の解像度に指定はありませんが動画のファイル容量は50MB未満を目安にするよう**お願いします**。 もし動画のファイル容量が大きい場合、編集ソフトなどで解像度を下げましょう。
+- Use h.264 as the video codec for maximum compatibility.
+- You can use any resolution of video, but **please** try to keep the size reasonable. (target 10MB per minute of song - aim for under 50MB)
+  - Use a tool like [Handbrake](https://handbrake.fr/) to reencode and compress video.
+  - Use two-pass encoding with a target bitrate of 1333kbps to eliminate any guesswork.
+  - Remove the audio track entirely.
 
 ### .trombackground
 

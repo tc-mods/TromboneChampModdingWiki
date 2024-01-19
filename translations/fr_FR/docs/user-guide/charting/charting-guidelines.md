@@ -101,8 +101,3 @@ Les directives suivantes ne sont pas des exigences absolues. Le but est de crée
 - Double check for invalid metadata in the .tmb file
   - `trackref` should be unique and not something like `"trackref"="trombone_charter_x64"`.
   - Vérifiez que [le json est valide](https://jsonformatter.curiousconcept.com/#).
-- Utilisez h.264 comme codec vidéo pour une compatibilité maximale.
-- Have an appropriate video file size (target 10MB per minute of song)
-  - Use a tool like [Handbrake](https://handbrake.fr/) to reencode video.
-  - Use two-pass encoding with a target bitrate of 1333kbps to eliminate any guesswork.
-  - Supprimez complètement la piste audio.
