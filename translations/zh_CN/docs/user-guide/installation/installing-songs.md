@@ -20,7 +20,7 @@ TootTally团队通过创建游戏内歌曲下载模组为Trombone Champ模组社
 
 6. 点击“SearchHere”并输入您想要下载的歌曲名称。 点击回车进行搜索。 ![搜索](../docs/files/songdownloader/search.jpg)
 
-7. 如果该歌曲的谱面存在并可下载，请点击download按钮。 ![Song Download](../docs/files/songdownloader/songdownload.jpg)
+7. 如果该歌曲的谱面存在并可下载，请点击download按钮。 ![Song Downloader](../docs/files/songdownloader/songdownload.jpg)
 
 大功告成！ 您可以像游玩游戏内置谱面一样游玩这些自制谱面了。
 
@@ -40,7 +40,7 @@ TootTally团队通过创建游戏内歌曲下载模组为Trombone Champ模组社
 
 3. `CustomSongs` 文件夹是游戏存储所有自制谱面文件的地方。 点击文件管理器窗口上方的地址栏以显示该文件夹的地址，并复制地址栏中的内容。
 
-![BepInEx Folder](../docs/files/r2modman-install/bepinexfolder.png)
+![BeepInEx 文件夹](../docs/files/r2modman-install/bepinexfolder.png)
 
 !> 如果您的 `BepInEx` 文件夹中没有 `CustomSongs` 文件夹， **点击Start Modded来运行一次游戏**。 如果文件夹没有正常生成，您也可以手动创建它。
 
