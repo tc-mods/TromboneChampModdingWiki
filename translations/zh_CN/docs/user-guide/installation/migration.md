@@ -1,46 +1,46 @@
-# Upgrading to TrombLoader 2
+# 升级到 TrombLoader 2
 
-This guide shows you how to upgrade from a manually modded game to r2modman!
+本指南向您展示如何从手动模组安装升级到 r2modman！
 
-!> Make sure to follow this guide fully - otherwise you could end up with missing save data!
+!> 请务必仔细阅读本指南以防止出现存档丢失的情况。
 
-## Uninstalling TrombLoader 1
+## 卸载 TrombLoader 1
 
-TrombLoader 2 changes the way save data is handled in a way that's incompatible with TrombLoader 1. Data is automatically migrated when upgrading, but switching back and forth between the two can result in scores going missing from saves.
+TrombLoader 2 更改了处理数据的方式且已经不兼容TrombLoader 1。 在升级时，数据会自动继承，但来回切换有可能会导致存档中的分数记录丢失。
 
-So we'll walk you through uninstalling TrombLoader 1.
+所以本指南会教你如何卸载TrombLoader 1。
 
-1. Open Steam and right-click on Trombone Champ. Then, go to `Manage > Browse local files`.
+1. 打开Steam并右键点击Trombone Champ。 在右键菜单中选择 `管理 > 浏览本地文件`。
 
-![Right-click Menu Preview](../docs/files/localfilescontext.png)
+![右键菜单预览](../docs/files/localfilescontext.png)
 
-2. Navigate to the BepInEx folder.
-3. Delete the `Plugins` folder. You'll reinstall all your mods with r2modman in the next step.
+2. 找到 BepInEx 文件夹。
+3. 删除 `Plugins` 文件夹。 您将在下一步中使用 r2modman 重新安装您的所有模组。
 
-![Plugins folder](../docs/files/r2modman-install/deleteplugins.png)
+![插件目录](../docs/files/r2modman-install/deleteplugins.png)
 
-Keep this folder window open, you'll want to move your CustomSongs folder below!
+保持此文件夹窗口打开，下面的步骤将会需要该窗口来移动您的 CustomSongs 文件夹！
 
-!> Make sure you're **not** deleting `TromboneChamp_Data/Plugins`! This will break your game! You can fix it by verifying files, though.
+!> 确保你删除的**不是** `TromboneChamp_Data/Plugins`! 这会导致你的游戏文件损坏。 不过，您可以通过在Steam中验证文件完整性来修复它。
 
-## Installing TrombLoader 2
+## 安装 TrombLoader 2
 
-Follow the guide for [installing r2modman](installing-r2modman), then come back here!
+请参阅 [安装 r2modman](installing-r2modman)，操作完成后再回到这里！
 
-If you had any other mods, use r2modman to reinstall them too!
+如果你有其他模组，请使用 r2modman 来重新安装它们！
 
-## Migrating songs
+## 迁移歌曲文件
 
-r2modman stores mod files in a "profile" directory outside of the game folder. This means it won't load your existing custom songs until we move them!
+r2modman将模组文件存储在游戏文件夹之外的“配置文件”目录中。 这意味着它不会加载您现有的自制歌曲，直到您将他们移动到新的位置！
 
-1. You can get to the profile folder by clicking on r2modman's "Settings" -> "Browse profile folder"
+1. 您可以通过点击 r2modman 的“Setteings”->“Browse profile folder”
 
 ![Browse profile folder](../docs/files/r2modman-install/browseprofile.png)
 
-2. Navigate into the BepInEx folder.
+2. 找到 BepInEx 文件夹。
 
 ![Profile Folder](../docs/files/r2modman-install/profilefolder.png)
 
-3. Move your old CustomSongs folder to this directory.
+3. 移动您旧的 CustomSongs 文件夹到此目录。
 
-![BepInEx Folder](../docs/files/r2modman-install/bepinexfolder.png)
+![BeepInEx 文件夹](../docs/files/r2modman-install/bepinexfolder.png)
