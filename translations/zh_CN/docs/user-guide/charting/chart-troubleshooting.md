@@ -13,24 +13,24 @@
 
 ### 在我点击某个特定音符时，长号冠军出现了卡顿甚至卡死。当曲目结束时我被莫名其妙扣掉了30亿toots？？ （或者Autotoot模式下出现了F或者0分）
 
-这可能是由于在谱面卡顿的地方隐藏了一个幽灵音符。 Check your MIDI file for a note hiding under the note you want in the chart, or check that spot for something funky in Trombone Charter/BonerViewer. Sometimes it will show up in one program but not another. Play the broken chart again and you can get your toots back. In old versions of Trombone Champ, this was similar to an issue with tap notes. Check if you're up to date!
+这可能是由于在谱面卡顿的地方隐藏了一个幽灵音符。 请检查您的 MIDI 文件，寻找是否有被正常MIDI音符覆盖的错误音符。或在Trombone Charter/BonerViewer中对谱面内容进行检查。 并不能保证每一个程序都能检查出问题所在。 再次游玩已损坏的谱面就可以拿回你的Toots。 在长号冠军的旧版本中，这种现象类似于与点击音符（tap note）相关的问题。 检查您是否是最新版本！
 
-### Certain spots in my chart always break combo, even when Autotoot plays it
+### 我的谱面中有些位置总是会断Combo，甚至Autotoot也会断。
 
-Check for ghost notes hiding under your main notes in those spots! Check your MIDI, Trombone Charter, and/or BonerViewer. They may show up with one program but not another. Remember that autotoot isn't perfect. You can change some of the settings in its config file to try to make it more accurate, but sometimes it just can't keep up with very fast notes.
+在这些点位检查是否有幽灵音符藏在正常的音符之中！ 直接检查MIDI原文件，或者使用Trombone Charter, and/or BonerViewer。 并不能保证每一个程序都能检查出问题所在。 同时也要注意Autotoot并非完美 您可以更改配置文件中的一些设置以使其更加准确， 但有时它只是单纯跟不上非常快的音符而已。
 
-### My chart doesn't show up in the track list
+### 我的自制谱面无法显示在曲目列表中！
 
-Ensure that your chart has a unique `trackref`. Open the tmb file with notepad, press Ctrl+F, and search for `trackref`. If the `trackref` value is something not unique (e.g. `trombonecharter_x64` or a common song name), change it to something that won't be confused with another chart. If you are concerned that you may have multiple charts installed with duplicate trackrefs, you can try running [Guardie's trackref duplicate finder](https://github.com/Guarde/TrackRef-Checker/releases/latest) in your customsongs folder.
+确保您的谱面有一个唯一的 `trackref`！ 用记事本或类似功能的编辑器打开tmb 文件，按 Ctrl+F，并搜索 `trackref`。 如果 `Trackref` 值不是唯一的(例如 `trombonecharter_x64` 或歌曲名)，则将其更改至不与其他谱面重复的值。 如果您担心您安装的自制谱面有重复的trackref， 您可以尝试在您的自制歌曲文件夹中运行 [Guardie 的 trackref 查重器](https://github.com/Guarde/TrackRef-Checker/releases/latest)。
 
-### My chart background is small and has a gray border around it
+### 我的谱面背景看起来很小，且周围有灰色边框。
 
-Ensure that your background has dimensions of 1920 x 1080.
+请修改您的背景尺寸，图片为 1780 x 1000，视频为1920 x 1080。
 
-### My chart background doesn't show up at all
+### 我的谱面背景根本不显示！
 
-Ensure that your background is named `bg.png` (if it's an image), `bg.mp4` (if it's a video), or `bg.trombackground` (if it's a TromBackground)
+确认您的背景文件命名，图像为 `bg.png` ，视频为 `bg.mp4` ，TromBackground为 `bg.trombackground`。
 
-### I'm still having problems
+### 我还有其他问题！
 
-If you are still having problems, you may want to consider asking for help in the Trombone Champ Modding Discord server. Be prepared to send the `LogOutput.log` file from your BepInEx folder so we can take a look at what happened when the game broke.
+如果你仍然有问题，你可以考虑在 Trombone Champ Moding Discord 服务器上寻求帮助。 记得在您的BepInEx文件夹中找到 `LogOutput.log` 文件并与您的问题一同发送，通过它我们可以看一看游戏出问题时发生了什么。
