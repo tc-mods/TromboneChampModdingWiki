@@ -1,6 +1,6 @@
-# 安装自制谱面
+# 安装自制谱
 ---
-!> **IMPORTANT:** Make sure you've followed the [mod installation guide](installing-r2modman) to install r2modman and Trombloader before continuing!
+！> **注意：** 请确保您已经按照 [mod安装指南](installing-r2modman) 安装r2modman和 TrombLoader，然后再继续！
 
 There are currently two methods to installing custom songs: TootTally's in-game song downloader or installing custom songs manually. Both methods will be covered here!
 

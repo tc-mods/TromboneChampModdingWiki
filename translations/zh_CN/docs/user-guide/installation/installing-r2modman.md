@@ -1,21 +1,21 @@
-# Installing r2modman
+# 安装 r2modman
 ---
 
-!> IMPORTANT: If you've previously modded Trombone Champ before the switch to r2modman, make sure to follow the [Migration Guide](migrating-to-v2) after setting up r2modman!
+!> 请注意：如果您在使用r2modman之前曾使用过其他长号冠军相关mod，请在安装完r2modman之后查阅 [数据迁移指南](migrating-to-v2)
 
-?> Linux and Steam Deck users: please follow the [Linux instructions](installing-r2modman-linux).
+?> Linux 和 Steam Deck 用户：请参阅 [Linux 安装指南](installing-r2modman-linux)
 
-?> Mac users: you may try looking at Candygoblen123's [Trombone Champ Mod Manager for Mac](https://github.com/Candygoblen123/TromboneChampModManager/)
+?> Mac用户请参阅 Candygoblen123的 [Trombone Champ Mod Manager for Mac](https://github.com/Candygoblen123/TromboneChampModManager/)
 
-?> For a video guide that installs TootTally's in-game song downloader, see [Rayanne's tutorial video](https://youtu.be/p0rud1uJ0o0?si=sDlmbDg3geAEW5J3). The in-game song downloader is covered in [Installing Songs](installing-songs)
+?> 安装TootTally的游戏内自制歌曲下载器的视频指南，见 [Rayanne的教程视频](https://youtu.be/p0rud1uJ0o0?si=sDlmbDg3geAEW5J3) 游戏内歌曲下载器的相关内容请参阅 [安装歌曲](installing-songs)
 
-This guide will run you through installing and using [r2modman](https://github.com/ebkr/r2modmanPlus/releases/latest/) to use mods that are available through [Thunderstore](https://trombone-champ.thunderstore.io/). Using a mod manager like r2modman allows you to update and play with the latest versions of the mods with ease as the manager does all of that for you! For the purposes of this guide, we will only be installing **TrombLoader** although installing other mods would work the same way.
+本指南将讲解如何安装并使用 [r2modman](https://github.com/ebkr/r2modmanPlus/releases/latest/) 来下载和运行 [Thunderstore](https://trombone-champ.thunderstore.io/) 上的可用的模组。 使用像 r2modman 这样的模组管理器可以让您轻松更新和使用最新版本的模组，因为管理器会为您完成所有这些工作！ 为了本指南的目的，尽管安装其他模组的方式相同，我们仍只会安装 **TrombLoader** 。
 
-## Installing r2modman
+## 安装 r2modman
 
-?> The latest version of r2modman is **%{thunderstore:f21c391c-0bc5-431d-a233-95323b95e01b}**.
+?> 最新版本的 r2modman 是 **%{thunderstore:f21c391c-0bc5-431d-a233-95323b95e01b}**
 
-First things first, download [**r2modman from its GitHub page**](https://github.com/ebkr/r2modmanPlus/releases/latest/).
+首先从Github上下载r2modman，点击→[**R2modman GitHub page**](https://github.com/ebkr/r2modmanPlus/releases/latest/).
 
 For **Windows**, you would want to get [`r2modman-Setup-%{thunderstore:f21c391c-0bc5-431d-a233-95323b95e01b}.exe`](https://github.com/ebkr/r2modmanPlus/releases/download/v%{thunderstore:f21c391c-0bc5-431d-a233-95323b95e01b:raw}/r2modman-Setup-%{thunderstore:f21c391c-0bc5-431d-a233-95323b95e01b:raw}.exe) or [`r2modman-%{thunderstore:f21c391c-0bc5-431d-a233-95323b95e01b}.exe`](https://github.com/ebkr/r2modmanPlus/releases/download/v%{thunderstore:f21c391c-0bc5-431d-a233-95323b95e01b:raw}/r2modman-%{thunderstore:f21c391c-0bc5-431d-a233-95323b95e01b:raw}.exe). The former installs the mod manager to your system, while the latter simply runs r2modman without any sort of installation. Simply run the installer or the program in order to open r2modman.
 
