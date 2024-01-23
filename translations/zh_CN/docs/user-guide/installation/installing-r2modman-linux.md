@@ -1,32 +1,32 @@
-# Using r2modman on Linux and Steam Deck
+# 在 Linux 和 Steam Deck上使用 r2modman
 ---
 
-?> For the purposes of this guide, we will only be installing **TrombLoader** although installing other mods would work the same way.
+?> 本指南中我们以安装 **TrombLoader**为例，安装其他mod的方式与之相同 。
 
-This guide will run you through installing and using [r2modman](https://github.com/ebkr/r2modmanPlus/releases/latest/) to install and play with mods that are available through [Thunderstore](https://trombone-champ.thunderstore.io/). Using a mod manager like r2modman allows you to update and play with the latest versions of the mods with ease as the manager does all of that for you!
+本指南将讲解如何安装并使用 [r2modman](https://github.com/ebkr/r2modmanPlus/releases/latest/) 来下载和运行 [Thunderstore](https://trombone-champ.thunderstore.io/) 上的可用的模组。 使用像 r2modman 这样的模组管理器可以让您轻松更新和使用最新版本的模组，因为管理器会为您完成所有这些工作！
 
-## Steam Deck Specific Preparation
-On Steam Deck you will need to do the following before you can follow this guide:
+## Steam Deck所需的前置准备
+在继续使用本指南前，Steam Deck需要预先进行以下操作。
 
- - Make sure the game is installed into the internal storage - mods will not load if the game is installed to the MicroSD card.
- - Enter **Desktop Mode** by holding down the power button and selecting Desktop Mode from the menu.
+ - 确保游戏安装到内部存储中 - 如果游戏安装到MicroSD卡，模组将无法加载。
+ - 按住电源按钮并从菜单中选择桌面模式以进入 **桌面模式**。
 
-Once you're at the desktop, you're ready to continue!
+进入桌面模式之后，所需的准备就完成了！
 
-!> r2modman does **not** work in Game Mode. Please make sure to read the [**Using Mods in Steam Deck's Game Mode**](installing-r2modman-linux?id=using-mods-in-steam-decks-game-mode) section for a workaround once you've finished with the **Installing r2modman** section.
+!> r2modman **无法在游戏模式下运行**。 请参阅[**在Steam Deck游戏模式下使用模组**](installing-r2modman-linux?id=using-mods-in-steam-decks-game-mode)来获得解决办法，在**安装r2modman**完成之后。
 
-## Installing r2modman
+## 安装 r2modman
 
-?> The latest version of r2modman is **%{thunderstore:f21c391c-0bc5-431d-a233-95323b95e01b}**.
+?> 最新版本的 r2modman 是 **%{thunderstore:f21c391c-0bc5-431d-a233-95323b95e01b}**
 
-On Linux, r2modman is available in different package formats depending on your distro:
+对于 Linux，r2modman可根据发行版的不同而提供不同的软件包格式：
 
- - `deb` for Debian and Ubuntu-based distros
- - `pacman` for Arch-based disros
- - `rpm` for distros using the RPM Package Manager (RHEL, CentOS, Fedora, openSUSE, etc.)
- - `AppImage`, a single executable file that can run on most distros - **useful for Steam Deck**
+ - `deb` 提供给Debian与基于Ubuntu的发行版
+ - `pacman` 提供给基于Arch的发行版
+ - `rpm` 提供给使用RPM Package Manager (RHEL, CentOS, Fedora, openSUSE, etc.) 的发行版
+ - `AppImage`, 大多数发行版都可用的版本 - **Steam Deck可用**
 
-Visit the [**r2modman GitHub releases page**](https://github.com/ebkr/r2modmanPlus/releases/latest/) and download the appropriate package file for your distro and install it according to your package manager's documentation.
+访问 [**r2modman GitHub 发布页面**](https://github.com/ebkr/r2modmanPlus/releases/latest/) 并下载您的发行版所对应的软件包文件并根据您的软件包管理器文档安装它。
 
 **For Steam Deck users,** download the `.AppImage` file and keep it in a safe location such as your Desktop or your Documents folder. You will also need to mark the file as executable. To do this, right-click the `.AppImage` file and select `Properties`. Switch to the **Permissions** tab and check the box marked `Is Executable` and click OK.
 
