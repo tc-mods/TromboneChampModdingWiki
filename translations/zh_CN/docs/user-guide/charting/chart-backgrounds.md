@@ -7,9 +7,9 @@
 
 如果您想要一个简单直接的背景，推荐使用这个格式。
 
-Simply put a `1780x1000` image named `bg.png` in your song's folder.
+只需在您的歌曲文件夹中放入名称为 `bg.png`，分辨率为`1780x1000` 的图像。
 
-You can use non-`1780x1000` images, but it might behave weirdly, as unity sprite scale is based on image resolution. If your image is too small it will have an ugly grey background to fill the remaining space.
+您可以使用非 -`1780x1000` 图像，但是它有可能无法正常地显示，因为Unity的精灵图尺寸是基于图像分辨率。 如果您的图像太小则会出现灰色的边框对空白的区域进行填充。
 
 ### .mp4
 
@@ -17,11 +17,11 @@ You can use non-`1780x1000` images, but it might behave weirdly, as unity sprite
 
 只需在您的歌曲文件夹中放入名称为`bg.mp4`的视频。
 
-- Use h.264 as the video codec for maximum compatibility.
-- You can use any resolution of video, but **please** try to keep the size reasonable. (target 10MB per minute of song - aim for under 50MB)
-  - Use a tool like [Handbrake](https://handbrake.fr/) to reencode and compress video.
-  - Use two-pass encoding with a target bitrate of 1333kbps to eliminate any guesswork.
-  - Remove the audio track entirely.
+- 建议使用h.264编码来获得最佳的兼容性
+- 您可以使用任何分辨率的视频，但是**请务必**将视频文件的体积控制在合理的范围内。 (推荐每分钟不超过10MB - 总体积不大于 50MB)
+  - 使用类似 [Handbrake](https://handbrake.fr/)的工具对视频进行压制。
+  - 编码模式使用2-pass，目标比特率推荐设为1333。
+  - 记得去掉视频的音轨，使视频完全静音。（译者注：视频的编码与压制很复杂，想要详细了解可以bilibili@银狐V933。简中区用户也可以使用小丸工具箱压制和处理视频，体量小功能强大。）
 
 ### .trombackground
 
