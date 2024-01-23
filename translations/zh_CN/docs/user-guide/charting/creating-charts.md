@@ -83,7 +83,7 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
 <ol start="1">
   <li>
     <p spaces-before="0">
-      去 <a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a>.
+      使用<a href="https://tc-chart-converter.github.io/">Trombone Champ Chart Converter</a>.
     </p>
   </li>
   
