@@ -93,7 +93,7 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
     </p>
     <ul>
       <li>
-        <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
+        <code>Song Name</code> 是歌曲的全名，当您在游戏中选择这个谱面时，这一条会显示在左上角。
       </li>
       <li>
         <code>Short Name</code> 该内容会显示在曲目滚动列表中. 名称过长时文本字号会相应变小，所以无法确定是否存在长度上限。
@@ -124,7 +124,7 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
   
   <li>
     <p spaces-before="0">
-      点击OK。 Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
+      点击OK。 在出现的文件选择器中，创建一个与您输入的 <code>Folder Name</code> 字段相同的文件夹，并将文件命名为 <code>song.tmb</code>后放入文件夹中 。
     </p>
   </li>
   
