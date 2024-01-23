@@ -27,7 +27,7 @@
 
 成功安装 r2modman 后，你终于可以安装模组了。
 
-1. 启动 **r2modman** 你将看到以下屏幕。
+1. 启动 **r2modman** 你将看到以下界面。
 
 ![r2modman游戏选择界面](../docs/files/r2modman-install/gameselection.png)
 
@@ -37,7 +37,7 @@
 
 ![选择Trombone Champ](../docs/files/r2modman-install/selecttc.png)
 
-3. 它会要求你选择要使用的配置文件。 出于本指南的目的，我们将坚持使用默认配置文件。 单击 **Select profile**。
+3. 它会要求你选择要使用的配置文件。 在本指南中，我们将使用默认配置文件。 单击 **Select profile**。
 
 ![选择Default Profile](../docs/files/r2modman-install/profileselect.png)
 
