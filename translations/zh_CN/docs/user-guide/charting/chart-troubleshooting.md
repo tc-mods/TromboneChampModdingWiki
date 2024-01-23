@@ -1,19 +1,19 @@
-# Chart Troubleshooting
+谱面制作常见问题
 ---
 
-Trying to make a chart but something's going wrong? Check if your problem is solved here.
+在制作自制谱面时遇到了问题？ 可以在这里寻找答案！
 
-### My chart won't start in Trombone Champ! I can control the Tromboner but I can't pause
+### 我的谱面无法在长号冠军里正常运行！ 我可以控制长号，但我无法暂停。
 
-Issues like this are usually related to your `song.ogg` file. Ensure that you have a `song.ogg`, and that it is longer than your chart file. Add a few seconds of silence to the end of `song.ogg` if necessary.
+这类问题通常与您的 `song.ogg` 文件有关。 请确保您正确放置 `song.ogg`文件，并且它的曲目时长要超过谱面文件的时长（取决于谱面的结束点 endpoint）。 如有必要，可以在 `song.ogg` 末尾额外添加几秒静音来将其延长。
 
-### My chart freezes at the end or part way through and I can't pause, but I can still control the tromboner
+### 我的谱面在末尾或在中途会出现卡死，并且无法暂停。但我仍然可以控制长号。
 
-See above (My chart won't start in Trombone Champ!)
+解决方法同上（我的谱面无法在长号冠军里正常运行！）
 
-### I hit a certain note, Trombone Champ lagged or froze, the song ended and now I have -3 billion toots?? (or Autotoot got an F/score of 0)
+### 在我点击某个特定音符时，长号冠军出现了卡顿甚至卡死。当曲目结束时我被莫名其妙扣掉了30亿toots？？ （或者Autotoot模式下出现了F或者0分）
 
-This is likely due to a small ghost note hiding in the spot where the game froze. Check your MIDI file for a note hiding under the note you want in the chart, or check that spot for something funky in Trombone Charter/BonerViewer. Sometimes it will show up in one program but not another. Play the broken chart again and you can get your toots back. In old versions of Trombone Champ, this was similar to an issue with tap notes. Check if you're up to date!
+这可能是由于在谱面卡顿的地方隐藏了一个幽灵音符。 Check your MIDI file for a note hiding under the note you want in the chart, or check that spot for something funky in Trombone Charter/BonerViewer. Sometimes it will show up in one program but not another. Play the broken chart again and you can get your toots back. In old versions of Trombone Champ, this was similar to an issue with tap notes. Check if you're up to date!
 
 ### Certain spots in my chart always break combo, even when Autotoot plays it
 
