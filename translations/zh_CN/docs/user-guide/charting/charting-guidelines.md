@@ -10,10 +10,10 @@
   - 在谱面的.tmb文件中调整谱面的结束点（endpoint）以确保结算画面不会过早出现。 结束点推荐设置在乐曲最后一个音结束到乐曲文件结束之间。不要设置在乐曲文件结束之后，会导致无法结算。
 - 一个长note的极限长度为4.5秒，超过这个时间会触发强制的换气惩罚。 推荐对超过这个时间的长note进行拆分以便玩家有时间换气。
 - 和弦通常包含3到4个note。 选择最高或最低的note写入谱面，效果最好。
-- Trombone Champ DOES support decimal BPMs. Trombone Charter, however, does not, so you will need to edit a decimal BPM into the .tmb another way.
+- 长号冠军支持非整数的BPM。 然而，Trombone Charter并不支持，因此你可能需要直接将BPM编辑进 .tmb文件。
 - 避免出现过长的休息段。
 
-### Note Spacing
+### Note间距
 - 保证note间距与难度相匹配
   - 通常情况下，note与note之间的间隔应该与note本身同长。
   - **正面示例**:
@@ -47,14 +47,14 @@
   - 滑动部分的起始点提前1/16音符。 适合滑动note中滑动部分占比超过一半的情况。
 - 对于等于或短于1/8音符的滑动note，不建议滑动部分中间分段。
   - 一个滑动note可以不在开始，中途或结束保留任何非滑动部分。
-- When charting runs, simplify slides for a consistent stream of notes going up or down.
+- 简化滑动note，减少多余的波动。
   - 同方向的多段滑动可以合并为单个滑动，通过调整滑动部分结束点来与实际的音调匹配。
   - 一段滑动中每一个note都保留会使得滑动部分过于波动。 尽量避免这种情况，除非您有意为之或原曲音调过于复杂无法用单个滑动来表现。
 - 抖动音或颤音建议从每个音的中间进行连接。
 - 通常情况下，分段越少的滑动效果越好。
 - 如果谱面中滑动轨道较多，建议设置note颜色时头尾选择相同的颜色，可增强谱面观感。
 - 除了旧有的滑动note编写方式，还可以尝试 [TCCC](https://rshieldsprojects.github.io/projects/tccc/)转换器采用的新的编写方式，对于编写滑动note有一定的帮助。
-- 滑动note滑动的最大范围为一个八度。 If you want a chart a slide that spans a greater range, you can break it up in between and/or find a place where you can start the slide towards the middle of the screen.
+- 滑动note滑动的最大范围为一个八度。 如果需要更大的滑动范围，可以考虑从中间断开并/或找到一个合适的起始位置可以向屏幕中线滑动。
 - 您无法将同音高的note连接成滑动note。 这种情况下游玩起来与普通长note相同。 与普通长note不同的是它可以以极快的速度累积Combo数，在某些特殊场合可能会比较有用，但也仅此而已，不应滥用。
 - 适宜的滑动note时间比例通常为2:1到5:1（滑动部分的结束点延后一般到五分之一的整个滑动note长度）。
   - 1:1 通常适用于抖动音或颤音。
@@ -62,11 +62,11 @@
 - 1/8或更短音符仅需单个滑动部分即可，不需要额外在中间放置note分段就可以有不错的听感，除非是大范围的跳跃。
 - 滑动note的结尾不必保留停顿的部分，在滑动部分的结束点已经按照前文所说提前了的情况下已经不在需要额外保留停顿。（译者注：以上内容看不懂也没关系，多写写就懂了。其实我很多也不懂……）
 
-### Tap Notes
-- Tap notes or dot notes are notes that show up as a single dot on screen.
-- You can create tap notes by setting the note duration to be 0.06 or below.
-  - The exact value you choose affects how many points the note will give and how wide of a time window the user has to hit the note. For this reason, it is recommended to always set tap note values to 0.06 for maximum ease of playability.
-- Note that for most users, tap notes tend to be very difficult to accurately hit. Ideally, tap notes should only be used in places where the spacing does not allow for short held notes to be used instead.
+### 点击Note
+- 点击note或单点note是只显示头部没有身体和末尾的一种note。
+- 在MIDI编辑软件中你可以将note的持续时间设置为小于0.06来生成一个点击note。
+  - 您设定的Note的持续时间仍然会影响该note的对应分数与玩家演奏这个note需要按住吹奏键的时间。 因此推荐将点击note的持续时间设置为最大值0.06以确保最佳的演奏体验。
+- 请注意，对大多数玩家来说，点击note往往很难准确击中。 通常情况下，点击note应该只在使用正常note时，note间的空白时间间隔过小时使用。
 
 ### 乐曲结构
 - 允许存在一定的重复。但要避免同一个note排布过度反复地出现。
