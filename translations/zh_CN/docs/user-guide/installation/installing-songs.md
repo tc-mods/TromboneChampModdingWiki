@@ -1,6 +1,6 @@
 # 安装自制谱面
 ---
-！> **注意：** 请确保您已经按照 [mod安装指南](installing-r2modman) 安装r2modman和 TrombLoader，然后再继续！
+!> **注意：** 请确保您已经按照 [mod安装指南](installing-r2modman) 安装r2modman和 TrombLoader，然后再继续！
 
 目前有两种方法来安装自制歌曲: TootTally游戏内的歌曲下载器或手动安装自制歌曲。 两种方法都会涵盖在本指南内！
 
