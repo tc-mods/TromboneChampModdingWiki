@@ -1,20 +1,20 @@
-# Writing Mods
+# 编写模组
 
-So you've decided to write some mods. Look no further!
+手痒想写自己的模组了是吧！ 往下看！（译者能力有限，推荐直接啃英文。应该不会有人都到这一步了还表示自己看不懂英文吧，不会吧不会吧。）
 
-?> BepInEx has [a broadly-applicable starter guide](https://docs.bepinex.dev/articles/dev_guide/plugin_tutorial/index.html) that you should read too!
+?> 除了这篇指南以外您也可以读一读BepInEx的[广泛适用的入门指南](https://docs.bepinex.dev/articles/dev_guide/plugin_tutorial/index.html)！
 
-## Setting up the project
+## 创建项目
 
-Your editor likely has a "Create project" button. [Rider's](https://jetbrains.com/rider/) looks like this:
+您的编辑器可能有一个“创建项目”按钮。 [Rider](https://jetbrains.com/rider/)的界面看起来就像这样：
 
 ![Rider 'new solution' page](../docs/files/new_solution.png)
 
-You want to pick "Class Library" as the project type. The correct target framework is **.NET 4.7.2**, though the runtime is actually Unity Mono which has some quirks. If you can't select `net472`, select `netstandard2.1` and change it manually in the `.csproj`.
+您想选择 "Class Library" 作为项目类型。 正确的目标框架是 **.NET 4.7.2**, 尽管runtime实际是 Unity Mono, 且有一些问题。 如果您不能选择 `net472`, 请选择 `netstandard 2.1` 并在 `.csproj` 中手动更改它。
 
 ### NuGet note
 
-BepInEx hosts their packages on their own NuGet server, so once you've set up the project, you'll need to add a `NuGet.config` file next to your solution file with the following content:
+BepInEx 将他们的软件包托管在他们自己的Nuget 服务器上，所以一旦你设置了这个项目，你将需要添加一个`NuGet.config` 在你的solution file文件中，包含以下内容：
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -25,9 +25,9 @@ BepInEx hosts their packages on their own NuGet server, so once you've set up th
 </configuration>
 ```
 
-## Setting up your `.csproj`
+## 设置您的 `.csproj`
 
-The generated `.csproj` probably looks pretty empty right now:
+生成的 `.csproj` 现在看起来很可能是空的：
 
 ```xml
 <!-- The `Sdk` property automatically sets up a lot of things for us (i.e. standard library!) -->
@@ -42,7 +42,7 @@ The generated `.csproj` probably looks pretty empty right now:
 </Project>
 ```
 
-Since you're developing mods for Trombone Champ, you'll need the actual game code! Fortunately we ship it on NuGet, so you can simply add the below to your `.csproj` file, below the end of the `</PropertyGroup>`:
+既然您正在为 Trombone Champ开发模组，您将需要实际游戏代码！ 幸运的是，我们已将代码上传至NuGet上，所以你可以简单地将下面的内容添加到你的 `.csproj`文件中。在 `</PropertyGroup>`末尾的下方:
 
 ```xml
 <ItemGroup>
@@ -56,17 +56,17 @@ Since you're developing mods for Trombone Champ, you'll need the actual game cod
 </ItemGroup>
 ```
 
-### Depending on TrombLoader
+### 调用TrombLoader
 
-TrombLoader is now also on NuGet, so you can simply add another PackageReference:
+TrombLoader 现在也在 Nuget 上，因此你可以直接添加一个软件包引用：
 
 ```xml
 <PackageReference Include="TromboneChamp.TrombLoader" Version="%{nuget:TromboneChamp.TrombLoader:highlighted}" />
 ```
 
-## Basic setup
+## 基本设置
 
-Now that you're set up, you're ready to start writing a plugin! Your primary entrypoint is a class extending `BaseUnityPlugin`:
+现在您已经准备完毕了，可以开始编写您的插件了！ 您的主要入口点是扩展了 `基础插件的` 类：
 
 ```csharp
 [BepInPlugin("ch.offbeatwit.chimpanzee", "Chimpanzee", "1.0.0.0")]
@@ -74,7 +74,7 @@ public class ChimpanzeePlugin : BaseUnityPlugin
 {
 ```
 
-`BaseUnityPlugin` is really just a special MonoBehaviour. So you can implement any of the basic Unity event functions! Your initial setup should all be in Awake.
+`BaseUnityPlugin` 实际上只是一种特殊的MonoBehaviour。 所以你可以实现任何基本的 Unity 事件功能 ！ 您的初始设置应该都在Awake中。
 
 ```csharp
     private void Awake()
@@ -84,11 +84,11 @@ public class ChimpanzeePlugin : BaseUnityPlugin
 }
 ```
 
-## Basic setup with BaboonAPI
+## 使用 BaboonAPI 的基本设置
 
-[BaboonAPI](https://baboonapi.trombone.wiki/) provides a "safe initialization" API, which has the advantage of safely stopping the game loading and displaying an error if something goes wrong.
+[BaboonAPI](https://baboonapi.trombone.wiki/)提供了一个"安全启动" API, 有助于在游戏出现任何错误时安全的停止游戏的加载。
 
-First you'll want to add BaboonAPI as a BepInDependency:
+首先，如果您想要添加 BaboonAPI 作为一个BepInDependency：
 
 ```csharp
 using BaboonAPI.Hooks.Initializer;
@@ -99,7 +99,7 @@ public class ChimpanzeePlugin : BaseUnityPlugin
 {
 ```
 
-Then you can use the GameInitalizationEvent:
+然后您可以使用 GameInitalizationEvents：
 
 ```csharp
     private Harmony _harmony = new Harmony("ch.offbeatwit.chimpanzee");

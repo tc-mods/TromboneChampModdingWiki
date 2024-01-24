@@ -1,17 +1,17 @@
 - **用户指南**
 - [首页](./)
 - **模组板块**
-- [Using r2modman](installing-r2modman)
+- [使用 r2modman](installing-r2modman)
 - [安装自制谱](installing-songs)
-- [Upgrading to TrombLoader 2](migrating-to-v2)
+- [升级到 TrombLoader 2](migrating-to-v2)
 - **自制谱板块**
 - [创作自制谱](creating-charts)
 - [谱面制作指导](charting-guidelines)
 - [自制谱背景](chart-backgrounds)
 - [其他自制谱信息](misc-charting-info)
-- [Chart Troubleshooting](chart-troubleshooting)
-- **Developers**
-- [Writing Mods](writing-mods)
+- [谱面制作常见问题](chart-troubleshooting)
+- **开发者**
+- [编写模组](writing-mods)
 - **其他**
 - [常见问题](faq)
 - **链接**
