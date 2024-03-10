@@ -61,7 +61,8 @@ There are a number of places you can find Trombone Champ custom songs online. He
 - The search function on the [TootTally website](https://toottally.com/search/). Any results you get here will likely be the same as what the in-game song downloader would have.
 - The `#custom-charts` channel in the [Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ).
 - The Tootbender bot's chart search command in the [Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ).
-- TheGlitched64's [spreadsheet containing information on every custom chart](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing).
+- ~~TheGlitched64's [spreadsheet containing information on every custom chart](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing).~~
+  - Discord has since disabled the ability to link files externally, so most links in the spreadsheet will no longer work. We have created [TromboneDB](https://tc-mods.github.io/TromboneDB/) as a replacement which has download mirrors for all charts.
 - Most charts have showcase videos on YouTube. Sometimes they will have download links in the description.
 
 ### 譜面の作成方法 {docsify-ignore}
