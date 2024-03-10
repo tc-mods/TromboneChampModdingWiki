@@ -13,7 +13,9 @@
 
 自制谱可以在 [Discord长号冠军自制群](https://discord.gg/KVzKRsbetJ) 的 `#custom-charts` 频道中找到。
 
-TheGlitched64 已创建了一个[汇总目前所有自制谱面信息的电子表格](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing) 。
+~~TheGlitched64 has also created [a spreadsheet containing information on every custom chart](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing)~~.
+
+[TromboneDB](https://tc-mods.github.io/TromboneDB/) is a replacement for the spreadsheet which contains mirrors for all of the charts to work around Discord's CDN links expiring.
 
 ## 为什么 BepInEx 没有创建文件夹？
 
