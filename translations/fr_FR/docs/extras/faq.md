@@ -13,7 +13,9 @@ Le dernier TrombLoader fonctionnera avec la dernière version de Trombone Champ.
 
 Rendez-vous sur le canal `#custom-charts` dans le [Discord de modding de Trombone Champ](https://discord.gg/KVzKRsbetJ).
 
-TheGlitched64 a aussi créé [une feuille de calcul contenant de l'information sur chaque chanson personnalisée](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing).
+~~TheGlitched64 has also created [a spreadsheet containing information on every custom chart](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing)~~.
+
+[TromboneDB](https://tc-mods.github.io/TromboneDB/) is a replacement for the spreadsheet which contains mirrors for all of the charts to work around Discord's CDN links expiring.
 
 ## Pourquoi BepInEx ne crée-t-il pas de dossiers ?
 
