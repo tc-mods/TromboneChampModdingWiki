@@ -61,8 +61,8 @@ TootTally团队通过创建游戏内歌曲下载模组为Trombone Champ模组社
 - [TootTall网站](https://toottally.com/search/) 上的搜索功能。 您在这里得到的任何结果都可能与游戏内的歌曲下载器相同。
 - 在`#custom-charts` 频道中找到，请至[Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ)。
 - [Trombone Champing Discord](https://discord.gg/KVzKRsbetJ)中的Tootbender 机器人谱面搜索命令。
-- ~~TheGlitched64's [spreadsheet containing information on every custom chart](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing).~~
-  - Discord has since disabled the ability to link files externally, so most links in the spreadsheet will no longer work. We have created [TromboneDB](https://tc-mods.github.io/TromboneDB/) as a replacement which has download mirrors for all charts.
+- ~~TheGlitched64创建的 [电子表格](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing)，其中包含几乎所有的自制谱面。~~
+  - Discord后来禁用了外部链接文件的功能，所以该电子表格中的大多数链接将不再可用。 我们已经创建 [TromboneDB](https://tc-mods.github.io/TromboneDB/) 作为替代，它给几乎所有自制谱面提供了额外的下载链接。当在其他渠道出现下载问题时请随意使用。
 - 大多数自制谱面在Youtube上都有演示视频。 有时，它们会在视频描述中包含下载链接。
 
 ### 制作自制谱面 {docsify-ignore}
