@@ -13,7 +13,9 @@
 
 自制谱可以在 [Discord长号冠军自制群](https://discord.gg/KVzKRsbetJ) 的 `#custom-charts` 频道中找到。
 
-TheGlitched64 已创建了一个[汇总目前所有自制谱面信息的电子表格](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing) 。
+~~TheGlitched64创建了一个 [电子表格](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing)，其中包含几乎所有的自制谱面。~~
+
+此外，还可以使用[TromboneDB](https://tc-mods.github.io/TromboneDB/) ！它除了可以搜索自制谱以外，也给几乎所有自制谱面都保存了额外的下载链接。当在discord或者其他渠道遭遇下载问题时请随意使用。
 
 ## 为什么 BepInEx 没有创建文件夹？
 

@@ -13,7 +13,9 @@ TrombLoader เวอร์ชั่นล่าสุดจะใช้งา�
 
 ไปที่ช่อง `#custom-charts` ใน [Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ)
 
-TheGlitched64 ก็ยังได้ได้สร้าง [สเปรดชีตที่มีข้อมูลของเพลงสร้างเองทุกตัว](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing)
+~~TheGlitched64 has also created [a spreadsheet containing information on every custom chart](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing)~~.
+
+[TromboneDB](https://tc-mods.github.io/TromboneDB/) is a replacement for the spreadsheet which contains mirrors for all of the charts to work around Discord's CDN links expiring.
 
 ## ทำไม BepInEx ไม่สร้างโฟลเดอร์?
 
