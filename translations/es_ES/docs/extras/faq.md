@@ -1,33 +1,33 @@
 # Preguntas frecuentes
 ---
 
-## Why is there a black screen with a music note?
+## ¿Por qué hay una pantalla negra con una nota musical?
 
-Update [TrombLoader](https://github.com/NyxTheShield/TrombLoader/releases/latest). Replace the old dll in `BepInEx/plugins` with the new dll.
+Actualiza [Trombloader](https://github.com/NyxTheShield/TrombLoader/releases/latest). Reemplaza el viejo dll en `BepInEx/plugins` con el nuevo dll.
 
-## Do custom songs work with a pirated version of the game?
+## ¿Las canciones custom funcionan con una versión pirateada del juego?
 
-The latest TrombLoader will work on the latest version of Trombone Champ. Buy the game.
+La última versión de TrombLoader funcionará únicamente en la última versión de Trombone Champ. Compra el juego.
 
-## Where can I find custom songs?
+## ¿Dónde puedo encontrar canciones custom?
 
-Go to `#custom-charts` channel in the [Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ).
+Ve al canal `#custom-charts` en el [Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ).
 
-~~TheGlitched64 has also created [a spreadsheet containing information on every custom chart](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing)~~.
+~~TheGlitched64 ha creado [ una hoja de cálculo con información de cada canción custom](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing)~~.
 
-[TromboneDB](https://tc-mods.github.io/TromboneDB/) is a replacement for the spreadsheet which contains mirrors for all of the charts to work around Discord's CDN links expiring.
+[TromboneDB](https://tc-mods.github.io/TromboneDB/) es un reemplazo para la hoja de cálculo que contiene descargas para todos los mapas funcionen sin importar que los links CDN de Discord hayan expirado.
 
-## Why isn't BepInEx creating folders?
+## ¿Por qué BepInEx no está creando ninguna carpeta?
 
-Make sure that you downloaded the x64 BepInEx. Also make sure your folder looks like this: ![Finished BepinEx Install](../docs/files/finishedbepinex.png)
+Asegúrate de haber descargado el BepInEx x64. También asegúrate de que tu carpeta se vea así: ![Instalación de BepinEx Terminada](../docs/files/finishedbepinex.png)
 
-## Why aren't my songs appearing in the game?
+## ¿Por qué mis canciones no aparecen en el juego?
 
-Make sure you've unzipped the file. It should look like this: ![Correct Extraction Preview](../docs/files/customsongcorrect.png)
+Asegúrate que hayas descomprimido el archivo. Se debería ver así: ![Previsualización de extracción correcta](../docs/files/customsongcorrect.png)
 
-## What do I do with .7zip or .rar files?
+## ¿Qué hago con los archivos .7zip o .rar?
 
-You can unzip them with [7-zip](https://www.7-zip.org/download.html).
+Los puedes descomprimir con [7-zip](https://www.7-zip.org/download.html).
 
 ## ¿Babuino?
 
