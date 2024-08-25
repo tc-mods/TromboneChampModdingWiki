@@ -3,7 +3,7 @@
 
 ## 音符(ノーツ)は描画されるのに画面が真っ黒になるのはなぜですか？
 
-Update [TrombLoader](https://thunderstore.io/c/trombone-champ/p/TromboneChamps/TrombLoader/).
+[TrombLoader](https://thunderstore.io/c/trombone-champ/p/TromboneChamps/TrombLoader/)を更新する。
 
 ## カスタム音源は海賊版でも動作しますか？
 
