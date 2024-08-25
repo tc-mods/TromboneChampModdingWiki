@@ -3,7 +3,7 @@
 
 ## ¿Por qué hay una pantalla negra con una nota musical?
 
-Update [TrombLoader](https://thunderstore.io/c/trombone-champ/p/TromboneChamps/TrombLoader/).
+Actualiza [TrombLoader](https://thunderstore.io/c/trombone-champ/p/TromboneChamps/TrombLoader/).
 
 ## ¿Las canciones custom funcionan con una versión pirateada del juego?
 
