@@ -3,7 +3,7 @@
 
 ## ทำไมมันจอดำกับโน็ตเพลง?
 
-อัปเดต [TrombLoader](https://github.com/NyxTheShield/TrombLoader/releases/latest) เปลี่ยน DLL ของเก่าใน `BepInEx/plugins` เป็น DLL ของใหม่
+Update [TrombLoader](https://thunderstore.io/c/trombone-champ/p/TromboneChamps/TrombLoader/).
 
 ## เพลงที่ทำเองสามารถใช้กับเกมส์ที่โหลดเถื่อนได้ไหม?
 
@@ -12,8 +12,6 @@ TrombLoader เวอร์ชั่นล่าสุดจะใช้งา�
 ## ฉันจะหาเพลงที่ทำเองได้ที่ไหน?
 
 ไปที่ช่อง `#custom-charts` ใน [Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ)
-
-~~TheGlitched64 has also created [a spreadsheet containing information on every custom chart](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing)~~.
 
 [TromboneDB](https://tc-mods.github.io/TromboneDB/) is a replacement for the spreadsheet which contains mirrors for all of the charts to work around Discord's CDN links expiring.
 
