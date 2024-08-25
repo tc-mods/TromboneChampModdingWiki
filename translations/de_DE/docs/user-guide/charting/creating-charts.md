@@ -57,7 +57,7 @@ Einige kostenlose, überprüfte Midi-Editoren beinhalten:
 </h3>
 
 <p spaces-before="0">
-  "Slides" werden erstellt, wenn man Noten überlappt. Bei einem Paar überlappender Noten geht der "Slide" vom Anfang der ersten Note zum Anfang der zweiten Note. Der überlappende Teil der ersten Note wird verworfen. Siehe dir dieses Bild für ein Beispiel an:
+  Slides are created by connecting notes with each other. The slide will start at the beginning of the first note and end at the end of the second note.
 </p>
 
 <p spaces-before="0">
@@ -65,11 +65,7 @@ Einige kostenlose, überprüfte Midi-Editoren beinhalten:
 </p>
 
 <p spaces-before="0">
-  Wenn eine Note genau da endet, wo die nächste Note beginnt, werden sie verbunden. So können Sie anpassen, wo die Kurve eines "Slides" beginnt. Hier ist ein Beispiel bei dem mehrere "Slides" verbunden sind:
-</p>
-
-<p spaces-before="0">
-  (Anmerkung: Der erste gerade Abschnitt ist eine eigene Note separat vom gebogenen Abschnitt. Diese endet genau da, wo die nächste beginnt.)
+  To create slides with multiple parts or to adjust the slide timing and curve, split up the notes in the slide.
 </p>
 
 <p spaces-before="0">
@@ -96,13 +92,13 @@ Einige kostenlose, überprüfte Midi-Editoren beinhalten:
         <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
       </li>
       <li>
-        <code>Short Name</code> wird beim Scrollen durch die Songliste angezeigt. Text wird kleiner, wenn der Name lang ist, deswegen bin ich mir nicht sicher, ob es eine maximale Länge gibt.
-      </li>
-      <li>
-        <code>Release Year</code> is the year the song was created.
+        <code>Short Name</code> wird beim Scrollen durch die Songliste angezeigt.
       </li>
       <li>
         <code>Artist</code> is the composer of the song.
+      </li>
+      <li>
+        <code>Release Year</code> is the year the song was created.
       </li>
       <li>
         <code>Beats per Bar</code> bestimmt den Abstand zwischen den "beat lines".
@@ -114,7 +110,7 @@ Einige kostenlose, überprüfte Midi-Editoren beinhalten:
         <code>Note Spacing</code> kontrolliert zusammen mit BPM, wie schnell der Level scrollt.
       </li>
       <li>
-        <code>Folder Name</code> ist der Name des Ordners, in den du deine Chart- und Songdatei einfügen wirst. Z.B. Wenn du "Folder Name" auf "my map" setzt, wird der Kartenpfad BepInEx/CustomSongs/my map/song.tmb sein.
+        <code>trackRef</code> is the globally unique name used by mods to identify your chart.
       </li>
       <li>
         <code>Song Endpoint</code> ist die Nummer des Schlags, an dem der Song endet. Diese Nummer wird automatisch berechnet, allerdings kannst du sie ändern, um zu kontrollieren, wann der Level endet und der Endbildschirm erscheint.
@@ -124,13 +120,13 @@ Einige kostenlose, überprüfte Midi-Editoren beinhalten:
   
   <li>
     <p spaces-before="0">
-      Drücke OK. Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
+      Drücke OK. Create a folder with the same name as you entered in the <code>trackRef</code> field, and save the file as <code>song.tmb</code> inside that folder.
     </p>
   </li>
   
   <li>
     <p spaces-before="0">
-      Dein Chart sollte eine .ogg Datei sein. Im Moment muss die Dauer des Lieds länger sein als der "Song Endpoint", sonst wird der Song blockiert und hört niemals auf. Du kannst Programme wie Audacity benutzen, um Stille an den Anfang des Lieds zu setzen, sodass es gleichzeitig mit der Midi anfängt. Nenne die Datei <code>song.ogg</code>.
+      Dein Chart sollte eine .ogg Datei sein. Du kannst Programme wie Audacity benutzen, um Stille an den Anfang des Lieds zu setzen, sodass es gleichzeitig mit der Midi anfängt. Nenne die Datei <code>song.ogg</code>.
     </p>
   </li>
   

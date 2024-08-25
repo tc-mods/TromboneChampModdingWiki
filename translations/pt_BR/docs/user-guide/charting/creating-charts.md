@@ -57,7 +57,7 @@ Alguns editores midi gratuitos que devem funcionar incluem:
 </h3>
 
 <p spaces-before="0">
-  Notas deslizantes são criadas sobrepondo outras notas no tempo. Para um par de notas sobrepostas, o deslize vai do começo da primeira nota até o começo da segunda. A parte sobreposta da primeira nota é descartada. Veja esta imagem para um exemplo:
+  Slides are created by connecting notes with each other. The slide will start at the beginning of the first note and end at the end of the second note.
 </p>
 
 <p spaces-before="0">
@@ -65,11 +65,7 @@ Alguns editores midi gratuitos que devem funcionar incluem:
 </p>
 
 <p spaces-before="0">
-  Se uma nota acaba e outra começa imediatamente, elas estarão conectadas. Isso permite você ajustar onde a curva de um deslize começa. Aqui está um exemplo de vários deslizes conectados simultaneamente:
-</p>
-
-<p spaces-before="0">
-  (nota: A primeira seção reta é uma nota separada da seção curvada. O seu fim é igual à batida onde a próxima nota começa.)
+  To create slides with multiple parts or to adjust the slide timing and curve, split up the notes in the slide.
 </p>
 
 <p spaces-before="0">
@@ -96,13 +92,13 @@ Alguns editores midi gratuitos que devem funcionar incluem:
         <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
       </li>
       <li>
-        <code>Short Name</code> é mostrado enquanto navega pela çista de músicas. O texto fica menor dependendo do tamanho do nome, mas não se sabe se tem um limite para tal.
-      </li>
-      <li>
-        <code>Release Year</code> is the year the song was created.
+        <code>Short Name</code> é mostrado enquanto navega pela çista de músicas.
       </li>
       <li>
         <code>Artist</code> is the composer of the song.
+      </li>
+      <li>
+        <code>Release Year</code> is the year the song was created.
       </li>
       <li>
         <code>Beats per Bar</code> determina o quão distantes estão as "linhas de batida".
@@ -114,7 +110,7 @@ Alguns editores midi gratuitos que devem funcionar incluem:
         <code>Note Spacing</code> afeta a velocidade de rolagem, em combinação com o BPM.
       </li>
       <li>
-        <code>Folder Name</code> é o nome da pasta em que foi colocado a música e o chart. Ex. Se você definiu o nome da pasta como banana, seu chart vai estar localizado em BepInEx/CustomSongs/banana/song.tmb.
+        <code>trackRef</code> is the globally unique name used by mods to identify your chart.
       </li>
       <li>
         <code>Song Endpoint</code> é a batida em que a música termina. Ela é calculada automaticamente, mas você pode ajustá-la manualmente para mudar quando o nível acaba.
@@ -124,13 +120,13 @@ Alguns editores midi gratuitos que devem funcionar incluem:
   
   <li>
     <p spaces-before="0">
-      Aperte em OK. Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
+      Aperte em OK. Create a folder with the same name as you entered in the <code>trackRef</code> field, and save the file as <code>song.tmb</code> inside that folder.
     </p>
   </li>
   
   <li>
     <p spaces-before="0">
-      A sua faixa de música deve ser um arquivo .ogg. No momento da escrita, a duração da faixa deve ser maior que o fim do chart, ou a música fica travada e nunca acaba. Você pode usar programas como o Audacity para inserir silêncio no início da faixa para alinhar o midi. O nome do arquivo deve ser <code>song.ogg</code>.
+      A sua faixa de música deve ser um arquivo .ogg. Você pode usar programas como o Audacity para inserir silêncio no início da faixa para alinhar o midi. O nome do arquivo deve ser <code>song.ogg</code>.
     </p>
   </li>
   

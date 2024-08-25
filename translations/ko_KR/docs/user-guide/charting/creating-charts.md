@@ -57,7 +57,7 @@ Midi notes should be in the range 47 to 73 to match the game.<br>**NOTE:** Diffe
 </h3>
 
 <p spaces-before="0">
-  슬라이드는 노트를 겹쳐서 만들 수 있습니다. 두 개의 노트가 겹쳐 있는 경우 첫 번째 노트의 시작에서 두 번째 노트의 시작까지 슬라이드합니다. 첫 번째 노트와 겹치는 부분은 사라집니다. 예시는 아래 사진을 참고하세요:
+  Slides are created by connecting notes with each other. The slide will start at the beginning of the first note and end at the end of the second note.
 </p>
 
 <p spaces-before="0">
@@ -65,11 +65,7 @@ Midi notes should be in the range 47 to 73 to match the game.<br>**NOTE:** Diffe
 </p>
 
 <p spaces-before="0">
-  만약 노트가 끝나도 다음 노트가 같은 타이밍에 시작되면 그 두 노트는 연결됩니다. 이렇게 하면 슬라이드의 곡선이 시작되는 위치를 조정할 수 있습니다. 다음은 여러 슬라이드를 함께 연결한 예시입니다:
-</p>
-
-<p spaces-before="0">
-  (참고: 첫 번째 직선 구간은 곡선 구간과 별개의 노트입니다. 노트의 종료 시간은 다음 노트의 시작 시간과 같습니다.)
+  To create slides with multiple parts or to adjust the slide timing and curve, split up the notes in the slide.
 </p>
 
 <p spaces-before="0">
@@ -96,13 +92,13 @@ Midi notes should be in the range 47 to 73 to match the game.<br>**NOTE:** Diffe
         <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
       </li>
       <li>
-        <code>Short Name</code>: 악곡 목록을 스크롤할 때 표시되는 이름입니다. 글자 수가 길면 텍스트 크기가 작아집니다. 글자 수 제한이 있는지는 명확하지 않습니다.
-      </li>
-      <li>
-        <code>Release Year</code> is the year the song was created.
+        <code>Short Name</code>: 악곡 목록을 스크롤할 때 표시되는 이름입니다.
       </li>
       <li>
         <code>Artist</code> is the composer of the song.
+      </li>
+      <li>
+        <code>Release Year</code> is the year the song was created.
       </li>
       <li>
         <code>Beats per Bar</code>: 박자 선의 간격을 정합니다.
@@ -114,7 +110,7 @@ Midi notes should be in the range 47 to 73 to match the game.<br>**NOTE:** Diffe
         <code>Note Spacing</code>: BPM과 조합하여 연주 시 노트의 이동 속도에 영향을 줍니다.
       </li>
       <li>
-        <code>Folder Name</code>: 작성한 채보와 악곡을 저장하는 폴더의 이름입니다. 예시: Folder Name을 "my map"으로 설정하면 채보 데이터의 파일 경로는 BepInEx/CustomSongs/my map/song.tmb가 됩니다.
+        <code>trackRef</code> is the globally unique name used by mods to identify your chart.
       </li>
       <li>
         <code>Song Endpoint</code>: 악곡의 끝을 나타내는 박자입니다. 보통 이것은 자동으로 계산되지만 연주 종료 화면이 표시되었을 때 변경할 수 있습니다.
@@ -124,13 +120,13 @@ Midi notes should be in the range 47 to 73 to match the game.<br>**NOTE:** Diffe
   
   <li>
     <p spaces-before="0">
-      OK를 누릅니다. Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
+      OK를 누릅니다. Create a folder with the same name as you entered in the <code>trackRef</code> field, and save the file as <code>song.tmb</code> inside that folder.
     </p>
   </li>
   
   <li>
     <p spaces-before="0">
-      음악 파일은 .ogg 파일을 사용합니다. 곡을 작성할 때, 음원 길이는 Song Endpoint보다 길어야 합니다. 그렇지 않은 경우, 악곡이 도중에 멈춰버려서 끝나지 않게 됩니다. Audacity 등의 소프트웨어를 사용하여 음원의 처음에 무음 부분을 삽입하여 Midi에 맞출 수 있습니다. 파일명은 <code>song.ogg</code>입니다.
+      음악 파일은 .ogg 파일을 사용합니다. Audacity 등의 소프트웨어를 사용하여 음원의 처음에 무음 부분을 삽입하여 Midi에 맞출 수 있습니다. 파일명은 <code>song.ogg</code>입니다.
     </p>
   </li>
   
