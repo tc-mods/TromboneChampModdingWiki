@@ -3,7 +3,7 @@
 
 ## ทำไมมันจอดำกับโน็ตเพลง?
 
-Update [TrombLoader](https://thunderstore.io/c/trombone-champ/p/TromboneChamps/TrombLoader/).
+อัปเดต [TrombLoader](https://thunderstore.io/c/trombone-champ/p/TromboneChamps/TrombLoader/).
 
 ## เพลงที่ทำเองสามารถใช้กับเกมส์ที่โหลดเถื่อนได้ไหม?
 
