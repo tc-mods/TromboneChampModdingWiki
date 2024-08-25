@@ -3,7 +3,7 @@
 
 ## 黑屏是怎么回事？
 
-Update [TrombLoader](https://thunderstore.io/c/trombone-champ/p/TromboneChamps/TrombLoader/).
+更新 [TrombLoader](https://thunderstore.io/c/trombone-champ/p/TromboneChamps/TrombLoader/).
 
 ## 自制谱是否与破解版游戏兼容？
 
