@@ -3,7 +3,7 @@
 
 ## Why is there a black screen with a music note?
 
-Update [TrombLoader](https://github.com/NyxTheShield/TrombLoader/releases/latest). Replace the old dll in `BepInEx/plugins` with the new dll.
+Update [TrombLoader](https://thunderstore.io/c/trombone-champ/p/TromboneChamps/TrombLoader/).
 
 ## Do custom songs work with a pirated version of the game?
 
@@ -12,8 +12,6 @@ The latest TrombLoader will work on the latest version of Trombone Champ. Buy th
 ## Where can I find custom songs?
 
 Go to `#custom-charts` channel in the [Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ).
-
-~~TheGlitched64 has also created [a spreadsheet containing information on every custom chart](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing)~~. 
 
 [TromboneDB](https://tc-mods.github.io/TromboneDB/) is a replacement for the spreadsheet which contains mirrors for all of the charts to work around Discord's CDN links expiring.
 
