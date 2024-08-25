@@ -57,7 +57,7 @@ Enkele gratis en geverifieerd werkende MIDI-editors zijn:
 </h3>
 
 <p spaces-before="0">
-  Schuifnoten worden gemaakt door overlappende noten in de tijd. Voor een paar overlappende noten gaat de schuif van het begin van de eerste noot naar het begin van de tweede. Het overlappende deel van de eerste noot wordt achterwege gelaten. Bekijk deze afbeelding voor een voorbeeld:
+  Slides are created by connecting notes with each other. The slide will start at the beginning of the first note and end at the end of the second note.
 </p>
 
 <p spaces-before="0">
@@ -65,11 +65,7 @@ Enkele gratis en geverifieerd werkende MIDI-editors zijn:
 </p>
 
 <p spaces-before="0">
-  Als een noot eindigt, maar de volgende noot op hetzelfde moment begint, worden ze aaneengesloten. Hiermee kun je de curve aanpassen waar een schuifnoot start. Hier volgt een voorbeeld van meerdere schuifnoten die met elkaar zijn verbonden:
-</p>
-
-<p spaces-before="0">
-  (Let op: het eerste rechte gedeelte is een aparte noot uit het gebogen gedeelte. De eindtijd is gelijk aan de begintijd van de volgende noot.)
+  To create slides with multiple parts or to adjust the slide timing and curve, split up the notes in the slide.
 </p>
 
 <p spaces-before="0">
@@ -96,13 +92,13 @@ Enkele gratis en geverifieerd werkende MIDI-editors zijn:
         <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
       </li>
       <li>
-        <code>Short Name</code> wordt weergeven tijdens het scrollen door de songlijst. Deze text wordt kleiner te langer de naam is, dus ik weet niet of er een maximale lengte is.
-      </li>
-      <li>
-        <code>Release Year</code> is the year the song was created.
+        <code>Short Name</code> wordt weergeven tijdens het scrollen door de songlijst.
       </li>
       <li>
         <code>Artist</code> is the composer of the song.
+      </li>
+      <li>
+        <code>Release Year</code> is the year the song was created.
       </li>
       <li>
         <code>Beats per Bar</code> bepaalt hoe ver de "beat lines" uit elkaar staan.
@@ -114,7 +110,7 @@ Enkele gratis en geverifieerd werkende MIDI-editors zijn:
         <code>Note Spacing</code> beïnvloedt in combinatie met de BPM hoe snel het level scrollt.
       </li>
       <li>
-        <code>Folder Name</code> is de naam van de map waarin je de map en audiobestand wil plaatsen. Bijv. Als je de mapnaam op mijn map zet, zal het pad van de map BepInEx/CustomSongs/mijn map/song.tmb zijn.
+        <code>trackRef</code> is the globally unique name used by mods to identify your chart.
       </li>
       <li>
         <code>Song Endpoint</code> is de beat waarop het nummer eindigt. Het wordt automatisch berekend, maar je kan het aanpassen om het moment dat het eindscherm in beeld komt te veranderen.
@@ -124,13 +120,13 @@ Enkele gratis en geverifieerd werkende MIDI-editors zijn:
   
   <li>
     <p spaces-before="0">
-      Klik op OK. Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
+      Klik op OK. Create a folder with the same name as you entered in the <code>trackRef</code> field, and save the file as <code>song.tmb</code> inside that folder.
     </p>
   </li>
   
   <li>
     <p spaces-before="0">
-      De gebruikte muziek moet een .ogg bestand zijn. Op het moment van schrijven moet de duur van de track langer zijn dan het Song Endpoint, of het nummer zal vastlopen en nooit eindigen. Je kunt software als Audacity gebruiken om stilte in te voegen aan het begin van het liedje om het met synchroon te laten lopen met de MIDI. Noem het bestand <code>song.ogg</code>.
+      De gebruikte muziek moet een .ogg bestand zijn. Je kunt software als Audacity gebruiken om stilte in te voegen aan het begin van het liedje om het met synchroon te laten lopen met de MIDI. Noem het bestand <code>song.ogg</code>.
     </p>
   </li>
   

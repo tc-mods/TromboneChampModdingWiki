@@ -57,7 +57,7 @@ Alcuni editor midi gratuiti, il cui funzionamento è verificato, sono:
 </h3>
 
 <p spaces-before="0">
-  Il glissando si crea sovrapponendo diverse note nel tempo. Per una coppia di note sovrapposte, il glissando va dall'inizio della prima nota all'inizio della seconda. La parte della prima nota che si sovrappone viene scartata. Si veda la figura per un esempio:
+  Slides are created by connecting notes with each other. The slide will start at the beginning of the first note and end at the end of the second note.
 </p>
 
 <p spaces-before="0">
@@ -65,11 +65,7 @@ Alcuni editor midi gratuiti, il cui funzionamento è verificato, sono:
 </p>
 
 <p spaces-before="0">
-  Se una nota finisce ma la nota successiva comincia esattamente nello stesso momento, verranno collegate. In questo modo si può modificare dove comincia la curva di un glissando. Ecco un esempio di diversi glissandi collegati insieme:
-</p>
-
-<p spaces-before="0">
-  (Nota bene: La prima sezione dritta è una nota separata dalla sezione ricurva. Il momento in cui si conclude è lo stesso al quale comincia la nota successiva.)
+  To create slides with multiple parts or to adjust the slide timing and curve, split up the notes in the slide.
 </p>
 
 <p spaces-before="0">
@@ -96,13 +92,13 @@ Alcuni editor midi gratuiti, il cui funzionamento è verificato, sono:
         <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
       </li>
       <li>
-        <code>Short Name</code> è il nome mostrato quando si scorre la lista dei brani. Il testo diventa più piccolo quando il nome è lungo, quindi non è sicuro se esiste una lunghezza massima.
-      </li>
-      <li>
-        <code>Release Year</code> is the year the song was created.
+        <code>Short Name</code> è il nome mostrato quando si scorre la lista dei brani.
       </li>
       <li>
         <code>Artist</code> is the composer of the song.
+      </li>
+      <li>
+        <code>Release Year</code> is the year the song was created.
       </li>
       <li>
         <code>Beats per Bar</code> determina quanto sono distanti le "linee delle battute".
@@ -114,7 +110,7 @@ Alcuni editor midi gratuiti, il cui funzionamento è verificato, sono:
         <code>Note Spacing</code> determina la velocità con cui scorre il livello, in combinazione con BPM.
       </li>
       <li>
-        <code>Folder Name</code> è il nome della cartella in cui metterai il file map e il file del brano. Per esempio: Se inserisci "la mia map" in Folder Name, il percorso per il tuo file map sarà BepInEx/CustomSongs/la mia map/song.tmb.
+        <code>trackRef</code> is the globally unique name used by mods to identify your chart.
       </li>
       <li>
         <code>Song Endpoint</code> è la battuta in cui termina la canzone. Viene calcolata automaticamente, ma puoi regolarla per cambiare quando appare la schermata finale del livello.
@@ -124,13 +120,13 @@ Alcuni editor midi gratuiti, il cui funzionamento è verificato, sono:
   
   <li>
     <p spaces-before="0">
-      Premi OK. Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
+      Premi OK. Create a folder with the same name as you entered in the <code>trackRef</code> field, and save the file as <code>song.tmb</code> inside that folder.
     </p>
   </li>
   
   <li>
     <p spaces-before="0">
-      La tua traccia musicale dovrebbe essere un file .ogg. Al momento della stesura di questa guida, la durata della traccia deve essere più lunga del 'Song Endpoint' selezionato, o la canzone si bloccherà e non finirà più. Puoi usare programmi tipo Audacity per inserire del silenzio all'inizio della traccia per allinearlo con il midi. Rinomina il file <code>song.ogg</code>.
+      La tua traccia musicale dovrebbe essere un file .ogg. Puoi usare programmi tipo Audacity per inserire del silenzio all'inizio della traccia per allinearlo con il midi. Rinomina il file <code>song.ogg</code>.
     </p>
   </li>
   

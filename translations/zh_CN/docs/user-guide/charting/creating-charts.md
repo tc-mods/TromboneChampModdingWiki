@@ -57,7 +57,7 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
 </h3>
 
 <p spaces-before="0">
-  滑动note是由时间重叠Midi音符的方式创建的。 对于两个时间上有重叠的Midi音符，滑动note会从第一个音符的开头滑至第二个音符的开头。 其中第一个Midi音符的重叠部分会被丢弃。 示例请看此图：
+  Slides are created by connecting notes with each other. The slide will start at the beginning of the first note and end at the end of the second note.
 </p>
 
 <p spaces-before="0">
@@ -65,11 +65,7 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
 </p>
 
 <p spaces-before="0">
-  如果一个音符结束，但下一个音符正好同时开始，两个音符将会被连接。 由此您可以调整一个长滑动note中滑动部分的开始位置。 下面是多个滑动Note连接的示例：
-</p>
-
-<p spaces-before="0">
-  （注：第一个直线note与后方的曲线部分是分开的， 它的结束时间与下一个音符的开始时间相同。)
+  To create slides with multiple parts or to adjust the slide timing and curve, split up the notes in the slide.
 </p>
 
 <p spaces-before="0">
@@ -96,13 +92,13 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
         <code>Song Name</code> 是歌曲的全名，当您在游戏中选择这个谱面时，这一条会显示在左上角。
       </li>
       <li>
-        <code>Short Name</code> 该内容会显示在曲目滚动列表中. 名称过长时文本字号会相应变小，所以无法确定是否存在长度上限。
-      </li>
-      <li>
-        <code>Release Year</code> 是歌曲发行的年份。
+        <code>Short Name</code> 该内容会显示在曲目滚动列表中.
       </li>
       <li>
         <code>Artist</code> 是歌曲的作曲家。
+      </li>
+      <li>
+        <code>Release Year</code> 是歌曲发行的年份。
       </li>
       <li>
         <code>Beats per Bar</code> 决定游玩谱面时屏幕上显示的节拍线之间的距离。
@@ -114,7 +110,7 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
         <code>Note Spacing</code> 影响游戏内note的移动速度，通常与BPM对应.
       </li>
       <li>
-        <code>Folder Name</code> 是您用来存储谱面和歌曲文件的文件夹的名称。 举例： 如果您将文件夹名称设置为“我的自制谱”，您的自制谱路径将是 BepInEx/CustomSongs/我的自制谱/song.tmb。
+        <code>trackRef</code> is the globally unique name used by mods to identify your chart.
       </li>
       <li>
         <code>Song Endpoint</code> 是曲目结束时的节奏点。 这个值通常由软件自动计算，但是你可以调整这个数值来改变结算界面的出现时机。
@@ -124,13 +120,13 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
   
   <li>
     <p spaces-before="0">
-      点击OK。 在出现的文件选择器中，创建一个与您输入的 <code>Folder Name</code> 字段相同的文件夹，并将文件命名为 <code>song.tmb</code>后放入文件夹中 。
+      点击OK。 在出现的文件选择器中，创建一个与您输入的 <code>trackRef</code> 字段相同的文件夹，并将文件命名为 <code>song.tmb</code>后放入文件夹中 。
     </p>
   </li>
   
   <li>
     <p spaces-before="0">
-      您的音乐应该是一个 .ogg 文件。 在填写谱面信息时，曲目的持续时间必须长于Song Endpoint中填写的时间点，否则谱面会卡住并永远无法结束。 您可以使用像Audacity这样的软件在音轨开始时插入一定时长的空白来将它与midi文件匹配。 将文件命名为<code>song.ogg</code>。
+      您的音乐应该是一个 .ogg 文件。 您可以使用像Audacity这样的软件在音轨开始时插入一定时长的空白来将它与midi文件匹配。 将文件命名为<code>song.ogg</code>。
     </p>
   </li>
   

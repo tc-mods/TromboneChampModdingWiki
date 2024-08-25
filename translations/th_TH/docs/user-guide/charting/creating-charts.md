@@ -57,7 +57,7 @@ Midi notes should be in the range 47 to 73 to match the game.<br>**NOTE:** Diffe
 </h3>
 
 <p spaces-before="0">
-  สไลด์สร้างจากการเอาโน็ตมาซ้อนกันตามเวลา สำหรับโน็ตที่ซ้อนกัน สไลด์เริ่มจากจุดเริ่มต้นโน็ตแรกถึงจุดเริ่มต้นโน็ตที่สอง จุดที่ซ้อนกันของโน็ตแรกจะถูกทิ้ง ดูภาพนี้เพื่อเป็นตัวอย่าง
+  Slides are created by connecting notes with each other. The slide will start at the beginning of the first note and end at the end of the second note.
 </p>
 
 <p spaces-before="0">
@@ -65,11 +65,7 @@ Midi notes should be in the range 47 to 73 to match the game.<br>**NOTE:** Diffe
 </p>
 
 <p spaces-before="0">
-  ถ้าโน็ตจบแต่โน็ตต่อไปเริ่มจุดเดียวกัน มันจะต่อกัน นี่จะอนุญตให้คุณจัดความโค้งของโน็ตสไลด์ นี่คือตัวอย่างของสไลด์หลายตัวต่อกัน
-</p>
-
-<p spaces-before="0">
-  (โน็ต: ส่วนตรงจะแยกออกจากส่วนโค้ง ส่วนจบจะเหมือนกันในขณะที่ตัวถัดไปเริ่มเวลา)
+  To create slides with multiple parts or to adjust the slide timing and curve, split up the notes in the slide.
 </p>
 
 <p spaces-before="0">
@@ -96,13 +92,13 @@ Midi notes should be in the range 47 to 73 to match the game.<br>**NOTE:** Diffe
         <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
       </li>
       <li>
-        <code>Short Name</code> แสดงชื่อในขณะที่เลือ่นผ่านรายการเพลง ตัวอักษรจะเล็กลงเพราะฉะนั้นเราไม่แน่ใจว่ามันมีลิมิตสูงสุดเท่าไร
-      </li>
-      <li>
-        <code>Release Year</code> is the year the song was created.
+        <code>Short Name</code> แสดงชื่อในขณะที่เลือ่นผ่านรายการเพลง
       </li>
       <li>
         <code>Artist</code> is the composer of the song.
+      </li>
+      <li>
+        <code>Release Year</code> is the year the song was created.
       </li>
       <li>
         <code>Beats per Bar</code> กำหนดความกว้างของ "เส้นโน็ต"
@@ -114,7 +110,7 @@ Midi notes should be in the range 47 to 73 to match the game.<br>**NOTE:** Diffe
         <code>Note Spacing</code> ความเร็วที่เลเวลจะเลื่อน จะรวมกับ BPM
       </li>
       <li>
-        <code>Folder Name</code> ชื่อโฟล์เดอร์ที่สุดจะใส่เพลงเข้าไป ตัวอย่างเช่น ถ้าคุณตั้งชื่อโฟล์เดอร์เป็น "My Map" ที่อยู่ของผังคุณจะอยู่ที่ "BepInEx/CustomSongs/My Map/song.tmb."
+        <code>trackRef</code> is the globally unique name used by mods to identify your chart.
       </li>
       <li>
         <code>Song Endpoint</code> จังหวะที่เพลงจบ มันคำนวณอัตโนมัติแต่คุณสามารถเปลี่ยนได้ว่าเลเวลจะจบตอนไหน
@@ -124,13 +120,13 @@ Midi notes should be in the range 47 to 73 to match the game.<br>**NOTE:** Diffe
   
   <li>
     <p spaces-before="0">
-      กด OK Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
+      กด OK Create a folder with the same name as you entered in the <code>trackRef</code> field, and save the file as <code>song.tmb</code> inside that folder.
     </p>
   </li>
   
   <li>
     <p spaces-before="0">
-      แทร็กเพลงของคุณควรเป็นไฟล์ .ogg ในขณะที่เขียนนี้ ความยาวแทร็กจะต้องยาวกว่า "Song Endpoint" หรือไม่งั้นเพลงจะค้างและไม่จบ คุณสามารถใช้โปรแกรมเช่น Audacity ใส่ส่วนเงียบเข้าไปในแทร็กเพื่อที่จะให้ตรงกับ Midi ตั้งชื่อไฟล์เป็น <code>song.ogg</code>
+      แทร็กเพลงของคุณควรเป็นไฟล์ .ogg คุณสามารถใช้โปรแกรมเช่น Audacity ใส่ส่วนเงียบเข้าไปในแทร็กเพื่อที่จะให้ตรงกับ Midi ตั้งชื่อไฟล์เป็น <code>song.ogg</code>
     </p>
   </li>
   

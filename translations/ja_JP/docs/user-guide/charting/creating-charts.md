@@ -57,7 +57,7 @@ MIDIの音符(ノーツ)の高さはゲームに合わせて47～73の範囲で�
 </h3>
 
 <p spaces-before="0">
-  スライドはノーツを重ねることで作ることができます。 例えば、2つのノーツが重なっている場合、1つ目のノーツの先頭から2つ目のノーツの先頭までスライドします。 ただし、最初のノーツと重なる部分は消えます。 例としてこちらの画像をご覧ください:
+  Slides are created by connecting notes with each other. The slide will start at the beginning of the first note and end at the end of the second note.
 </p>
 
 <p spaces-before="0">
@@ -65,11 +65,7 @@ MIDIの音符(ノーツ)の高さはゲームに合わせて47～73の範囲で�
 </p>
 
 <p spaces-before="0">
-  もしノーツが終わっても次のノーツが同じタイミングで始まれば、その2つのノーツは繋がります。 これにより、スライドのカーブの開始位置を調整することができます。 こちらは複数のスライドを繋げた例:
-</p>
-
-<p spaces-before="0">
-  (注: 最初の直線部分は曲線部分とは別のノーツであり、 ノーツの終了時間は次のノーツの開始時刻と同じになります)
+  To create slides with multiple parts or to adjust the slide timing and curve, split up the notes in the slide.
 </p>
 
 <p spaces-before="0">
@@ -96,13 +92,13 @@ MIDIの音符(ノーツ)の高さはゲームに合わせて47～73の範囲で�
         <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
       </li>
       <li>
-        <code>Short Name</code> 楽曲リストをスクロールするときに表示される名前で、 文字数が長いと表示テキストが縮小されます。文字数制限があるかは不明
-      </li>
-      <li>
-        <code>Release Year</code> is the year the song was created.
+        <code>Short Name</code> 楽曲リストをスクロールするときに表示される名前で、
       </li>
       <li>
         <code>Artist</code> is the composer of the song.
+      </li>
+      <li>
+        <code>Release Year</code> is the year the song was created.
       </li>
       <li>
         <code>Beats per Bar</code> 拍子の線の間隔を決める。
@@ -114,7 +110,7 @@ MIDIの音符(ノーツ)の高さはゲームに合わせて47～73の範囲で�
         <code>Note Spacing</code>  BPMと組み合わせて、演奏時のノーツの移動速度に影響します。
       </li>
       <li>
-        <code>Folder Name</code> 作成した譜面と音源のデータを格納するフォルダの名前です。 例: Folder Nameを「my map」に設定すると譜面データのファイルパスはBepInEx/CustomSongs/my map/song.tmbになります。
+        <code>trackRef</code> is the globally unique name used by mods to identify your chart.
       </li>
       <li>
         <code>Song Endpoint</code> 楽曲の終わりを示す拍子。 通常これは自動的に計算されますが、演奏終了画面が表示されたときに変更することが可能です。
@@ -124,13 +120,13 @@ MIDIの音符(ノーツ)の高さはゲームに合わせて47～73の範囲で�
   
   <li>
     <p spaces-before="0">
-      OKを押す。 Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
+      OKを押す。 Create a folder with the same name as you entered in the <code>trackRef</code> field, and save the file as <code>song.tmb</code> inside that folder.
     </p>
   </li>
   
   <li>
     <p spaces-before="0">
-      音源データはOGGファイル(.ogg)を使用します。 当記事執筆時点で音源の長さはSong Endpointよ当記事執筆時点で音源の長さはSong Endpointより長くあり必要があります。そうでない場合、楽曲が途中で止まってしまい最後まで演奏できなくなってしまいます。 Audacityなどのソフトウェアを使って、音源の最初に無音部分を挿入してMIDIに合わせることができます。 ファイル名: <code>song.ogg</code>
+      音源データはOGGファイル(.ogg)を使用します。 Audacityなどのソフトウェアを使って、音源の最初に無音部分を挿入してMIDIに合わせることができます。 ファイル名: <code>song.ogg</code>
     </p>
   </li>
   

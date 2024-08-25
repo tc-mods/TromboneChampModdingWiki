@@ -57,7 +57,7 @@ Quelques éditeurs MIDI gratuits et fonctionnels incluent :
 </h3>
 
 <p spaces-before="0">
-  Les notes glissées sont créées en superposant des notes dans le temps. Pour une paire de notes superposées, la glissée va du début de la première note jusqu'au début de la deuxième. La partie superposée de la première note est éliminée. Voir cette image pour un exemple :
+  Slides are created by connecting notes with each other. The slide will start at the beginning of the first note and end at the end of the second note.
 </p>
 
 <p spaces-before="0">
@@ -65,11 +65,7 @@ Quelques éditeurs MIDI gratuits et fonctionnels incluent :
 </p>
 
 <p spaces-before="0">
-  Si une note finit et que la prochaine commence exactement au même moment, elles seront connectées. Cela vous permet d'ajuster où la courbe d'une glissée commence. Voici un exemple de plusieurs glissées reliées ensemble :
-</p>
-
-<p spaces-before="0">
-  (note : la première section droite est une note séparée de la section courbe. Son temps de fin est le même que le temps de début de la prochaine.)
+  To create slides with multiple parts or to adjust the slide timing and curve, split up the notes in the slide.
 </p>
 
 <p spaces-before="0">
@@ -96,13 +92,13 @@ Quelques éditeurs MIDI gratuits et fonctionnels incluent :
         <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
       </li>
       <li>
-        <code>Nom court</code> est affiché en naviguant la liste de chansons. Le texte devient de plus en plus petit lorsque le nom est long, alors je ne sais pas s'il y a une longueur maximale.
-      </li>
-      <li>
-        <code>Release Year</code> is the year the song was created.
+        <code>Nom court</code> est affiché en naviguant la liste de chansons.
       </li>
       <li>
         <code>Artist</code> is the composer of the song.
+      </li>
+      <li>
+        <code>Release Year</code> is the year the song was created.
       </li>
       <li>
         <code>Rythmes par mesure</code> détermine la distance entre les « barres de rythme ».
@@ -114,7 +110,7 @@ Quelques éditeurs MIDI gratuits et fonctionnels incluent :
         <code>Espacement des notes</code> affecte la vitesse de défilement du niveau, en combinaison avec le BPM (tempo).
       </li>
       <li>
-        <code>Nom de dossier</code> est le nom du dossier dans lequel vous mettrez votre map et votre fichier de chanson. Ex : Si vous définissez « Nom du dossier» comme « ma map», votre chemin de map sera BepInEx/CustomSongs/ma map/song.tmb.
+        <code>trackRef</code> is the globally unique name used by mods to identify your chart.
       </li>
       <li>
         <code>Fin de la chanson</code> est le temps où la chanson finit. Elle est calculée automatiquement, mais vous pouvez l'ajuster pour changer quand l'écran de fin de niveau apparait.
@@ -124,13 +120,13 @@ Quelques éditeurs MIDI gratuits et fonctionnels incluent :
   
   <li>
     <p spaces-before="0">
-      Appuyez sur OK. Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
+      Appuyez sur OK. Create a folder with the same name as you entered in the <code>trackRef</code> field, and save the file as <code>song.tmb</code> inside that folder.
     </p>
   </li>
   
   <li>
     <p spaces-before="0">
-      Votre piste de musique devrait être un fichier .ogg. À l'heure où j'écris, la durée de la piste doit être plus longue que la Fin de la chanson, sinon la chanson restera coincée et ne finira jamais. Vous pouvez utiliser un programme comme Audacity afin d'insérer un silence au début de la piste pour l'aligner avec le fichier MIDI. Nommez le fichier de chanson <code>song.ogg</code>.
+      Votre piste de musique devrait être un fichier .ogg. Vous pouvez utiliser un programme comme Audacity afin d'insérer un silence au début de la piste pour l'aligner avec le fichier MIDI. Nommez le fichier de chanson <code>song.ogg</code>.
     </p>
   </li>
   

@@ -57,7 +57,7 @@ Jotkut ilmaiset, todennettu toimimaan midi editorit ovat:
 </h3>
 
 <p spaces-before="0">
-  Liu'ut luodaan päällekkäin nuottien ajoissa. Jos kyseessä on pari päällekkäistä nuottia, liuku menee ensimmäisen nuotin alusta toisen nuotin alkuun. Ensimmäisen nuotin päällekkäistä osaa ei lisätä. Katso tämä kuva esimerkiksi:
+  Slides are created by connecting notes with each other. The slide will start at the beginning of the first note and end at the end of the second note.
 </p>
 
 <p spaces-before="0">
@@ -65,11 +65,7 @@ Jotkut ilmaiset, todennettu toimimaan midi editorit ovat:
 </p>
 
 <p spaces-before="0">
-  Jos nuotti päättyy, mutta seuraava nuotti alkaa täsmälleen samaan aikaan, ne yhdistetään. Tämän avulla voit säätää missä liu'un käyrä alkaa. Tässä on esimerkki useista liu'uista yhdistettynä toisiinsa:
-</p>
-
-<p spaces-before="0">
-  (Huomautus: Ensimmäinen suora osa on erillinen nuotti kaarevasta osasta. Sen päättymisaika on sama kuin seuraavan alkamisaika.)
+  To create slides with multiple parts or to adjust the slide timing and curve, split up the notes in the slide.
 </p>
 
 <p spaces-before="0">
@@ -96,13 +92,13 @@ Jotkut ilmaiset, todennettu toimimaan midi editorit ovat:
         <code>Song Name</code> is the full name of the song, shown in the info when you select it in-game.
       </li>
       <li>
-        <code>Short Name</code> näytetään kappalevalikossa. Teksti pienenee kun nimi on pitkä, joten en ole varma, onko siinä enimmäispituus.
-      </li>
-      <li>
-        <code>Release Year</code> is the year the song was created.
+        <code>Short Name</code> näytetään kappalevalikossa.
       </li>
       <li>
         <code>Artist</code> is the composer of the song.
+      </li>
+      <li>
+        <code>Release Year</code> is the year the song was created.
       </li>
       <li>
         <code>Beats per Bar</code> määrittää, kuinka kaukana "iskulinjat" ovat.
@@ -114,7 +110,7 @@ Jotkut ilmaiset, todennettu toimimaan midi editorit ovat:
         <code>Note Spacing</code> vaikuttaa siihen, kuinka nopeasti taso rullaa yhdessä BPM kanssa.
       </li>
       <li>
-        <code>Folder Name</code> on sen kansion nimi, johon laitat kartta- ja kappaletiedostosi. Esim. Jos asetat Folder Name nimeksi my map, karttasi polku on BepInEx/CustomSongs/my map/song.tmb.
+        <code>trackRef</code> is the globally unique name used by mods to identify your chart.
       </li>
       <li>
         <code>Song Endpoint</code> on isku, jolla kappale päättyy. Se lasketaan automaattisesti, mutta voit säätää sitä muuttaaksesi, kun tason loppunäyttö näkyy.
@@ -124,13 +120,13 @@ Jotkut ilmaiset, todennettu toimimaan midi editorit ovat:
   
   <li>
     <p spaces-before="0">
-      Paina OK. Create a folder with the same name as you entered in the <code>Folder Name</code> field, and save the file as <code>song.tmb</code> inside that folder.
+      Paina OK. Create a folder with the same name as you entered in the <code>trackRef</code> field, and save the file as <code>song.tmb</code> inside that folder.
     </p>
   </li>
   
   <li>
     <p spaces-before="0">
-      Musiikkikappaleesi pitäisi olla .ogg-tiedosto. Kappaleen keston on oltava kirjoittamisen aikaan pidempi kuin kappaleen päätepiste, tai laulu jää jumiin eikä koskaan loppuu. Voit käyttää Audacityn kaltaista ohjelmistoa asettaksesi hiljaisuuden kappaleen alkuun, jotta voit saada sen syncaamaan midin kanssa. Nimeä tiedosto <code>song.ogg</code>.
+      Musiikkikappaleesi pitäisi olla .ogg-tiedosto. Voit käyttää Audacityn kaltaista ohjelmistoa asettaksesi hiljaisuuden kappaleen alkuun, jotta voit saada sen syncaamaan midin kanssa. Nimeä tiedosto <code>song.ogg</code>.
     </p>
   </li>
   
