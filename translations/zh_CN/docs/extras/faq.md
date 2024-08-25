@@ -3,7 +3,7 @@
 
 ## 黑屏是怎么回事？
 
-更新 [TrombLoader](https://github.com/NyxTheShield/TrombLoader/releases/latest)。 用新的 dll文件替换 `BepInEx/plugins` 中的旧dll文件
+Update [TrombLoader](https://thunderstore.io/c/trombone-champ/p/TromboneChamps/TrombLoader/).
 
 ## 自制谱是否与破解版游戏兼容？
 
@@ -12,8 +12,6 @@
 ## 如何寻找自制谱？
 
 自制谱可以在 [Discord长号冠军自制群](https://discord.gg/KVzKRsbetJ) 的 `#custom-charts` 频道中找到。
-
-~~TheGlitched64创建了一个 [电子表格](https://docs.google.com/spreadsheets/d/1xpoUnHdSJFqOQEK_637-HCECYtJsgK91oY4dRuDMtik/edit?usp=sharing)，其中包含几乎所有的自制谱面。~~
 
 此外，还可以使用[TromboneDB](https://tc-mods.github.io/TromboneDB/) ！它除了可以搜索自制谱以外，也给几乎所有自制谱面都保存了额外的下载链接。当在discord或者其他渠道遭遇下载问题时请随意使用。
 
