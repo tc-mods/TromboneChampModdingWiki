@@ -36,13 +36,11 @@ Normal notes are created in the midi editor and look the same in-game. Make sure
 
 ### Slide Notes
 
-Slides are created by overlapping notes in time. For a pair of overlapping notes, the slide goes from the start of the first note to the start of the second. The overlapping part of the first note is discarded. See this image for an example:
+Slides are created by connecting notes with each other. The slide will start at the beginning of the first note and end at the end of the second note.
 
 ![Slide Note Example](../docs/files/slide1.png)
 
-If a note ends but the next note starts at the exact same time, they will be connected. This allows you to adjust where the curve of a slide starts. Here's an example of multiple slides connected together:
-
-(note: The first straight section is a separate note from the curved section. Its end time is the same as the next one's start time.)
+To create slides with multiple parts or to adjust the slide timing and curve, split up the notes in the slide.
 
 ![Multiple Slide Note Example](../docs/files/slide2.png)
 
@@ -52,18 +50,18 @@ If a note ends but the next note starts at the exact same time, they will be con
 
 2. Fill out the fields:
  - `Song Name` is the full name of the song, shown in the info when you select it in-game.
- - `Short Name` is shown while scrolling through the song list. Text gets smaller when the name is long so I'm not sure if there's a maximum length.
- - `Release Year` is the year the song was created.
+ - `Short Name` is shown while scrolling through the song list.
  - `Artist` is the composer of the song.
+ - `Release Year` is the year the song was created.
  - `Beats per Bar` determines how far apart the "beat lines" are.
  - `Difficulty` is the number of difficulty stars that appear on the song's info.
  - `Note Spacing` affects how fast the level scrolls, in combination with BPM.
- - `Folder Name` is the name of the folder you will put your map and song file in. E.g. If you set Folder Name to my map, your map path will be BepInEx/CustomSongs/my map/song.tmb.
+ - `trackRef` is the globally unique name used by mods to identify your chart.
  - `Song Endpoint` is the beat on which the song ends. It is automatically calculated, but you can adjust it to change when the level end screen appears.
 
-4. Hit OK. Create a folder with the same name as you entered in the `Folder Name` field, and save the file as `song.tmb` inside that folder.
+4. Hit OK. Create a folder with the same name as you entered in the `trackRef` field, and save the file as `song.tmb` inside that folder.
 
-5. Your music track should be a .ogg file. At the time of writing, the track duration must be longer than the Song Endpoint, or the song will get stuck and never finish. You can use software like Audacity to insert silence at the start of the track to line it up with the midi. Name the file `song.ogg`.
+5. Your music track should be a .ogg file. You can use software like Audacity to insert silence at the start of the track to line it up with the midi. Name the file `song.ogg`.
 
 6. Move the ogg file into the same folder as `song.tmb`.
 
