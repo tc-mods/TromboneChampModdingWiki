@@ -109,14 +109,14 @@ public class ChimpanzeePlugin : BaseUnityPlugin
 {
 ```
 
-Then you can use the GameInitalizationEvent:
+Then you can use the GameInitializationEvent:
 
 ```csharp
     private Harmony _harmony = new Harmony("ch.offbeatwit.chimpanzee");
 
     private void Awake()
     {
-        GameInitalizationEvent.Register(Info, TryInitialize);
+        GameInitializationEvent.Register(Info, TryInitialize);
     }
 
     private void TryInitialize()
