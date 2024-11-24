@@ -1,9 +1,11 @@
 - **Посібник користувача**
 - [Введення](./)
-- **Модування**
+- **Modding Trombone Champ**
 - [Using r2modman](installing-r2modman)
 - [Встановлення пісень](installing-songs)
 - [Upgrading to TrombLoader 2](migrating-to-v2)
+- **Modding Trombone Champ: Unflattened**
+- [Installing Songs (SteamVR)](installing-songs-steamvr)
 - **Чартинг**
 - [Створення чартів](creating-charts)
 - [Charting Guidelines](charting-guidelines)
