@@ -1,6 +1,6 @@
 # Installing Songs (Steam Version)
 ---
-!> **IMPORTANT:** This guide is for the VR game *Trombone Champ: Unflattened* on **Steam**. For installing custom songs in the base game, see the [mod installation guide](installing-r2modman) for more details!
+!> **IMPORTANT:** This guide is for the VR game *Trombone Champ: Unflattened* on **Steam**. For installing custom songs in the standard game, see the [mod installation guide for Trombone Champ](installing-r2modman).
 
 Trombone Champ: Unflattened has built-in custom song support, and is compatible with charts made for the base game. Do note that only video and image backgrounds will work, custom backgrounds made in Unity will not.
 
