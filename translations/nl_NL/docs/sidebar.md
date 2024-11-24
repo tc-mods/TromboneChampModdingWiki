@@ -1,9 +1,11 @@
 - **Gebruikershandleiding**
 - [Introductie](./)
-- **Modding**
+- **Modding Trombone Champ**
 - [Using r2modman](installing-r2modman)
 - [Liedjes Installeren](installing-songs)
 - [Upgrading to TrombLoader 2](migrating-to-v2)
+- **Modding Trombone Champ: Unflattened**
+- [Installing Songs (SteamVR)](installing-songs-steamvr)
 - **Maps**
 - [Map Maken](creating-charts)
 - [Charting Guidelines](charting-guidelines)
@@ -16,6 +18,6 @@
 - [Veelgestelde vragen (FAQ's)](faq)
 - **Koppelingen**
 - [![Discord](https://icongr.am/simple/discord.svg?colored&size=16)Discord](https://discord.gg/KVzKRsbetJ)
-- [![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)GitHub](https://github.com/tc-mods/TromboneChampModdingWiki)
+- [![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)[![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)GitHub](https://github.com/tc-mods/TromboneChampModdingWiki)](https://github.com/tc-mods/TromboneChampModdingWiki)
 - [![Translate](https://icongr.am/material/translate.svg?color=808080&size=16)Vertaal](https://crowdin.com/project/trombone-champ-modding-wiki)
 - [Info](about)
