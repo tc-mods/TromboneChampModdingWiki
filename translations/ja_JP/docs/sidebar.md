@@ -1,9 +1,11 @@
 - **ユーザーガイド**
 - [まず初めに](./)
-- **MOD**
+- **Modding Trombone Champ**
 - [Using r2modman](installing-r2modman)
 - [カスタム音源の導入方法](installing-songs)
 - [Upgrading to TrombLoader 2](migrating-to-v2)
+- **Modding Trombone Champ: Unflattened**
+- [Installing Songs (SteamVR)](installing-songs-steamvr)
 - **創作譜面**
 - [譜面の作成方法](creating-charts)
 - [ガイドラインの作成方法](charting-guidelines)

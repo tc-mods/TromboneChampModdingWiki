@@ -1,9 +1,11 @@
 - **Guida per l'utente**
 - [Introduzione](./)
-- **Modding**
+- **Modding Trombone Champ**
 - [Using r2modman](installing-r2modman)
 - [Installare i Brani](installing-songs)
 - [Upgrading to TrombLoader 2](migrating-to-v2)
+- **Modding Trombone Champ: Unflattened**
+- [Installing Songs (SteamVR)](installing-songs-steamvr)
 - **Charting**
 - [Creare le Charts](creating-charts)
 - [Charting Guidelines](charting-guidelines)
