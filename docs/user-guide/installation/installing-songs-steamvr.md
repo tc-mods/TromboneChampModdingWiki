@@ -1,8 +1,8 @@
 # Installing Songs (Steam Version)
 ---
-!> **IMPORTANT:** This guide is for the VR game *Trombone Champ: Unflattened* on **Steam**. For installing custom songs in the standard game, see the [mod installation guide for Trombone Champ](installing-r2modman).
+!> **IMPORTANT:** This guide is for the VR game *Trombone Champ: Unflattened* on **Steam**. For installing custom songs in the **Meta Quest** version, check [this guide](installing-songs-steamvr).<br><br>For installing custom songs in the standard game, see the [mod installation guide for Trombone Champ](installing-r2modman).
 
-Trombone Champ: Unflattened has built-in custom song support, and is compatible with charts made for the base game. Do note that only video and image backgrounds will work, custom backgrounds made in Unity will not.
+Trombone Champ: Unflattened has built-in custom song support, and is compatible with charts made for the standard game. Do note that only video and image backgrounds will work, custom backgrounds made in Unity will not.
 
 ?> You can find community made custom charts on [TootTally](https://toottally.com/), or by browsing [TromboneDB](https://tc-mods.github.io/TromboneDB/).
 
@@ -13,7 +13,7 @@ Trombone Champ: Unflattened has built-in custom song support, and is compatible 
 
 ![Browse local files in Steam](../docs/files/vr/copychartsteam.png)
 
-!> Each chart must be stored in its own folder. If the ZIP file you've downloaded doesn't contain a folder, you will have to make one yourself and then copy the ZIP contents (`song.tmb`, `song.ogg`, and `.bg.png`/`.bg.mp4`) to it.
+!> Each chart must be stored in its own folder. If the ZIP file you've downloaded doesn't contain a folder, you will have to make one yourself and then copy the ZIP contents (`song.tmb`, `song.ogg`, and `bg.png`/`bg.mp4`) to it.
 
 3. Once you've finished copying over the songs you want, start up the game, head into **Free Play**, and then you'll find your custom songs listed in their own category.
 
