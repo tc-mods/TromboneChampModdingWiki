@@ -1,9 +1,11 @@
 - **คู่มือผู้ใช้**
 - [บทนำ](./)
-- **Modding**
+- **Modding Trombone Champ**
 - [Using r2modman](installing-r2modman)
 - [การลงเพลง](installing-songs)
 - [Upgrading to TrombLoader 2](migrating-to-v2)
+- **Modding Trombone Champ: Unflattened**
+- [Installing Songs (SteamVR)](installing-songs-steamvr)
 - **การทำผัง**
 - [การสร้างผัง](creating-charts)
 - [Charting Guidelines](charting-guidelines)

@@ -1,9 +1,11 @@
 - **Gebruikershandleiding**
 - [Introductie](./)
-- **Modding**
+- **Modding Trombone Champ**
 - [Using r2modman](installing-r2modman)
 - [Liedjes Installeren](installing-songs)
 - [Upgrading to TrombLoader 2](migrating-to-v2)
+- **Modding Trombone Champ: Unflattened**
+- [Installing Songs (SteamVR)](installing-songs-steamvr)
 - **Maps**
 - [Map Maken](creating-charts)
 - [Charting Guidelines](charting-guidelines)
