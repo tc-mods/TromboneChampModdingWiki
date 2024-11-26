@@ -26,9 +26,6 @@ Trombone Champ: Unflattened has built-in custom song support, and is compatible 
 
 ![Custom song shown in-game](../docs/files/vr/ingamequest.png)
 
-## Adding charts via SideQuest
-idk lol
-
 ## Finding Songs
 
 There are a number of places you can find Trombone Champ custom songs online. Here are a few options:
