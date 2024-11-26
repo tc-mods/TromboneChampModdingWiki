@@ -6,6 +6,7 @@
 - [Upgrading to TrombLoader 2](migrating-to-v2)
 - **Modding Trombone Champ: Unflattened**
 - [Installing Songs (SteamVR)](installing-songs-steamvr)
+- [Installing Songs (Meta Quest)](installing-songs-quest)
 - **Charting**
 - [Créer des charts](creating-charts)
 - [Guide de charting](charting-guidelines)
@@ -18,6 +19,6 @@
 - [Foire aux questions](faq)
 - **Liens**
 - [![Discord](https://icongr.am/simple/discord.svg?colored&size=16)Discord](https://discord.gg/KVzKRsbetJ)
-- [![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)GitHub](https://github.com/tc-mods/TromboneChampModdingWiki)
+- [![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)[![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)GitHub](https://github.com/tc-mods/TromboneChampModdingWiki)](https://github.com/tc-mods/TromboneChampModdingWiki)
 - [![Traduire](https://icongr.am/material/translate.svg?color=808080&size=16)Traduire](https://crowdin.com/project/trombone-champ-modding-wiki)
 - [À propos](about)
