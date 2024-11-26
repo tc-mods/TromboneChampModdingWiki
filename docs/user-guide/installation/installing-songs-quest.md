@@ -10,22 +10,21 @@ Trombone Champ: Unflattened has built-in custom song support, and is compatible 
 
 1. Extract the ZIP files containing the charts you want to copy over. Make sure each the files of each chart (the `song.ogg`, `song.tmb`, and `bg.png`/`bg.mp4`) are stored together in their own folder.
 
-[Screenshot showing file extraction and folders]
+![Extracting a chart from a ZIP file](../docs/files/vr/questextract.png)
 
 2. Connect your headset to your PC using a USB cable. You should see your headset appear as removable storage.
 
-[Screenshot of the Quest connected in File Explorer]
+![Meta Quest 3 connected to Windows via USB](../docs/files/vr/questusbconnected.png)
 
 ?> macOS users will need to use a third-party application (such as [OpenMTP](https://openmtp.ganeshrvel.com)) in order to access the storage of their Quest.
 
 3. Open up the Quest's internal storage, and then navigate to `/Android/data/com.ImpactReality.TromboneChamp/files/customtracks/`. Drag and drop the chart folders you created earlier into `customtracks`.
 
-[Screenshot of dragging and dropping of folders]
+![Drag and dropping the charts to the Quest](../docs/files/vr/questdraganddrop.png)
 
 4. Once you've finished copying over the songs you want, start up the game, head into **Free Play**, and then you'll find your custom songs listed in their own category.
 
-[TODO: maybe replace this with an actual screenshot from a Quest]
-![Custom song shown in-game](../docs/files/vr/ingamesteam.png)
+![Custom song shown in-game](../docs/files/vr/ingamequest.png)
 
 ## Adding charts via SideQuest
 idk lol
