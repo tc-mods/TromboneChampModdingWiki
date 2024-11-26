@@ -6,6 +6,7 @@
 - [Upgrading to TrombLoader 2](migrating-to-v2)
 - **Modding Trombone Champ: Unflattened**
 - [Installing Songs (SteamVR)](installing-songs-steamvr)
+- [Installing Songs (Meta Quest)](installing-songs-quest)
 - **創作譜面**
 - [譜面の作成方法](creating-charts)
 - [ガイドラインの作成方法](charting-guidelines)

@@ -6,6 +6,7 @@
 - [升级到 TrombLoader 2](migrating-to-v2)
 - **Modding Trombone Champ: Unflattened**
 - [Installing Songs (SteamVR)](installing-songs-steamvr)
+- [Installing Songs (Meta Quest)](installing-songs-quest)
 - **自制谱板块**
 - [创作自制谱](creating-charts)
 - [谱面制作指导](charting-guidelines)
