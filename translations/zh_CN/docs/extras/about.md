@@ -12,7 +12,7 @@
 >
 > ## 开发应用/工具名单
 > 
-> - 由**BepInEx 的开发者们** 提供的 [BepInEx](https://github.com/BepInEx/BepInEx).
+> - 由**BepInEx 的开发者们** 提供的 [BepInEx](https://github.com/BepInEx/BepInEx)。
 >
 > ## 翻译名单
 > 
@@ -33,6 +33,6 @@
 > **乌克兰语：** sw1ft
 
 ?> **开源与隐私**  
-[本指南在 GitHub上是开源的。](https://github.com/tc-mods/TromboneChampModdingWiki)  它是在 [ISC 许可证](https://github.com/tc-mods/TromboneChampModdingWiki/blob/master/LICENSE.md) 下被授权的。
+[本指南在 GitHub上是开源的](https://github.com/tc-mods/TromboneChampModdingWiki)。 它是在 [ISC 许可证](https://github.com/tc-mods/TromboneChampModdingWiki/blob/master/LICENSE.md) 下被授权的。
 
 ?> **免责声明：** 本指南是不属于Trombone Champ或Holy Wow Studios的非官方粉丝作品，没有得到Holy Wow Studios的推荐或以其他方式被赞助。
