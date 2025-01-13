@@ -57,7 +57,7 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
 </h3>
 
 <p spaces-before="0">
-  Slides are created by connecting notes with each other. The slide will start at the beginning of the first note and end at the end of the second note.
+  滑动note是通过相互连接的note创建的。 滑动note从第一个note的开端开始，到第二个note的尾端结束。
 </p>
 
 <p spaces-before="0">
@@ -65,7 +65,7 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
 </p>
 
 <p spaces-before="0">
-  To create slides with multiple parts or to adjust the slide timing and curve, split up the notes in the slide.
+  要创建带有多个部分的滑动note，或调整滑动note的节拍和曲线，请将滑动note拆分成数段notes。
 </p>
 
 <p spaces-before="0">
@@ -110,7 +110,7 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
         <code>Note Spacing</code> 影响游戏内note的移动速度，通常与BPM对应.
       </li>
       <li>
-        <code>trackRef</code> is the globally unique name used by mods to identify your chart.
+        <code>trackRef</code> 是模组用于识别谱面的全局唯一名称。
       </li>
       <li>
         <code>Song Endpoint</code> 是曲目结束时的节奏点。 这个值通常由软件自动计算，但是你可以调整这个数值来改变结算界面的出现时机。
@@ -120,7 +120,7 @@ Midi文件中的音符应该在47到73的范围内以匹配游戏内的音高范
   
   <li>
     <p spaces-before="0">
-      点击OK。 在出现的文件选择器中，创建一个与您输入的 <code>trackRef</code> 字段相同的文件夹，并将文件命名为 <code>song.tmb</code>后放入文件夹中 。
+      点击OK。 创建一个与您输入于 <code>TrackRef</code> 相同名称的文件夹，并将谱面命名为<code>song.tmb</code>另存至该文件夹中。
     </p>
   </li>
   
