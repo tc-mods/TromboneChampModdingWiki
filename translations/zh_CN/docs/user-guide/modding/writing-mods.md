@@ -99,7 +99,7 @@ public class ChimpanzeePlugin : BaseUnityPlugin
 {
 ```
 
-Then you can use the GameInitializationEvent:
+然后你可以使用 GameInitializationEvent：
 
 ```csharp
     private Harmony _harmony = new Harmony("ch.offbeatwit.chimpanzee");
