@@ -2,16 +2,16 @@
 - [首页](./)
 - **安装长号冠军模组**
 - [使用 r2modman](installing-r2modman)
-- [安装自制谱](installing-songs)
+- [安装自制谱面](installing-songs)
 - [升级到 TrombLoader 2](migrating-to-v2)
 - **安装长号冠军：Unflattened 模组**
-- [安装自制谱（SteamVR）](installing-songs-steamvr)
-- [安装自制谱（Meta Quest）](installing-songs-quest)
-- **自制谱板块**
-- [创作自制谱](creating-charts)
+- [安装自制谱面（SteamVR）](installing-songs-steamvr)
+- [安装自制谱面（SteamVR）](installing-songs-quest)
+- **自制谱面**
+- [创作自制谱面](creating-charts)
 - [谱面制作指导](charting-guidelines)
-- [自制谱背景](chart-backgrounds)
-- [其他自制谱信息](misc-charting-info)
+- [自制谱面背景](chart-backgrounds)
+- [其他自制谱面信息](misc-charting-info)
 - [谱面制作常见问题](chart-troubleshooting)
 - **开发者**
 - [编写模组](writing-mods)
