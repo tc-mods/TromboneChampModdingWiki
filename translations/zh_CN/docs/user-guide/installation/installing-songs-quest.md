@@ -8,25 +8,25 @@
 
 ?> 你可以在 [TootTally](https://toottally.com/) 或 [TromboneDB](https://tc-mods.github.io/TromboneDB/)找到社区制作的谱面。
 
-## Adding charts via USB
+## 通过 USB 添加谱面
 
-1. Extract the ZIP files containing the charts you want to copy over. Make sure each the files of each chart (the `song.ogg`, `song.tmb`, and `bg.png`/`bg.mp4`) are stored together in their own folder.
+1. 解压缩包含您准备复制谱面的ZIP文件。 请确保每个谱面各自的文件夹中都包括的所需的文件(`song.ogg`、`song.tmb`、`bg.png`或`bg.mp4`)。
 
-![Extracting a chart from a ZIP file](../docs/files/vr/questextract.png)
+![从ZIP文件中解压缩谱面](../docs/files/vr/questextract.png)
 
-2. Connect your headset to your PC using a USB cable. You should see your headset appear as removable storage.
+2. 使用 USB 线连接您的VR头显到您的电脑。 你应该看到你的头显在电脑上显示为removable storage（可移动存储设备）。
 
-![Meta Quest 3 connected to Windows via USB](../docs/files/vr/questusbconnected.png)
+![Meta Quest 3 通过 USB 连接到 Windows](../docs/files/vr/questusbconnected.png)
 
-?> macOS users will need to use a third-party application (such as [OpenMTP](https://openmtp.ganeshrvel.com)) in order to access the storage of their Quest.
+?> macOS 用户需要使用第三方应用程序（如 [OpenMTP](https://openmtp.ganeshrvel.com)）来访问他们Quest的存储空间。
 
-3. Open up the Quest's internal storage, and then navigate to `/Android/data/com.ImpactReality.TromboneChamp/files/customtracks/`. Drag and drop the chart folders you created earlier into `customtracks`.
+3. 打开Quest的内部存储，然后导航到 `/Android/data/com.ImpactReality.TromboneChamp/files/customtracks/`。 拖放您早些时候创建的谱面文件夹到 `customtracks` 中。
 
-![Drag and dropping the charts to the Quest](../docs/files/vr/questdraganddrop.png)
+![拖拽谱面到Quest中](../docs/files/vr/questdraganddrop.png)
 
-4. Once you've finished copying over the songs you want, start up the game, head into **Free Play**, and then you'll find your custom songs listed in their own category.
+4. 一旦您完成了复制您想要的歌曲，开始游戏， 选择 **Free Play**，然后你会发现你的自制谱面列在它们的独立类别中。
 
-![Custom song shown in-game](../docs/files/vr/ingamequest.png)
+![在游戏中显示的自定义歌曲](../docs/files/vr/ingamequest.png)
 
 ## 搜索自制谱面
 
