@@ -1,36 +1,36 @@
-# Installing Songs (Steam Version)
+# 安装自制谱面（Steam VR篇）
 
 ---
 
-!> **IMPORTANT:** This guide is for the VR game _Trombone Champ: Unflattened_ on **Steam**. For installing custom songs in the **Meta Quest** version, check [this guide](installing-songs-steamvr).<br><br>For installing custom songs in the standard game, see the [mod installation guide for Trombone Champ](installing-r2modman).
+!> **注意：** 本篇教学适用于**Steam**上的VR游戏——_长号冠军：Unflattened_。 如果要为**Meta Quest**版本安装自制谱面，请参阅 [此教学](installing-songs-steamvr)。<br><br>要为PC本作安装自制谱面，请参阅 [长号冠军模组安装教学](installing-r2modman)。
 
-Trombone Champ: Unflattened has built-in custom song support, and is compatible with charts made for the standard game. Do note that only video and image backgrounds will work, custom backgrounds made in Unity will not.
+长号冠军：Unflattened 内置自制谱面支援，并与本作的谱面相容。 游戏仅支援视频和图像背景，无法使用在Unity制作的自制背景。
 
-?> You can find community made custom charts on [TootTally](https://toottally.com/), or by browsing [TromboneDB](https://tc-mods.github.io/TromboneDB/).
+?> 你可以在 [TootTally](https://toottally.com/) 或 [TromboneDB](https://tc-mods.github.io/TromboneDB/)找到社区制作的谱面。
 
-1. Open Steam and select **Trombone Champ: Unflattened**. Click the ⚙️ **Cog Wheel** icon and go to **Manage > Browse local files**.
+1. 打开Steam并选择 **长号冠军：Unflattened** 。 Click the ⚙️ **Cog Wheel** icon and go to **Manage > Browse local files**.
    ![Browse local files in Steam](../docs/files/vr/unflattenedsteam.png)
 
-2. From here, navigate to `TromboneChampUnflattened_Data\StreamingAssets\customtracks\`. In another window or tab, open up the ZIP file containing the chart you downloaded, and then drag the containing folder into the `customtracks` folder.
+2. 从这里导航到`TromboneChampUnflattened_Data\StreamingAssets\customtracks\`。 在另一个窗口中，解压缩包含您下载的谱面的ZIP文件，然后将里面的子文件夹拖动到 `customtracks` 文件夹。
 
 ![Browse local files in Steam](../docs/files/vr/copychartsteam.png)
 
-!> Each chart must be stored in its own folder. If the ZIP file you've downloaded doesn't contain a folder, you will have to make one yourself and then copy the ZIP contents (`song.tmb`, `song.ogg`, and `bg.png`/`bg.mp4`) to it.
+!> 每张谱面必须存储在各自的文件夹中。 如果您下载的ZIP文件不包含子文件夹，您将需要自己制作一个，并将ZIP文件里的内容（`song.tmb`，`song.ogg`，`bg.png`或`bg.mp4`）复制到子文件夹中。
 
-3. Once you've finished copying over the songs you want, start up the game, head into **Free Play**, and then you'll find your custom songs listed in their own category.
+3. 一旦您完成了复制您想要的歌曲，开始游戏， 选择 **Free Play**，然后你会发现你的自制谱面列在它们的独立类别中。
 
 ![Custom song shown in-game](../docs/files/vr/ingamesteam.png)
 
-## Finding Songs
+## 搜索自制谱面
 
-There are a number of places you can find Trombone Champ custom songs online. Here are a few options:
+您可以在许多地方找到长号冠军的自制谱面。 以下是几个选项：
 
-- The search function on the [TootTally website](https://toottally.com/search/).
-- [TromboneDB](https://tc-mods.github.io/TromboneDB/) has an archive of the majority of charts released, including charts that are too large for TootTally.
-- The `#custom-charts` channel in the [Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ).
-- The Tootbender bot's chart search command in the [Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ).
-- Most charts have showcase videos on YouTube. Sometimes they will have download links in the description.
+- [TootTally网站](https://toottally.com/search/)上的搜索功能。
+- [TromboneDB](https://tc-mods.github.io/TromboneDB/)是一个拥有大部分已发布谱面的档案库，包括对于Tootally来说过大的谱面。
+- [Discord长号冠军模组群](https://discord.gg/KVzKRsbetJ)中的 `#custom-charts` 频道。
+- [Discord长号冠军模组群](https://discord.gg/KVzKRsbetJ)中的 Tootbender 机器人谱面搜索命令。
+- 大多数自制谱面在Youtube上都有演示视频。 部分视频会在描述中包含下载链接。
 
-### Creating Custom Songs {docsify-ignore}
+### 制作谱面 {docsify-ignore}
 
-> Check out the [**Charting guide**](creating-charts) for info on creating your own custom charts.
+> 参阅此[**写谱教程**](creating-charts)以了解如何制作您自己的谱面。
