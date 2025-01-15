@@ -9,7 +9,7 @@
 
 ?> 安装TootTally的游戏内自制歌曲下载器的视频指南，见 [Rayanne的教程视频](https://youtu.be/p0rud1uJ0o0?si=sDlmbDg3geAEW5J3) 游戏内歌曲下载器的相关内容请参阅 [安装歌曲](installing-songs)
 
-本指南将讲解如何安装并使用 [r2modman](https://github.com/ebkr/r2modmanPlus/releases/latest/) 来下载和运行 [Thunderstore](https://trombone-champ.thunderstore.io/) 上的可用的模组。 使用像 r2modman 这样的模组管理器可以让您轻松更新和使用最新版本的模组，因为管理器会为您完成所有这些工作！ 本指南中我们以安装 **TrombLoader**为例，安装其他mod的方式与之相同 。
+本指南将讲解如何安装并使用 [r2modman](https://github.com/ebkr/r2modmanPlus/releases/latest/) 来下载和运行 [Thunderstore](https://trombone-champ.thunderstore.io/) 上的可用的模组。 使用像 r2modman 这样的模组管理器可以让您轻松更新和使用最新版本的模组，因为管理器会为您完成所有这些工作！ 本指南中我们以安装 **TrombLoader**为例，安装其他mod的方式与之相同。
 
 ## 安装 r2modman
 
