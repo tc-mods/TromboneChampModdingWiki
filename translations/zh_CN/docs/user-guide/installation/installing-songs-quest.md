@@ -1,4 +1,4 @@
-# Installing Songs (Meta Quest Version)
+# 安装自制谱面（Meta Quest篇）
 
 ---
 
