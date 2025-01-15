@@ -2,7 +2,7 @@
 
 ---
 
-!> **注意：** 本篇教学适用于Meta Quest上的VR游戏——长号冠军：Unflattened。 如果要为Steam版本安装自制谱面，请参阅 [此教学](installing-songs-steamvr)。<br><br>要为PC本作安装自制谱面，请参阅 [长号冠军模组安装教学](installing-r2modman)。
+!> **注意：** 本篇教学适用于**Meta Quest**上的VR游戏——_长号冠军：Unflattened_。 如果要为**Steam**版本安装自制谱面，请参阅 [此教学](installing-songs-steamvr)。<br><br>要为PC本作安装自制谱面，请参阅 [长号冠军模组安装教学](installing-r2modman)。
 
 长号冠军：Unflattened 内置自制谱面支援，并与本作的谱面相容。 游戏仅支援视频和图像背景，无法使用在Unity制作的自制背景。
 
@@ -36,7 +36,7 @@
 - [TromboneDB](https://tc-mods.github.io/TromboneDB/)是一个拥有大部分已发布谱面的档案库，包括对于Tootally来说过大的谱面。
 - [Discord长号冠军模组群](https://discord.gg/KVzKRsbetJ)中的 `#custom-charts` 频道。
 - [Discord长号冠军模组群](https://discord.gg/KVzKRsbetJ)中的 Tootbender 机器人谱面搜索命令。
-- 大多数自制谱面在Youtube上都有演示视频。 有时，它们会在视频描述中包含下载链接。
+- 大多数自制谱面在Youtube上都有演示视频。 部分视频会在描述中包含下载链接。
 
 ### 制作谱面 {docsify-ignore}
 
