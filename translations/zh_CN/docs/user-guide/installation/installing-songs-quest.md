@@ -2,11 +2,11 @@
 
 ---
 
-!> **IMPORTANT:** This guide is for the VR game _Trombone Champ: Unflattened_ on **Meta Quest**. For installing custom songs in the **Steam** version, check [this guide](installing-songs-steamvr).<br><br>For installing custom songs in the standard game, see the [mod installation guide for Trombone Champ](installing-r2modman).
+!> **注意：** 本篇教学适用于Meta Quest上的VR游戏——长号冠军：Unflattened。 如果要为Steam版本安装自制谱面，请参阅 [此教学](installing-songs-steamvr)。<br><br>要为PC本作安装自制谱面，请参阅 [长号冠军模组安装教学](installing-r2modman)。
 
-Trombone Champ: Unflattened has built-in custom song support, and is compatible with charts made for the standard game. Do note that only video and image backgrounds will work, custom backgrounds made in Unity will not.
+长号冠军：Unflattened 内置自制谱面支援，并与本作的谱面相容。 游戏仅支援视频和图像背景，无法使用在Unity制作的自制背景。
 
-?> You can find community made custom charts on [TootTally](https://toottally.com/), or by browsing [TromboneDB](https://tc-mods.github.io/TromboneDB/).
+?> 你可以在 [TootTally](https://toottally.com/) 或 [TromboneDB](https://tc-mods.github.io/TromboneDB/)找到社区制作的谱面。
 
 ## Adding charts via USB
 
@@ -28,16 +28,16 @@ Trombone Champ: Unflattened has built-in custom song support, and is compatible 
 
 ![Custom song shown in-game](../docs/files/vr/ingamequest.png)
 
-## Finding Songs
+## 搜索自制谱面
 
-There are a number of places you can find Trombone Champ custom songs online. Here are a few options:
+您可以在许多地方找到长号冠军的自制谱面。 以下是几个选项：
 
-- The search function on the [TootTally website](https://toottally.com/search/).
-- [TromboneDB](https://tc-mods.github.io/TromboneDB/) has an archive of the majority of charts released, including charts that are too large for TootTally.
-- The `#custom-charts` channel in the [Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ).
-- The Tootbender bot's chart search command in the [Trombone Champ Modding Discord](https://discord.gg/KVzKRsbetJ).
-- Most charts have showcase videos on YouTube. Sometimes they will have download links in the description.
+- [TootTally网站](https://toottally.com/search/)上的搜索功能。
+- [TromboneDB](https://tc-mods.github.io/TromboneDB/)是一个拥有大部分已发布谱面的档案库，包括对于Tootally来说过大的谱面。
+- [Discord长号冠军模组群](https://discord.gg/KVzKRsbetJ)中的 `#custom-charts` 频道。
+- [Discord长号冠军模组群](https://discord.gg/KVzKRsbetJ)中的 Tootbender 机器人谱面搜索命令。
+- 大多数自制谱面在Youtube上都有演示视频。 有时，它们会在视频描述中包含下载链接。
 
-### Creating Custom Songs {docsify-ignore}
+### 制作谱面 {docsify-ignore}
 
-> Check out the [**Charting guide**](creating-charts) for info on creating your own custom charts.
+> 参阅此[**写谱教程**](creating-charts)以了解如何制作您自己的谱面。
