@@ -62,7 +62,7 @@ TootTally团队通过创建游戏内歌曲下载模组为Trombone Champ模组社
 - [TromboneDB](https://tc-mods.github.io/TromboneDB/)是一个拥有大部分已发布谱面的档案库，包括对于Tootally来说过大的谱面。
 - [Discord长号冠军模组群](https://discord.gg/KVzKRsbetJ)中的 `#custom-charts` 频道。
 - [Discord长号冠军模组群](https://discord.gg/KVzKRsbetJ)中的 Tootbender 机器人谱面搜索命令。
-- 大多数自制谱面在Youtube上都有演示视频。 有时，它们会在视频描述中包含下载链接。
+- 大多数自制谱面在Youtube上都有演示视频。 部分视频会在描述中包含下载链接。
 
 ### 制作自制谱面 {docsify-ignore}
 
