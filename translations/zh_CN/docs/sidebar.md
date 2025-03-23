@@ -3,6 +3,7 @@
 - **安装长号冠军模组**
 - [使用 r2modman](installing-r2modman)
 - [安装自制谱面](installing-songs)
+- [Installing Songs (Vanilla)](installing-songs-vanilla)
 - [升级到 TrombLoader 2](migrating-to-v2)
 - **安装长号冠军：Unflattened 模组**
 - [安装自制谱面（SteamVR）](installing-songs-steamvr)
