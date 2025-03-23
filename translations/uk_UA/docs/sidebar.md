@@ -3,6 +3,7 @@
 - **Modding Trombone Champ**
 - [Using r2modman](installing-r2modman)
 - [Встановлення пісень](installing-songs)
+- [Installing Songs (Vanilla)](installing-songs-vanilla)
 - [Upgrading to TrombLoader 2](migrating-to-v2)
 - **Modding Trombone Champ: Unflattened**
 - [Installing Songs (SteamVR)](installing-songs-steamvr)
