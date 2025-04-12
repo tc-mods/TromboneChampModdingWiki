@@ -2,9 +2,9 @@
 
 ---
 
-!> **NOTE:** It is still **highly recommended** to [install songs using mods](installing-songs)! This allows you to download charts straight from your game without having to open up a web browser and having to download them to specific folders!
+!> **注意:** 仍然**强烈推荐** [使用mods安装歌曲](installing-songs)！ 安装mod允许您直接在游戏内搜索、下载并直接游玩谱面，而无需打开网页浏览器并将它们下载到指定的文件夹！
 
-As of Trombone Champ version 1.25, the non-modded (vanilla) game can now play custom charts that the community has created! This is done in-game through the use of "Custom Track Collections", a special folder where the game looks for custom charts that it can read and play for you. This guide will show you how to use this new feature!
+长号冠军Trombone Champ更新至1.25版本之后，游戏现在可以在不依靠任何mod的情况下（原生）游玩由社区内玩家制作的自制谱面！ This is done in-game through the use of "Custom Track Collections", a special folder where the game looks for custom charts that it can read and play for you. This guide will show you how to use this new feature!
 
 ## Finding the Custom Track Collections Folder
 
