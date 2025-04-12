@@ -1,4 +1,4 @@
-# Installing Songs (Vanilla)
+# 安装自制谱面（无mod）
 
 ---
 
@@ -16,25 +16,25 @@
 
 ?> **注意:** 默认情况下，这个文件夹在您长号冠军Trombone Champ的安装位置中，位于`<TromboneChampLocation>/TromboneChamp_Data/StreamingAssets/custom_track_collections`
 
-![Browse Local Files](../docs/files/localfilescontext.png)
+![浏览本地文件](../docs/files/localfilescontext.png)
 
-![Trombone Champ Installation Location](../docs/files/vanilla/tcinstalllocation.png)
+![长号冠军安装位置](../docs/files/vanilla/tcinstalllocation.png)
 
-![Trombone Champ Data Folder](../docs/files/vanilla/tcdata.png)
+![Trombone Champ Data文件夹](../docs/files/vanilla/tcdata.png)
 
-![Trombone Champ StreamingAssets Folder](../docs/files/vanilla/tcstreamingassets.png)
+![Trombone Champ StreamingAssets 文件夹](../docs/files/vanilla/tcstreamingassets.png)
 
-![Trombone Champ Custom Collections Folder](../docs/files/vanilla/tccollections.png)
+![Trombone Champ Custom Collections 文件夹](../docs/files/vanilla/tccollections.png)
 
 ## 创建一个新的合集
 
-To create a new collection:
+想要创建一个新的合集，你需要：
 
-1. Create a folder. 这个文件夹的名字将作为该“合集”的名称。
+1. 新建一个文件夹。 这个文件夹的名字将作为该“合集”的名称。
 
-2. Inside this folder, create a file named `collection_metadata.json`. 请确保删除 `.txt`，以`.json`为文件后缀。
+2. 在此文件夹中，创建一个空白的txt文件，之后将其改名为 `collection_metadata.json`。 请确保删除 `.txt`，以`.json`为文件后缀。
 
-3. Inside the `collection_metadata.json` file, write down the following:
+3. 用记事本或相似软件打开 `collection_metadata.json` 文件，写入以下内容：
 
         {
           "name":"Write down the title of your collection here.",
@@ -64,16 +64,16 @@ To create a new collection:
 
 ## 游玩您下载的自制谱面
 
-放置好您下载的自制谱面之后，打开游戏并进入选择曲目界面。 You should see a box at the bottom right that shows which collection you're viewing. By default, this is the "Trombone Champ Collection" which are all the songs that come with the game.
+放置好您下载的自制谱面之后，打开游戏并进入选择曲目界面。 您可以在画面右下方看到一个方框，显示你当前看到的曲目合集。 默认情况下是"长号冠军合集"，它是游戏内置默认曲目库。
 
-![Song List](../docs/files/vanilla/songlist.png)
+![歌曲列表](../docs/files/vanilla/songlist.png)
 
-Click that collections button and find your collection.
+点击合集按钮并找到您创建的合集。
 
-![Collections Selection](../docs/files/vanilla/collectionselection.png)
+![合集选择](../docs/files/vanilla/collectionselection.png)
 
-Click OK and verify that your charts are all in there.
+点击OK并确认您下载的自制谱都在那里。
 
-![Collection Tracks](../docs/files/vanilla/collectionview.png)
+![合集内曲目](../docs/files/vanilla/collectionview.png)
 
-And that should be it! Happy tooting!
+教学就此结束！ 祝您游玩愉快！
