@@ -15,7 +15,7 @@ Some free, verified to work midi editors include:
 - [FL Studio](https://www.image-line.com/fl-studio-download/)*† (Range: B3-C#6)
 - [Cakewalk](https://www.bandlab.com/products/cakewalk)** (Range: B3-C#6)
 - [Ableton](https://www.ableton.com/en/trial/)* (Range: B1-C#4)
-- [Sekaiju](http://openmidiproject.osdn.jp/Sekaiju_en.html)
+- [Sekaiju](https://openmidiproject.opal.ne.jp/Sekaiju_en.html)
 - [Trombone Charter](https://github.com/towai/TromboneCharter/releases/latest)
 
 <sub>*Full software is not free, but has a free trial that works for charting.</sub><br>
